@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="974" height="568" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="957" height="504" source="common_panel_big_bg_png" scale9Grid="27,31,24,540" verticalCenter="35" horizontalCenter="0"/>
+		<e:Image id="landi" width="921" height="440" source="LanDi_png" scale9Grid="20,21,87,48" horizontalCenter="0" verticalCenter="52"/>
+		<e:Image width="998" height="123" source="vip_CaiDai_png" scaleX="1" horizontalCenter="0" top="0"/>
+		<e:Image id="title" width="347" height="69" source="vip_TeQuan_png" top="10" horizontalCenter="0"/>
+		<e:Button id="btnClose" label="" width="63" horizontalCenter="418.5" verticalCenter="-209.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller width="894" height="290" x="43" y="132">
+			<e:Group id="listGroup" width="894" height="290"/>
+		</e:Scroller>
+		<e:Group id="downGroup" width="894" height="105" horizontalCenter="3" verticalCenter="200">
+			<e:Image id="bgDown" width="896" height="113" source="vip_DI_png" scale9Grid="20,13,2,65" horizontalCenter="0" verticalCenter="4"/>
+			<e:Image width="54" height="30" x="37.15" y="19" source="vip_vip_png"/>
+			<e:Image id="nextVipIcon" width="54" height="30" x="500.35" y="19" source="vip_vip_png"/>
+			<e:Image width="350" height="26" horizontalCenter="-153.5" verticalCenter="-17.5" source="lottery_exp_bg_png" scale9Grid="10,0,332,30"/>
+			<e:Image id="cur_350" width="220" height="22" verticalCenter="-18.5" left="119" source="lottery_exp_bar_png" scale9Grid="10,0,326,26"/>
+			<e:Label id="desc" text="再充值10元即可升级到VIP1级,高级VIP可同时享有所有地级特权" horizontalCenter="-137" verticalCenter="23.5" size="20" textColor="0x5462c3"/>
+			<e:Label id="proLab" text="1/10" horizontalCenter="-145" verticalCenter="-17.5" size="20" stroke="1"/>
+			<e:Group id="chargeGroup" width="261.33" height="78.67" x="608" y="11" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image width="262" height="90" source="common_s_y_btn_png" scale9Grid="86,0,0,70" horizontalCenter="0" verticalCenter="4"/>
+				<e:Image width="90" height="42" source="ChongZhi_png" horizontalCenter="0" verticalCenter="-1"/>
+			</e:Group>
+			<e:Group id="vipCurGroup" width="1" height="1" horizontalCenter="-346.5" verticalCenter="-19"/>
+			<e:Group id="vipNextGroup" width="1" height="1" horizontalCenter="117.5" verticalCenter="-19"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

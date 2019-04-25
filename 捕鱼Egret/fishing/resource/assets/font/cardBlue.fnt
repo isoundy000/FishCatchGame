@@ -1,0 +1,11 @@
+{"file":"cardBlue.png","frames":{
+"0":{"x":20,"y":0,"w":18,"h":24,"offX":0,"offY":0,"sourceW":18,"sourceH":24},
+"1":{"x":36,"y":52,"w":10,"h":24,"offX":0,"offY":0,"sourceW":10,"sourceH":24},
+"2":{"x":0,"y":78,"w":16,"h":24,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"3":{"x":0,"y":52,"w":16,"h":24,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"4":{"x":0,"y":0,"w":18,"h":24,"offX":0,"offY":0,"sourceW":18,"sourceH":24},
+"5":{"x":18,"y":52,"w":16,"h":24,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"6":{"x":0,"y":26,"w":16,"h":24,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"7":{"x":36,"y":26,"w":16,"h":24,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"8":{"x":40,"y":0,"w":16,"h":24,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"9":{"x":18,"y":26,"w":16,"h":24,"offX":0,"offY":0,"sourceW":16,"sourceH":24}}}

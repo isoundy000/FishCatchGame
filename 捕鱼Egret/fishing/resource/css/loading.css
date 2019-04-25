@@ -1,0 +1,105 @@
+/**加载页 开始************************************************************/
+#loading .star {
+    -webkit-animation: star 1s linear infinite;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    left: -3%;
+    top: 0;
+    z-index: 0;
+}
+
+@-webkit-keyframes star {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+#loading img {
+    border: 0
+}
+
+#loading {
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+#loading .wrapper {
+    width: 1280px;
+    height: 720px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -640px;
+    margin-top: -360px;
+}
+
+#loading .logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 180px;
+    height: 180px;
+}
+
+#loading .logo1 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 571px;
+    height: 58px;
+}
+
+#loading h3 {
+    padding: 0;
+    margin: 0;
+    color: #808080;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 100px;
+    display: block;
+}
+
+#loading .progressbar {
+    width: 366px;
+    height: 7px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    font-size: 0;
+    display: block;
+}
+
+#loading #warn {
+    display: none;
+}
+
+#loading .progressbar .box {
+    width: 100%;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 6px;
+    background-color: #8c8c8c;
+    border-radius: 6px;
+}
+
+#loading .progressbar .bar {
+    height: 6px;
+    width: 0%;
+    background-color: #ffc028;
+    border-radius: 6px;
+}
+
+#loading #tips {
+    margin-top: 5px;
+    height: 20px;
+}
+
+/**加载页 结束************************************************************/

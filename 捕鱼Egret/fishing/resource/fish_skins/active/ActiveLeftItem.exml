@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoticeItemBtnUI" width="262" height="107" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="titleItem" width="230" height="100" horizontalCenter="-14" verticalCenter="0.5" x="191" y="166" scaleX="1" scaleY="1">
+		<e:Group id="unSelected" width="230" height="100" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="0" verticalCenter="0" x="1" y="2" scaleX="1" scaleY="1"/>
+			<e:Group id="unSelGroup" width="1" height="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="selected" width="230" height="100" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+		<e:Image width="254" height="98" source="XuanZhong_png" horizontalCenter="14" verticalCenter="0"/>
+			<e:Group id="selGroup" width="1" height="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="alert" width="25" height="25" source="alertPoint_png" verticalCenter="-33" horizontalCenter="95"/>
+	</e:Group>
+</e:Skin>

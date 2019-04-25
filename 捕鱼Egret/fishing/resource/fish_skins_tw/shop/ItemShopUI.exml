@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemShopUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" fillAlpha="0.5" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="root" width="1280" height="720" x="640" y="360" anchorOffsetX="640" anchorOffsetY="360">
+		<e:Image width="974" height="550" x="153" y="123" source="common_panel_big_bg_png" scale9Grid="33,74,16,450" locked="true"/>
+		<e:Group id="tab_1" width="938" height="468" y="182" anchorOffsetX="0" anchorOffsetY="0" x="170">
+			<e:Image width="246" height="322" x="2" y="2" source="s_show_bg_png" scaleX="1" scaleY="1" locked="true"/>
+			<e:Image width="246" height="138" x="4" y="324" source="common_bg_with_side_png" scaleX="1" scaleY="1" locked="true"/>
+			<e:Image width="235" height="116" source="ShangChengWenZiDi_png" horizontalCenter="-338" verticalCenter="161" scale9Grid="11,11,11,6"/>
+			<e:Image width="446" height="54" source="BenYueLeiJiQianDao_Tiao_png" horizontalCenter="-343" verticalCenter="113" scaleX="0.55" scaleY="0.55"/>
+			<e:Image width="76" height="21" source="PaoTaiMiaoShu_png" horizontalCenter="-420" verticalCenter="111.5"/>
+			<e:Label id="gun_des" text="Label" width="202" height="76" size="20" scaleX="1" scaleY="1" horizontalCenter="-338" verticalCenter="167"/>
+			<e:Group id="gun_contaner" width="1" height="1" x="2" y="2" scaleX="1" scaleY="1"/>
+			<e:Image width="690" height="460" x="249.33999999999997" y="3.3799999999999955" source="common_bg_with_shade_png" scale9Grid="60,0,24,34" scaleX="1" scaleY="1"/>
+			<e:Scroller id="gunList_scroll" width="665" height="442" x="262.76" y="14.38" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group id="gun_group" width="680"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="tab_2" width="938" height="468" y="182" anchorOffsetX="0" anchorOffsetY="0" x="170" visible="false">
+			<e:Image width="246" height="217" x="2" y="2" scaleX="1" scaleY="1" source="s_show_bg_zuo_png"/>
+			<e:Image width="246" height="239" x="4" y="223" source="common_bg_with_side_png" scaleX="1" scaleY="1"/>
+			<e:Image width="235" height="223" source="ShangChengWenZiDi_png" horizontalCenter="-338" verticalCenter="107" scale9Grid="11,11,11,6"/>
+			<e:Image width="446" height="54" source="BenYueLeiJiQianDao_Tiao_png" horizontalCenter="-343" verticalCenter="1" scaleX="0.55" scaleY="0.55"/>
+			<e:Image width="76" height="21" source="PaoZuoMiaoshu_png" horizontalCenter="-418" verticalCenter="0.5"/>
+			<e:Label id="gun_des_1" text="Label" width="216" height="181" size="20" scaleX="1" scaleY="1" horizontalCenter="-337.5" verticalCenter="112.5"/>
+			<e:Group id="gun_contaner_1" width="1" height="1" x="2" y="-15" scaleX="1" scaleY="1"/>
+			<e:Image width="690" height="460" x="249.33999999999997" y="3.3799999999999955" source="common_bg_with_shade_png" scale9Grid="60,0,24,34" scaleX="1" scaleY="1"/>
+			<e:Scroller id="gunList_scroll_1" width="665" height="442" x="262.76" y="14.38" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="gun_group_1" width="680"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="tab_3" width="938" height="468" x="170" y="182" visible="false">
+			<e:Image width="912" height="455" x="10.33" y="9.66" source="common_bg_with_shade_png" scale9Grid="18,0,115,34"/>
+			<e:Scroller id="itemList_scroll" width="921" height="460" x="9" y="7" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group id="item_group"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Image width="983" height="128" x="148.29" y="80" source="s_shopTitle_png" locked="true"/>
+		<e:Button id="closeBtn" label="" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="436.5" verticalCenter="-217.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="GuanBi_png" source.down="GuanBi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:tween="egret.tween.*"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image width="163" height="233" x="124.34" y="465.68" source="common_left_down_corner_png"/>
+		<e:Image width="159" height="226" x="999.19" y="474.99" source="common_right_down_corner_png" touchEnabled="false"/>
+		<e:Button id="gunBtn" label="" x="1098" y="187.01">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="s_AnNiu1_1_png" source.down="s_AnNiu1_2_png" source.disabled="s_AnNiu1_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="barbetteBtn" label="" x="1098" y="295.05">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="s_AnNiu2_1_png" source.down="s_AnNiu2_2_png" source.disabled="s_AnNiu2_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="itemBtn" label="" x="1098" y="406.72">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="s_AnNiu2_1_png" source.down="s_AnNiu2_2_png" source.disabled="s_AnNiu2_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image width="39" height="74" x="1116.99" y="216.03" source="s_PaoTai_png" touchEnabled="false" locked="true"/>
+		<e:Image width="39" height="74" x="1116.99" y="336.22" touchEnabled="false" source="s_PaoZuo_png" locked="true"/>
+		<e:Image width="39" height="74" x="1117.68" y="452.62" touchEnabled="false" source="s_DaoJu_png" locked="true"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DjsUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="-1.33" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="34">
+		<e:Image id="bg" width="982" height="546" source="common_panel_big_bg_png" scale9Grid="24,74,27,450" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image width="932" height="451.67" source="lottery_bg_inner_png" scale9Grid="9,10,39,36" horizontalCenter="0" verticalCenter="23" anchorOffsetY="0"/>
+		<e:Image id="inner" width="890" height="412" source="LanDi_png" horizontalCenter="0" verticalCenter="24" scale9Grid="24,24,81,42"/>
+		<e:Image width="707" height="132" source="JinBi_BaoShi_png" horizontalCenter="0.5" top="2"/>
+		<e:Image id="titleBg" width="1050" height="123" source="DJS_BiaoTiBanZi_png" horizontalCenter="0" top="32"/>
+		<e:Image id="title" width="280" height="68" horizontalCenter="0.5" top="41" source="WorldBoss_title_png"/>
+		<e:Image id="jinbei" width="106" height="123" source="DJS_JiangBei_png" horizontalCenter="-271" top="6"/>
+		<e:Image id="timeBg" width="535" height="25" source="Djs_Tiao_png" horizontalCenter="133.5" verticalCenter="-130.5" scale9Grid="42,0,1,40"/>
+		<e:Image id="xian" width="880" height="1" source="Djs_Xian_png" scale9Grid="3,0,0,1" horizontalCenter="1" verticalCenter="-142.5"/>
+		<e:Group id="contain" width="990" height="555" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="openDescGroup" width="386" height="30" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="5"/>
+			<e:Group id="labGroup" width="990" height="37" horizontalCenter="0" top="94">
+				<e:Label text="屠魔积分:" size="26" horizontalCenter="-206" verticalCenter="0.5" x="372" y="9" scaleX="1" scaleY="1"/>
+				<e:Label id="myScoreLab" text="123456" size="26" verticalCenter="0.5" textColor="0xF4B302" textAlign="left" left="354" x="493" y="9" scaleX="1" scaleY="1"/>
+				<e:Label text="屠魔排名:" size="26" horizontalCenter="135" verticalCenter="0.5" x="382" y="19" scaleX="1" scaleY="1"/>
+				<e:Label id="myRankLab" text="123456" size="26" verticalCenter="0.5" textColor="0xF4B302" textAlign="left" left="691" x="503" y="19" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="midGroup" width="990" height="300" verticalCenter="1.5" horizontalCenter="0">
+				<e:Group width="230" height="300" left="64" verticalCenter="-2">
+					<e:Image width="222" height="273" source="ZhouGuanJun_DiBan_png" horizontalCenter="0" verticalCenter="-2"/>
+					<e:Image id="icon" width="209" height="223" source="WorldBoss_icon_png" horizontalCenter="0.5" verticalCenter="11.5"/>
+					<e:Image width="45" height="45" source="WorldBoss_titleIcon_png" horizontalCenter="-37.5" verticalCenter="-115"/>
+					<e:Image width="63" height="34" source="WorldBoss_icon_name_png" horizontalCenter="23.5" verticalCenter="-115"/>
+				</e:Group>
+				<e:Scroller width="607" height="250" anchorOffsetX="0" anchorOffsetY="0" x="323.32" y="30.34">
+					<e:Group id="listGroup"/>
+				</e:Scroller>
+				<e:Image width="78" height="26" source="TuMoBang_WenZi_png" horizontalCenter="151" verticalCenter="-134"/>
+				<e:Image width="141" height="19" verticalCenter="-134" source="TuMoBang_WenZi_ZhuangShi_png" horizontalCenter="29.5"/>
+				<e:Image width="141" height="19" source="TuMoBang_WenZi_ZhuangShi_png" verticalCenter="-133.5" horizontalCenter="275.5" rotation="180"/>
+			</e:Group>
+			<e:Group id="downGroup" width="990" height="152" bottom="23" horizontalCenter="0">
+				<e:Image width="884" height="93" horizontalCenter="0" verticalCenter="0" source="Djs_GuiZe_Tiao_png" scale9Grid="16,6,23,49"/>
+				<e:Button id="helpBtn" label="" horizontalCenter="-385" verticalCenter="13" scaleX="1" scaleY="1" anchorOffsetX="26" anchorOffsetY="26">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="GuiZe_BangZhu_png" source.down="GuiZe_BangZhu_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label text="规则" verticalCenter="8.5" horizontalCenter="-327" bold="true" size="35" textAlign="center"/>
+				<e:Label text="击杀BOSS护盾分值排行,击杀BOSS不包含在内" verticalCenter="8.5" horizontalCenter="49" bold="true" size="30" textAlign="center"/>
+			</e:Group>
+		</e:Group>
+		<e:Button id="closeBtn" label="" horizontalCenter="420.5" verticalCenter="-248.5" anchorOffsetX="31.5" anchorOffsetY="31.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,46 @@
+{"mc":{
+	"ef_caipanBg":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":5}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"ZhuanPanChuXian_TeXiao0000",
+			"x":81,
+			"y":62
+			},
+			{
+			"res":"ZhuanPanChuXian_TeXiao0001",
+			"x":56,
+			"y":42
+			},
+			{
+			"res":"ZhuanPanChuXian_TeXiao0002",
+			"x":37,
+			"y":28
+			},
+			{
+			"res":"ZhuanPanChuXian_TeXiao0003",
+			"x":37,
+			"y":28
+			},
+			{
+			"res":"ZhuanPanChuXian_TeXiao0004",
+			"x":0,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"ZhuanPanChuXian_TeXiao0004":{"x":0,"y":0,"w":440,"h":440},
+		"ZhuanPanChuXian_TeXiao0003":{"x":442,"y":0,"w":368,"h":377},
+		"ZhuanPanChuXian_TeXiao0000":{"x":0,"y":442,"w":273,"h":317},
+		"ZhuanPanChuXian_TeXiao0002":{"x":442,"y":0,"w":368,"h":377},
+		"ZhuanPanChuXian_TeXiao0001":{"x":442,"y":380,"w":339,"h":347}
+	}}

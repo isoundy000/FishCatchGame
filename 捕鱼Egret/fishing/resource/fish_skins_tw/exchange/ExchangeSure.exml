@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeSure" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" horizontalCenter="0" verticalCenter="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="982" height="559" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="panelBg" width="982" height="520" source="common_panel_big_bg_png" scale9Grid="33,0,13,598" verticalCenter="36" horizontalCenter="0"/>
+		<e:Image id="titleBg" width="982" height="71" source="common_panel_bg_png" horizontalCenter="0" top="0"/>
+		<e:Image id="landiBg" width="969" height="497" source="exchange_DiBan_png" horizontalCenter="0" verticalCenter="45.5" scale9Grid="21,17,128,106"/>
+		<e:Button id="closeBtn" label="" right="13" top="6" anchorOffsetX="31" anchorOffsetY="31">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="title" width="151" height="44" source="DuiHuanJiangPin_png" top="19" horizontalCenter="0"/>
+		<e:Group id="itemGroup" width="1" height="1" left="152" top="294"/>
+		<e:Label id="nameT" text="真实姓名:" x="340" y="150"/>
+		<e:Label id="phoneT" text="手机号码:" x="340" y="220"/>
+		<e:Label id="qqT" text="QQ:" x="340" y="290"/>
+		<e:Label id="addT" text="地址:" x="340" y="360"/>
+		<e:Image width="300" height="55" source="ID_ShuRu_png" scale9Grid="19,18,18,19" y="165" x="621.96" anchorOffsetX="150" anchorOffsetY="27.5"/>
+		<e:Image width="300" height="55" source="ID_ShuRu_png" scale9Grid="19,18,18,19" y="235" x="621.96" anchorOffsetX="150" anchorOffsetY="27.5"/>
+		<e:Image width="300" height="55" source="ID_ShuRu_png" scale9Grid="19,18,18,19" y="305" x="621.96" anchorOffsetX="150" anchorOffsetY="27.5"/>
+		<e:Image width="446" height="55" source="ID_ShuRu_png" scale9Grid="19,18,18,19" y="375" x="621.96" anchorOffsetX="150" anchorOffsetY="27.5"/>
+		<e:Label id="psLab" text="比赛尚未结束，排名将会浮动" textAlign="center" verticalCenter="168" horizontalCenter="0" bold="true" textColor="0xff0000"/>
+		<e:EditableText id="name_Edit" width="235" height="28" text="请输入姓名" x="504.96" y="152" anchorOffsetY="0" textAlign="center"/>
+		<e:EditableText id="phone_Edit" width="235" height="28" text="请输入手机号" x="504.96" y="222" anchorOffsetY="0" textAlign="center"/>
+		<e:EditableText id="qq_Edit" width="235" height="28" text="请输入QQ" x="504.96" y="292" anchorOffsetY="0" textAlign="center"/>
+		<e:EditableText id="add_Edit" width="358" height="28" text="请输入地址" x="518.96" y="362" anchorOffsetY="0" textAlign="center"/>
+		<e:Group id="exchangeBtn" width="241" height="74.67" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="233" x="683" y="240" scaleX="1" scaleY="1">
+			<e:Image width="231" height="85" source="common_s_y_btn_png" scale9Grid="39,0,39,70" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="164" height="46" source="QueRenDuiHuan_png" verticalCenter="-3" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

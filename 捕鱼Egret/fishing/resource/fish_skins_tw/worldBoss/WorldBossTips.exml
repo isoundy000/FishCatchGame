@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldBossTips" width="247" height="117" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="247" height="117" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="247" height="117" x="0" y="0" source="RenWuJinCheng_DiKuang_png"/>
+		<e:Label text="距" horizontalCenter="-75.5" verticalCenter="-26.5"/>
+		<e:Label text="&quot;凤凰&quot;" horizontalCenter="-13.5" verticalCenter="-26.5" textColor="0xffd500"/>
+		<e:Label text="来袭" horizontalCenter="60.5" verticalCenter="-26.5"/>
+		<e:Image width="11" height="28" source="ShiJian_Dian_png" horizontalCenter="0" verticalCenter="20"/>
+		<e:BitmapLabel id="timeLab_0" width="60" height="31" font="vipShow_fnt" text="99" verticalCenter="21" right="134"/>
+		<e:BitmapLabel width="60" height="31" font="vipShow_fnt" text="99" verticalCenter="21" id="timeLab_1" left="135"/>
+	</e:Group>
+</e:Skin>

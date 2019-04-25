@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Active_1" width="660" height="470" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="activeRoot" width="660" height="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="660" height="470" x="0" y="0" source="LanDi_png" scale9Grid="24,26,77,38"/>
+		<e:Label id="timeLab" text="活动期间:2017活动期间" x="48" y="17" anchorOffsetX="0" width="585" anchorOffsetY="0" height="35" textAlign="center" size="28"/>
+		<e:Label id="desc" text="活动期间:2017活动期间:2017活动期间:2017活动期间:2017活动期间:2017活动期间:2017活动期间:2017" x="48" y="54" anchorOffsetX="0" width="585" anchorOffsetY="0" height="59"/>
+		<e:Image width="177" height="27" source="active_paobei_png" verticalCenter="-94.5" left="48"/>
+		<e:Image width="131" height="27" verticalCenter="-52.5" source="active_leiji_png" left="48"/>
+		<e:BitmapLabel id="maxGunRateLab" width="82" height="21" font="bitmapNum_3_fnt" text="9999" horizontalCenter="-38" verticalCenter="-94.5"/>
+		<e:Image id="proBg" width="350" height="26" source="vip_JinDuTiao_png" scale9Grid="11,10,0,5" left="209" verticalCenter="-53"/>
+		<e:Image id="proCur_220" width="350" height="24" source="vip_JinDuTiao_0_png" verticalCenter="-53" left="209" scale9Grid="9,10,2,2"/>
+		<e:Label id="proLab" text="20/5000000" size="25" horizontalCenter="58.5" verticalCenter="-52.5" stroke="1"/>
+		<e:Image width="572" height="128" horizontalCenter="0.5" verticalCenter="39" source="ID_ShuRu_png" scale9Grid="23,23,11,9"/>
+		<e:Image width="74" height="33" source="active_jiangli_png" verticalCenter="0.5" left="55"/>
+		<e:Group id="gainIconGroup_80" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-39.5" verticalCenter="39.5">
+			<e:Image width="91" height="91" source="common_coins_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="gainDesc" text="x50万" size="50" horizontalCenter="88.5" verticalCenter="39" textColor="0xffb900" bold="true"/>
+		<e:Image width="301" height="23" verticalCenter="121.5" horizontalCenter="0" source="active_XuYao_png"/>
+		<e:Group id="gainGroup" width="274" height="87" horizontalCenter="0" verticalCenter="183.5">
+			<e:Image width="274" height="87" source="common_big_s_y_btn_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="toGain" width="122" height="33" horizontalCenter="0" verticalCenter="-3" scaleX="1" scaleY="1" source="active_LingQuJiangLi_png" visible="false"/>
+			<e:Image id="toStart" width="122" height="33" horizontalCenter="0" verticalCenter="-3" scaleX="1" scaleY="1" source="active_KaiShiRenWu_png" visible="false"/>
+			<e:Image id="toCom" width="95" height="33" horizontalCenter="0" verticalCenter="-3" scaleX="1" scaleY="1" source="active_quwancheng_png" visible="false"/>
+			<e:Image id="yilingqu" width="95" height="33" horizontalCenter="0" verticalCenter="-3" scaleX="1" scaleY="1" source="YiLingQu_png" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

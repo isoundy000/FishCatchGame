@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeRecode" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" scaleX="1" scaleY="1" fillAlpha="0.7" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="root" width="731" height="539" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="panelBg" width="742" height="491" source="common_panel_big_bg_png" scale9Grid="27,0,24,598" verticalCenter="26" horizontalCenter="-0.5"/>
+		<e:Image id="titleBg" width="742" height="71" source="common_panel_bg_png" horizontalCenter="0" top="0"/>
+		<e:Image id="landiBg" width="731" height="470" source="exchange_DiBan_png" scale9Grid="21,24,128,95" verticalCenter="34" horizontalCenter="0"/>
+		<e:Image id="title" width="125" height="37" source="DuiHuanJiLu_png" horizontalCenter="0" top="18"/>
+		<e:Button id="closeBtn" label="" anchorOffsetX="31.5" anchorOffsetY="31.5" top="4" right="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="商品名称" left="65" verticalCenter="-155.5" textAlign="center"/>
+		<e:Label text="兑换时间" y="99" horizontalCenter="0" textAlign="center"/>
+		<e:Label text="状态" y="99" right="97" textAlign="center"/>
+		<e:Image width="900" height="1" source="Exchange_Xian_png" horizontalCenter="-43.5" top="143"/>
+		<e:Scroller width="695" height="335" horizontalCenter="0" verticalCenter="47">
+			<e:Group id="listGroup" anchorOffsetX="0" width="695" anchorOffsetY="0" height="335"/>
+		</e:Scroller>
+		<e:Label id="psLab" text="" horizontalCenter="0" bottom="18" size="27"/>
+	</e:Group>
+</e:Skin>

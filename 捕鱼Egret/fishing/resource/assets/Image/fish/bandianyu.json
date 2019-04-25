@@ -1,0 +1,46 @@
+{"mc":{
+	"bandianyu":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":5}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"bandianyu_0000",
+			"x":0,
+			"y":8
+			},
+			{
+			"res":"bandianyu_0001",
+			"x":0,
+			"y":7
+			},
+			{
+			"res":"bandianyu_0002",
+			"x":0,
+			"y":2
+			},
+			{
+			"res":"bandianyu_0003",
+			"x":0,
+			"y":4
+			},
+			{
+			"res":"bandianyu_0004",
+			"x":0,
+			"y":7
+			}
+			]
+}},
+	"res":{
+		"bandianyu_0003":{"x":0,"y":56,"w":88,"h":51},
+		"bandianyu_0002":{"x":0,"y":0,"w":88,"h":54},
+		"bandianyu_0000":{"x":0,"y":205,"w":88,"h":43},
+		"bandianyu_0004":{"x":0,"y":109,"w":88,"h":46},
+		"bandianyu_0001":{"x":0,"y":157,"w":88,"h":46}
+	}}

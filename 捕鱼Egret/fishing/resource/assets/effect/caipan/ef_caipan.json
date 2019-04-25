@@ -1,0 +1,64 @@
+{"mc":{
+	"ef_caipan":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":8}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"ef_caipan_00000_png",
+			"x":2,
+			"y":2
+			},
+			{
+			"res":"ef_caipan_00002_png",
+			"x":1,
+			"y":1
+			},
+			{
+			"res":"ef_caipan_00004_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"ef_caipan_00006_png",
+			"x":0,
+			"y":1
+			},
+			{
+			"res":"ef_caipan_00008_png",
+			"x":8,
+			"y":8
+			},
+			{
+			"res":"ef_caipan_00010_png",
+			"x":6,
+			"y":6
+			},
+			{
+			"res":"ef_caipan_00012_png",
+			"x":5,
+			"y":5
+			},
+			{
+			"res":"ef_caipan_00014_png",
+			"x":5,
+			"y":5
+			}
+			]
+}},
+	"res":{
+		"ef_caipan_00014_png":{"x":291,"y":288,"w":136,"h":136},
+		"ef_caipan_00000_png":{"x":291,"y":146,"w":141,"h":141},
+		"ef_caipan_00004_png":{"x":0,"y":0,"w":144,"h":145},
+		"ef_caipan_00002_png":{"x":0,"y":146,"w":144,"h":144},
+		"ef_caipan_00008_png":{"x":0,"y":291,"w":130,"h":130},
+		"ef_caipan_00006_png":{"x":145,"y":146,"w":145,"h":143},
+		"ef_caipan_00010_png":{"x":145,"y":290,"w":133,"h":134},
+		"ef_caipan_00012_png":{"x":291,"y":288,"w":136,"h":136}
+	}}

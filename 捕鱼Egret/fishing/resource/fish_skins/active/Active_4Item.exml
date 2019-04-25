@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Active_3Item" width="630" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="630" height="100" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="630" height="100" x="0" y="0" source="exchange_ShuZiKuang_Di_png" scale9Grid="17,20,3,13"/>
+		<e:Group id="iconGroup" width="1" height="1" verticalCenter="0.5" horizontalCenter="-253.5"/>
+		<e:Label id="desc" text="巴拉巴拉巴拉巴拉巴" horizontalCenter="0" verticalCenter="-3" textColor="0x081563" bold="true" textAlign="left" width="392" size="28"/>
+		<e:Label text="已购买" horizontalCenter="232" verticalCenter="-3" textColor="0x081563" bold="true"/>
+		<e:Group id="buyGroup" width="120" height="70" horizontalCenter="232" verticalCenter="0">
+			<e:Image width="120" height="70" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="59" height="33" source="GouMai_png" horizontalCenter="0" verticalCenter="-3"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

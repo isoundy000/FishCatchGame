@@ -1,0 +1,40 @@
+{"mc":{
+	"hudieyu":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":4}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"hudieyu_0000",
+			"x":1,
+			"y":4
+			},
+			{
+			"res":"hudieyu_0002",
+			"x":1,
+			"y":4
+			},
+			{
+			"res":"hudieyu_0004",
+			"x":0,
+			"y":9
+			},
+			{
+			"res":"hudieyu_0006",
+			"x":0,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"hudieyu_0004":{"x":84,"y":0,"w":81,"h":74},
+		"hudieyu_0002":{"x":0,"y":92,"w":80,"h":84},
+		"hudieyu_0000":{"x":83,"y":92,"w":80,"h":84},
+		"hudieyu_0006":{"x":0,"y":0,"w":81,"h":90}
+	}}

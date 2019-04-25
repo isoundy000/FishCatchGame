@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DjsResult" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1136" height="600" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="1136" height="338" source="DjsC_diwen01_png" horizontalCenter="0" verticalCenter="0" scale9Grid="356,18,10,3"/>
+		<e:Image width="416" height="170" source="DjsC_JiangBei_png" horizontalCenter="-20" top="-33"/>
+		<e:Image id="titleBg" width="648" height="109" source="DaJiangSaiChengJi_png" horizontalCenter="0" top="54"/>
+		<e:Image id="djsTitle" width="379" height="86" horizontalCenter="0" top="69" source="DajiangsaiChengjiTitle_png"/>
+		<e:Image id="kssTitle" width="377" height="85" horizontalCenter="0.5" top="68" source="QuanMinSaiChengJi_png" visible="false"/>
+		<e:Button id="btnClose" label="" horizontalCenter="257.5" verticalCenter="-198.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="okGroup" width="230" height="100" horizontalCenter="0" verticalCenter="234">
+			<e:Image width="222" height="91" source="DjsC_ChongXiTiaoZhan_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="72" height="68" source="common_diamond_png" verticalCenter="-11" horizontalCenter="-69" scaleX="0.7" scaleY="0.7"/>
+			<e:BitmapLabel id="costLab" width="61" height="20" x="18" y="52" font="number1_fnt" text="100"/>
+		</e:Group>
+		<e:Image width="198" height="44" source="ZaiCiTiaoZhan_png" verticalCenter="234" horizontalCenter="233"/>
+		<e:Label id="okLab" text="再次挑战加成{0}%" x="719" anchorOffsetX="0" width="183.67" anchorOffsetY="0" height="35.33" textAlign="left" verticalCenter="241.5" size="22" stroke="1"/>
+		<e:Group id="midGroup" width="656" height="300" verticalCenter="11" horizontalCenter="0">
+			<e:Image width="110" height="30" source="DjsC_BuyuJiFen_png" verticalCenter="-108" left="0"/>
+			<e:Image id="gunTitleImg" width="110" height="29" verticalCenter="-68" left="0" source="PaoTaiJiaCheng_png"/>
+			<e:Image id="VIPTitleImg" width="109" height="29" verticalCenter="-28" left="0" source="Vip_JiaCheng_png"/>
+			<e:Image width="110" height="29" verticalCenter="10" left="0" source="TiaoZhanJiaCheng_png"/>
+			<e:Image width="110" height="30" left="0" bottom="10" source="WoDeJiFen_png"/>
+			<e:Label id="fishScoreLab" text="494" horizontalCenter="-123" verticalCenter="-108" textColor="0x1eff00" textAlign="center"/>
+			<e:Label id="gunLab" text="1%" horizontalCenter="-123" verticalCenter="-68" textColor="0x1EFF00" textAlign="center"/>
+			<e:Label id="vipLab" text="1%" horizontalCenter="-123" verticalCenter="-28" textColor="0x1EFF00" textAlign="center"/>
+			<e:Label id="challengLab" text="2%" horizontalCenter="-123" verticalCenter="10" textColor="0x1EFF00" textAlign="center"/>
+			<e:Image id="gunImg" width="34" height="26" horizontalCenter="-68" verticalCenter="-68" source="ShangSheng_png"/>
+			<e:Image id="vipImg" width="34" height="26" horizontalCenter="-68" verticalCenter="-28" source="ShangSheng_png"/>
+			<e:Image id="challengImg" width="34" height="26" horizontalCenter="-68" verticalCenter="10" source="ShangSheng_png"/>
+			<e:BitmapLabel id="myScoreBitLab" width="136.67" height="35.15" anchorOffsetX="0" anchorOffsetY="0" font="vipShow_fnt" text="9999" horizontalCenter="-133.5" verticalCenter="127.5"/>
+			<e:Image width="313" height="33" left="329" verticalCenter="-108" source="ZuiGaoPaiMing_png"/>
+			<e:BitmapLabel id="rankBitLab" width="109.39" height="38.18" anchorOffsetX="0" anchorOffsetY="0" font="vipShow_fnt" text="9999" verticalCenter="-102" horizontalCenter="234.5"/>
+			<e:Image width="311" height="174" source="PaiMingJiangLi_Di_png" horizontalCenter="153.5" verticalCenter="14" scale9Grid="15,20,17,127"/>
+			<e:Image width="96" height="22" source="PaiMingJiangLi_png" horizontalCenter="71" verticalCenter="-51"/>
+			<e:Label id="gainLab" text="黄金弹头100个" anchorOffsetX="0" width="207.21" anchorOffsetY="0" height="25.55" size="22" textAlign="center" verticalAlign="middle" verticalCenter="-48" horizontalCenter="211.5"/>
+			<e:Group id="iconGroup" width="1" height="1" horizontalCenter="153.5" verticalCenter="20.5"/>
+			<e:Image width="258" height="20" source="FuDong_png" horizontalCenter="147" verticalCenter="124"/>
+			<e:Group id="gainGroup" width="300" height="48" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-178" verticalCenter="69">
+				<e:Image id="djsResTip" source="GongXi_100_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image id="qmsResTip" source="GongXi_20_png" horizontalCenter="-19" verticalCenter="0" visible="false"/>
+				<e:Image id="qmsDesTip" source="ShouCi_1600_png" anchorOffsetX="0" horizontalCenter="-1" width="332" anchorOffsetY="0" height="30.51" verticalCenter="0" visible="false"/>
+				<e:Image id="djsDesTip" source="SongZuanShi_png" anchorOffsetX="0" horizontalCenter="9" width="332" anchorOffsetY="0" height="30.51" verticalCenter="0" visible="false"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

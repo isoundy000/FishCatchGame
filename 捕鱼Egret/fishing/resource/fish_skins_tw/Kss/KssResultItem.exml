@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KssResultItem" width="550" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="550" height="40" horizontalCenter="0" verticalCenter="0">
+		<e:Label id="rankLab" text="9" textAlign="center" verticalCenter="0" horizontalCenter="-210"/>
+		<e:Label id="nameLab" text="XXXXX" textAlign="center" horizontalCenter="-70" verticalCenter="0"/>
+		<e:Label id="scoreLab" text="99999" textAlign="center" horizontalCenter="70" verticalCenter="0" textColor="0xffff00"/>
+		<e:Label id="gainLab" text="99999" textAlign="center" horizontalCenter="210" verticalCenter="0" textColor="0xFFFF00"/>
+		<e:Image id="coin" width="30" height="30" source="common_coins_png" horizontalCenter="149" verticalCenter="0"/>
+		<e:Image id="war" width="30" height="30" horizontalCenter="149" verticalCenter="0" source="goodsicon_50001_png"/>
+		<e:Image id="sel" width="550" height="40" source="KssResult_kuang_png" scale9Grid="11,10,26,15" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

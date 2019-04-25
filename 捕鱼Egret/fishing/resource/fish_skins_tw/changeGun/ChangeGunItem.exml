@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangeGunItem" width="200" height="275" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="200" height="275" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="200" height="275" horizontalCenter="0" verticalCenter="0" source="lottery_item_png"/>
+		<e:Label id="nameLab" text="先锋者" horizontalCenter="0" verticalCenter="-106.5" stroke="1" textColor="0xe1e5ea"/>
+		<e:Group id="equipGroup" width="200" height="60" horizontalCenter="0" verticalCenter="98.5" visible="false">
+			<e:Image width="274" height="87" source="common_big_s_y_btn_png" scaleX="0.65" scaleY="0.65" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="71" height="33" horizontalCenter="0" verticalCenter="-1" source="ChangeGun_ZhuangBei_png"/>
+		</e:Group>
+		<e:Group id="getGroup" width="200" height="60" horizontalCenter="0" verticalCenter="98.5" visible="false">
+			<e:Image width="274" height="87" source="common_big_s_y_btn_png" scaleX="0.65" scaleY="0.65" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="69" height="29" source="ChangeGun_HuoQu_png" horizontalCenter="0" verticalCenter="-1"/>
+		</e:Group>
+		<e:Group id="renewGroup" width="200" height="60" horizontalCenter="0" verticalCenter="98.5" visible="false">
+			<e:Image width="274" height="87" source="common_big_s_y_btn_png" scaleX="0.65" scaleY="0.65" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="69" height="29" horizontalCenter="0" verticalCenter="-1" source="ChangeGun_XuFei_png"/>
+		</e:Group>
+		<e:Group id="euipedGroup" width="200" height="60" horizontalCenter="0" verticalCenter="98.5" visible="false">
+			<e:Image width="274" height="87" source="common_big_s_y_btn_png" scaleX="0.65" scaleY="0.65" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="78" height="29" horizontalCenter="0" verticalCenter="-1" source="ChangeGun_YiZhuangBei_png"/>
+		</e:Group>
+		<e:Image id="lock" width="49" height="57" source="ChangeGun_Suo_png" right="18" top="53" visible="false"/>
+		<e:Group id="bgGroup" width="1" height="1" horizontalCenter="0" verticalCenter="46"/>
+		<e:Group id="iconGroup" width="1" height="1" horizontalCenter="0" verticalCenter="-4"/>
+		<e:Group id="starGroup" width="25" height="115" x="24" y="59" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="star_1" width="22" height="21" source="ChangeGun_Xing_png" horizontalCenter="0" verticalCenter="-44" name="star_1"/>
+			<e:Image id="star_2" width="22" height="21" source="ChangeGun_Xing_png" horizontalCenter="0" verticalCenter="-22" name="star_2"/>
+			<e:Image id="star_3" width="22" height="21" source="ChangeGun_Xing_png" horizontalCenter="0" verticalCenter="0" name="star_3"/>
+			<e:Image id="star_4" width="22" height="21" source="ChangeGun_Xing_png" horizontalCenter="0" verticalCenter="22" name="star_4"/>
+			<e:Image id="star_5" width="22" height="21" source="ChangeGun_Xing_png" horizontalCenter="0" verticalCenter="44" name="star_5"/>
+		</e:Group>
+		<e:Group id="vip" width="200" height="30" x="1" y="178" visible="false">
+			<e:Image width="162" height="30" source="vip_diwen_hei_png" horizontalCenter="0" scale9Grid="11,14,1,7" rotation="180" verticalCenter="0"/>
+			<e:Image id="vipIcon" width="54" height="31" source="vip_vip_png" horizontalCenter="-14" verticalCenter="-0.5" rotation="0" x="148" y="-135" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="vipLv" width="29" height="28" font="vipShow_fnt" text="9" horizontalCenter="27.5" verticalCenter="-2"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

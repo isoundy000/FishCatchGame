@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="firstChargeUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="987" height="633" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="959" height="556" source="common_panel_big_bg_png" scale9Grid="33,74,18,450" horizontalCenter="-7" verticalCenter="39"/>
+		<e:Image width="929" height="537" source="first_DiWen_png" scale9Grid="10,0,8,480" horizontalCenter="-7" verticalCenter="35"/>
+		<e:Image width="660" height="497" scale9Grid="33,74,18,450" horizontalCenter="151.5" verticalCenter="30" source="first_guang_png"/>
+		<e:Image id="img_ren" width="354" height="488" source="first_ren_png" bottom="12" left="22"/>
+		<e:Image id="qi_right0" width="202" height="70" source="first_CaiQi_png" right="33" top="100"/>
+		<e:Image id="qi_right" width="202" height="70" source="first_CaiQi_png" right="33" top="100"/>
+		<e:Image id="qi_left" height="70" source="first_CaiQi_png" top="100" scaleX="-1" left="22" width="202"/>
+		<e:Image width="974" height="123" x="0" y="0" source="vip_CaiDai_png"/>
+		<e:Image id="title" width="542" source="first_ShouChong_png" horizontalCenter="58" top="-29" height="137"/>
+		<e:Image id="gold_left" width="335" height="183" source="first_Jinbi_png" scaleX="-1" top="-43" left="-66"/>
+		<e:Image id="gold_right" height="183" source="first_Jinbi_png" scaleX="1" top="-43" right="-54" width="335"/>
+		<e:Image id="baoxiang" width="457" height="369" x="95" y="251" source="first_baoxiang_png"/>
+		<e:Group id="banzi_1" width="251" height="133" x="392.7" y="188.38">
+			<e:Image id="bg" width="251" height="133" x="0" y="0" source="first_DiKuang_png"/>
+			<e:Image id="icon" width="172" height="129" horizontalCenter="-40" verticalCenter="-16" source="charge_102_png"/>
+			<e:Image width="73" height="44" x="135" y="28" source="first_x5_png"/>
+			<e:Image width="211" height="20" y="98" source="first_JiuJi_png" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="banzi_2" width="251" height="133" x="655.7" y="188.38">
+			<e:Image width="251" height="133" x="0" y="0" id="bg0" source="first_DiKuang_png"/>
+			<e:Image id="icon_1" width="172" height="129" horizontalCenter="-40" verticalCenter="-21" source="charge_103_png"/>
+			<e:Image width="72" height="43" x="147" y="28" source="first_x2_png"/>
+			<e:Image width="200" height="20" y="98" source="first_denl_png" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="chargeGroup" width="220" height="90" horizontalCenter="286.5" verticalCenter="249.5">
+			<e:Image width="220" height="90" x="0" y="0" source="common_s_y_btn_png" scaleX="1" scaleY="1" scale9Grid="87,0,0,70"/>
+			<e:Image width="90" height="43" source="ChongZhi_png" horizontalCenter="0" verticalCenter="-4"/>
+		</e:Group>
+		<e:Scroller id="itemScroller" width="495" height="150" x="406.65" y="344.37" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="listGroup" width="515" height="150"/>
+		</e:Scroller>
+		<e:Button id="btnClose" label="" width="63" height="63" horizontalCenter="396" verticalCenter="-241">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

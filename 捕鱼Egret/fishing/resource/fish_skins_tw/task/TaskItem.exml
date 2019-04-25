@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskItem" width="890" height="107" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="890" height="107" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="900" height="110" horizontalCenter="0" verticalCenter="2" source="NeiRongTiao_png" scale9Grid="19,0,17,105"/>
+		<e:Label id="nameLab" text="签到1次" textAlign="left" verticalCenter="-24" size="26" left="181" textColor="0x125e95"/>
+		<e:Group id="progress" width="1" height="1" verticalCenter="7.5" horizontalCenter="-179">
+			<e:ProgressBar id="proObj" width="266" height="20" x="-89" y="-1" skinName="LoadingProgress"/>
+		</e:Group>
+		<e:Label id="pro_des" text="活跃度{0}点" bold="true" textAlign="center" horizontalCenter="147" verticalCenter="-11" size="22" textColor="0x125e95"/>
+		<e:Group id="toCom" width="163" height="72" right="18" verticalCenter="-8" visible="false">
+			<e:Image width="163" height="72" source="WeiWanCheng_AnNiu_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="78" height="32" source="QuWanCheng_png" horizontalCenter="0" verticalCenter="-3"/>
+		</e:Group>
+		<e:Group id="toEnd" width="163" height="72" right="18" verticalCenter="-8" visible="false">
+			<e:Image width="163" height="72" horizontalCenter="0" verticalCenter="0" source="common_big_s_y_blue_btn_png"/>
+			<e:Image width="78" height="32" horizontalCenter="0" verticalCenter="-3" source="YiWanCheng_png"/>
+		</e:Group>
+		<e:Group id="toGain" width="163" height="72" right="18" verticalCenter="-8" visible="false">
+			<e:Image width="143.95" height="77" source="common_s_y_btn_png" anchorOffsetX="0" scaleX="1.16" anchorOffsetY="0" horizontalCenter="0" verticalCenter="1.5" scale9Grid="32,21,55,19"/>
+			<e:Image width="67" height="31.19" source="LingQu_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-2.5"/>
+		</e:Group>
+		<e:Group id="iconGroup" width="1" height="1" verticalCenter="-6" left="73"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PriceTask" width="260" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="260" height="140" horizontalCenter="0" top="0">
+		<e:Image width="260" height="137" source="RenWuDiWen_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="taskTimeLab" text="99:99" x="49" size="24" textAlign="center" verticalCenter="-40.5"/>
+		<e:Group width="1" height="1" id="gain_0" horizontalCenter="29.5" verticalCenter="-31.5"/>
+		<e:Group width="1" height="1" id="gain_1" horizontalCenter="29.5" verticalCenter="0"/>
+		<e:Group id="gain_2" width="1" height="1" horizontalCenter="28.5" verticalCenter="31.5"/>
+		<e:Label text="99/99" id="gainNumLab_0" verticalCenter="-31.5" horizontalCenter="81" textAlign="center" size="19"/>
+		<e:Label text="99/99" id="gainNumLab_1" verticalCenter="0" horizontalCenter="81" textAlign="center" size="19"/>
+		<e:Label id="gainNumLab_2" text="99/99" verticalCenter="31.5" horizontalCenter="81" textAlign="center" size="19"/>
+		<e:Image width="78" height="73" source="BaoXiang_Guan_png" horizontalCenter="-60" verticalCenter="31" scaleX="0.8" scaleY="0.6"/>
+		<e:Image id="shink" width="306" height="176" source="taskGuide_kuang_png" horizontalCenter="0" verticalCenter="-4" scale9Grid="136,65,31,19"/>
+	</e:Group>
+</e:Skin>

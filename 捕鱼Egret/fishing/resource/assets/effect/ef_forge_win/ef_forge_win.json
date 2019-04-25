@@ -1,0 +1,64 @@
+{"mc":{
+	"ef_forge_win":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":8}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"ef_forge_win_1_png",
+			"x":232,
+			"y":237
+			},
+			{
+			"res":"ef_forge_win_2_png",
+			"x":172,
+			"y":201
+			},
+			{
+			"res":"ef_forge_win_3_png",
+			"x":68,
+			"y":97
+			},
+			{
+			"res":"ef_forge_win_4_png",
+			"x":186,
+			"y":214
+			},
+			{
+			"res":"ef_forge_win_5_png",
+			"x":159,
+			"y":177
+			},
+			{
+			"res":"ef_forge_win_6_png",
+			"x":224,
+			"y":247
+			},
+			{
+			"res":"ef_forge_win_7_png",
+			"x":234,
+			"y":257
+			},
+			{
+			"res":"ef_forge_win_8_png",
+			"x":225,
+			"y":247
+			}
+			]
+}},
+	"res":{
+		"ef_forge_win_8_png":{"x":1354,"y":557,"w":268,"h":269},
+		"ef_forge_win_2_png":{"x":381,"y":557,"w":364,"h":364},
+		"ef_forge_win_7_png":{"x":1624,"y":289,"w":249,"h":253},
+		"ef_forge_win_6_png":{"x":1083,"y":557,"w":269,"h":269},
+		"ef_forge_win_3_png":{"x":0,"y":0,"w":571,"h":555},
+		"ef_forge_win_1_png":{"x":1624,"y":0,"w":246,"h":287},
+		"ef_forge_win_5_png":{"x":0,"y":557,"w":379,"h":425},
+		"ef_forge_win_4_png":{"x":747,"y":557,"w":334,"h":345}
+	}}

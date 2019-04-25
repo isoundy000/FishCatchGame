@@ -1,0 +1,46 @@
+{"mc":{
+	"ef_lottery_bao":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":5}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"ef_lottery_bao_1",
+			"x":149,
+			"y":148
+			},
+			{
+			"res":"ef_lottery_bao_2",
+			"x":124,
+			"y":117
+			},
+			{
+			"res":"ef_lottery_bao_3",
+			"x":65,
+			"y":62
+			},
+			{
+			"res":"ef_lottery_bao_4",
+			"x":68,
+			"y":55
+			},
+			{
+			"res":"ef_lottery_bao_5",
+			"x":95,
+			"y":97
+			}
+			]
+}},
+	"res":{
+		"ef_lottery_bao_2":{"x":388,"y":718,"w":276,"h":276},
+		"ef_lottery_bao_4":{"x":0,"y":0,"w":392,"h":398},
+		"ef_lottery_bao_5":{"x":388,"y":400,"w":315,"h":316},
+		"ef_lottery_bao_3":{"x":0,"y":400,"w":386,"h":385},
+		"ef_lottery_bao_1":{"x":0,"y":787,"w":211,"h":211}
+	}}

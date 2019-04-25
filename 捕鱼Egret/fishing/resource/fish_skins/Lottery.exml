@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Lottery" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Config id="15a3b55abcf"/>
+	<w:Declarations>
+		<tween:TweenGroup id="playAction">
+			<tween:TweenItem target="{item_3}">
+				<tween:Wait duration="250"/>
+				<tween:Set/>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{526.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{530.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{548.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{634.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{722.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{629.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{590.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{532.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{452.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object alpha="{0.8}" x="{407.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{639.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{594.97}" alpha="{0.5}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{567.97}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{506.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{516.97}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{item_2}">
+				<tween:Wait duration="250"/>
+				<tween:Set/>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{378.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{533.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{550.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{636.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{724.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{630.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{592.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{534.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{455.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{554.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{601.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{550.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{446.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{336.04}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{346.04}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{item_1}">
+				<tween:Wait duration="250"/>
+				<tween:Set/>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{228.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{439.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{515.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{637.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{724.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object alpha="{0.3}" x="{665.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{622.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{424.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{630.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{551.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{601.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object alpha="{1}" x="{432.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{317.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{164.41}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{174.41}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{item_4}">
+				<tween:Wait duration="250"/>
+				<tween:Set/>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{677.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{588.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{569.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{541.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object alpha="{0.5}" x="{488.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{481.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object alpha="{0.2}" x="{508.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{707.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{419.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{643.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{529.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{649.93}" alpha="{0.5}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object alpha="{1}" x="{691.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{697.93}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{687.93}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{item_5}">
+				<tween:Wait duration="250"/>
+				<tween:Set/>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{827.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{649.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{594.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{541.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100"/>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{551.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100"/>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{453.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{563.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{550.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{601.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{698.53}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{806.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{867.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{857.53}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{item_6}">
+				<tween:Wait duration="250"/>
+				<tween:Set/>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{979.33}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{710.33}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{618.33}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{543.33}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100"/>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{553.33}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100"/>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{597.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{534.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{550.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{684.97}" alpha="{0.2}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{765.97}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{943.97}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{1040.33}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{1030.33}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="100%" height="100%" x="0" y="0">
+		<e:Image id="bg" width="1076" height="566" x="102" y="104.93" source="lottery_bg_png" scale9Grid="0,64,1076,22"/>
+		<e:Image id="banner" width="1097" height="139" x="91.5" y="28.98" source="lottery_banner_png"/>
+		<e:Image id="title" width="259" height="72" x="516.02" y="39.58" source="lottery_title_png"/>
+		<e:Image id="inner" width="1030" height="429" x="125.02" y="214.54" source="lottery_bg_inner_png" scale9Grid="12,12,32,31"/>
+		<e:TabBar id="tabBar" width="1026" height="69" x="127.33" y="160" itemRendererSkinName="TabButton">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object simple="simple" name="simple"/>
+					<e:Object simple="bronze" name="bronze"/>
+					<e:Object simple="silver" name="silver"/>
+					<e:Object simple="gold" name="gold"/>
+					<e:Object simple="platina" name="platina"/>
+					<e:Object simple="diamond" name="diamond"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+		<e:Image id="bottom" width="1024" height="131" source="NeiRongTiao_png" scale9Grid="27,37,8,26" horizontalCenter="-1" verticalCenter="209.5"/>
+		<e:Image width="265" height="131" source="XuanZuoDiBan_PinJie_png" verticalCenter="211.5" left="125" scale9Grid="36,50,7,5"/>
+		<e:Label id="title_0" text="普通抽奖" x="153.42" y="182.34" touchEnabled="false" strokeColor="0x000000" textColor="0xffffff" borderColor="0x0a0a0a" border="false" stroke="1"/>
+		<e:Label id="title_1" text="青铜抽奖" x="324.17" y="182.34" touchEnabled="false" strokeColor="0x000000" textColor="0xFFFFFF" borderColor="0x0A0A0A" border="false" stroke="1"/>
+		<e:Label id="title_2" text="白银抽奖" x="495.35" y="182.34" touchEnabled="false" strokeColor="0x000000" textColor="0xFFFFFF" borderColor="0x0A0A0A" border="false" stroke="1"/>
+		<e:Label id="title_3" text="黄金抽奖" x="663.7" y="183.21" touchEnabled="false" strokeColor="0x000000" textColor="0xFFFFFF" borderColor="0x0A0A0A" border="false" stroke="1"/>
+		<e:Label id="title_4" text="白金抽奖" x="836.69" y="182.34" touchEnabled="false" strokeColor="0x000000" textColor="0xFFFFFF" borderColor="0x0A0A0A" border="false" stroke="1"/>
+		<e:Label id="title_5" text="钻石抽奖" x="1007.35" y="182.34" touchEnabled="false" strokeColor="0x000000" textColor="0xFFFFFF" borderColor="0x0A0A0A" border="false" stroke="1"/>
+		<e:Label id="title_6" text="当前奖池" x="157.04" y="525.34" textColor="0x2015ef" size="26"/>
+		<e:Image width="176" height="30" x="158.68" y="562.69" source="lottery_score_bg_png"/>
+		<e:Label id="score_txt" text="888" x="176.03" y="565.33" size="24" width="144"/>
+		<e:Group id="getBtn" width="274" height="87" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="350" verticalCenter="204.5">
+			<e:Image width="274" height="87" horizontalCenter="0" verticalCenter="0" source="lottery_btn_png"/>
+			<e:Image id="fish" width="96" height="28" horizontalCenter="0" verticalCenter="-2" x="10" y="10" source="Char_ChaKanYuZhong_png" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="chou" width="68" height="31" horizontalCenter="0" verticalCenter="-2" x="20" y="20" scaleX="1.5" scaleY="1.5" source="Char_ChouJiang_png"/>
+		</e:Group>
+		<e:ProgressBar id="progressBar" width="356" height="30" x="444.17" y="564.83" minimum="0" maximum="100000" value="0" skinName="Process"/>
+		<e:Label id="tips_txt" text="击杀奖鱼数量不足" x="619.38" y="530.63" textColor="0x5318f7" size="28" textAlign="center" anchorOffsetX="142" width="285"/>
+		<e:Label id="max_tips_txt" text="您可以进行更高级别的抽奖哦!" x="718.38" y="551.63" textColor="0x5318F7" size="28" textAlign="center" anchorOffsetX="142" width="422"/>
+		<e:Button id="closeBtn" label="" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="470.44000000000005" verticalCenter="-242.14">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lottery_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="lottery" width="100%" height="100%" x="0" y="0" visible="false">
+		<e:Group id="item_6" width="193" height="207" x="1030.33" y="262.37" anchorOffsetX="71">
+			<e:Image width="193" height="209" x="0" y="0" source="lotterySelect_png" scaleX="1" scaleY="1"/>
+			<e:Image id="back_6" width="193" height="209" x="0" y="0" source="item_back_png" visible="false"/>
+			<e:Group id="num_6" width="1" height="1" horizontalCenter="0" bottom="42"/>
+		</e:Group>
+		<e:Group id="item_5" width="193" height="209" x="857.53" y="262.37" anchorOffsetX="71">
+			<e:Image width="193" height="209" x="1.33" y="0" source="lotterySelect_png" scaleX="1" scaleY="1"/>
+			<e:Image id="back_5" width="193" height="209" x="1" y="0" source="item_back_png" visible="false"/>
+			<e:Group id="num_5" width="1" height="1" bottom="42" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="item_4" width="193" height="209" x="687.93" y="262.37" anchorOffsetX="71">
+			<e:Image width="193" height="209" x="1.33" y="0" source="lotterySelect_png" scaleX="1" scaleY="1"/>
+			<e:Image id="back_4" width="193" height="209" x="1" y="0" source="item_back_png" visible="false"/>
+			<e:Group id="num_4" width="1" height="1" bottom="42" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="item_1" width="193" height="209" x="174.41" y="262.37" anchorOffsetX="71">
+			<e:Image width="193" height="209" x="0" y="0" source="lotterySelect_png" scaleX="1" scaleY="1"/>
+			<e:Image id="back_1" width="193" height="209" x="-1" y="0" source="item_back_png" visible="false"/>
+			<e:Group id="num_1" width="1" height="1" bottom="42" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="item_2" width="193" height="209" x="346.04" y="262.37" anchorOffsetX="71">
+			<e:Image width="193" height="209" x="0" y="0" source="lotterySelect_png" scaleX="1" scaleY="1"/>
+			<e:Image id="back_2" width="193" height="209" x="0" y="-1" source="item_back_png" visible="false"/>
+			<e:Group id="num_2" width="1" height="1" bottom="42" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="item_3" width="193" height="209" x="516.97" y="262.37" anchorOffsetX="71">
+			<e:Image width="193" height="209" x="1.33" y="0" source="lotterySelect_png" scaleX="1" scaleY="1"/>
+			<e:Image id="back_3" width="193" height="209" x="0" y="0" source="item_back_png" visible="false"/>
+			<e:Group id="num_3" width="1" height="1" bottom="42" horizontalCenter="0"/>
+		</e:Group>
+		<e:Image width="766" height="121" x="244.33" y="71.66" source="lottery_item_title_png"/>
+		<e:Group id="lotteryBtn" width="274" height="87" horizontalCenter="-13" verticalCenter="201">
+			<e:Image width="274" height="87" source="lottery_btn_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="90" height="42" horizontalCenter="0" verticalCenter="0" source="Char_ChouJiang_png"/>
+		</e:Group>
+		<e:Group id="sureBtn" width="274" height="87" horizontalCenter="-13" verticalCenter="201">
+			<e:Image width="274" height="87" source="lottery_btn_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="90" height="42" source="QueRen_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

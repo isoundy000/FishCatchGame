@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Recode" width="230" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="230" height="90" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="root" width="200" height="90" x="0" y="0">
+			<e:Label id="timeLab" text="2017年4月20日" size="20" textAlign="right" scaleX="1" scaleY="1" right="0" verticalCenter="-27" width="150"/>
+			<e:Label id="lab_1" text="日期:" size="20" textAlign="left" scaleX="1" scaleY="1" verticalCenter="-27" left="0" width="53"/>
+			<e:Label id="phone" text="13888888888" size="20" verticalCenter="-5" textAlign="right" y="49" scaleX="1" scaleY="1" right="0" width="150"/>
+			<e:Label id="lab_2" text="账号:" size="20" verticalCenter="-5" textAlign="left" y="49" scaleX="1" scaleY="1" left="0" width="56"/>
+			<e:Label id="nameLab" text="兑换Iphone7" size="20" verticalCenter="18" textAlign="right" y="8" scaleX="1" scaleY="1" right="0" width="150"/>
+			<e:Label id="lab_3" text="兑换:" size="20" verticalCenter="18" textAlign="left" y="8" scaleX="1" scaleY="1" left="0" width="113"/>
+			<e:Label id="lab_4" text="---------------------------------" size="20" textAlign="left" scaleX="1" scaleY="1" width="301" bottom="0" left="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

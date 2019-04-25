@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Confirm" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="648" height="493" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="effct" width="400" height="400" source="user_effect_png" horizontalCenter="0.5" verticalCenter="-145.5" anchorOffsetX="200" anchorOffsetY="200" scaleX="1.9" scaleY="1.9"/>
+		<e:Image id="titleBgGain" width="659" height="262" fillMode="clip" anchorOffsetX="0.5" horizontalCenter="28.5" scale9Grid="20,104,32,332" top="-54" source="user_HuoDe_png"/>
+		<e:Image width="67" height="73" source="HongBao_XiaoTuBiao_png" verticalCenter="-7" horizontalCenter="0" scaleX="2" scaleY="2"/>
+		<e:Image width="177" height="35" verticalCenter="95" horizontalCenter="0" scaleX="1" scaleY="1" source="HuoDe_1_png"/>
+		<e:Group id="okBtn" width="274" height="87" horizontalCenter="0" verticalCenter="194">
+			<e:Image width="274" height="87" x="0" y="0" source="common_big_s_y_btn_png"/>
+			<e:Image width="58" height="27" source="LingQu_png" horizontalCenter="0" verticalCenter="0" scaleX="2" scaleY="2"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

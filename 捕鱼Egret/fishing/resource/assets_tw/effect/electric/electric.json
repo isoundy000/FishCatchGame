@@ -1,0 +1,58 @@
+{"mc":{
+	"electric":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":7}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"electric_0001_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"electric_0002_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"electric_0003_png",
+			"x":0,
+			"y":5
+			},
+			{
+			"res":"electric_0004_png",
+			"x":4,
+			"y":5
+			},
+			{
+			"res":"electric_0005_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"electric_0006_png",
+			"x":0,
+			"y":2
+			},
+			{
+			"res":"electric_0007_png",
+			"x":4,
+			"y":5
+			}
+			]
+}},
+	"res":{
+		"electric_0004_png":{"x":0,"y":91,"w":80,"h":82},
+		"electric_0007_png":{"x":0,"y":257,"w":80,"h":82},
+		"electric_0001_png":{"x":91,"y":90,"w":86,"h":90},
+		"electric_0002_png":{"x":0,"y":0,"w":90,"h":90},
+		"electric_0003_png":{"x":82,"y":181,"w":80,"h":82},
+		"electric_0006_png":{"x":0,"y":174,"w":80,"h":82},
+		"electric_0005_png":{"x":91,"y":0,"w":88,"h":89}
+	}}

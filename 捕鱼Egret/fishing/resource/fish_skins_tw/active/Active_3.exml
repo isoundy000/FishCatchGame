@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Active_1" width="660" height="470" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="activeRoot" width="660" height="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="660" height="470" x="0" y="0" source="LanDi_png" scale9Grid="24,26,77,38"/>
+		<e:Label id="desc" text="活动期间:2017活动期间" anchorOffsetX="0" width="600" anchorOffsetY="0" height="31" horizontalCenter="0" verticalCenter="-175.5" textAlign="center" size="28"/>
+		<e:Image width="546" height="249" horizontalCenter="1" verticalCenter="-30.5" source="ID_ShuRu_png" scale9Grid="25,24,8,6"/>
+		<e:Scroller width="519" height="225" horizontalCenter="0.5" verticalCenter="-31">
+			<e:Group id="listGroup">
+			</e:Group>
+		</e:Scroller>
+		<e:Image width="185" height="22" horizontalCenter="0.5" verticalCenter="111" source="active_MeiTian_png"/>
+		<e:Group id="gainGroup" width="274" height="87" horizontalCenter="0" verticalCenter="176">
+			<e:Image width="274" height="87" source="common_big_s_y_btn_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="toGain" width="58" height="27" source="LingQu_png" horizontalCenter="0" verticalCenter="-3" scaleX="1.5" scaleY="1.5"/>
+			<e:Image id="yilingqu" width="58" height="27" horizontalCenter="0" verticalCenter="-3" scaleX="1.5" scaleY="1.5" source="YiLingQu_png" visible="false"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishKindTypeItem" width="1060" height="41" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15a13623b48"/>
+	<e:Group width="1060" height="41" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0.5">
+		<e:Image id="hengtiao" width="1060" height="2" scaleX="1" scaleY="1" source="heng_tiao_png" fillMode="scale" anchorOffsetX="0.5" anchorOffsetY="0.5" scale9Grid="1,1,1,1" horizontalCenter="0" top="0"/>
+		<e:Image id="titleBg" width="216" height="41" scaleX="1" scaleY="1" source="yuzhongleibie_png" fillMode="clip" anchorOffsetX="0.5" anchorOffsetY="0.5" verticalCenter="0" horizontalCenter="0"/>
+		<e:Image id="titleTeshu" width="216" height="41" scaleX="1" scaleY="1" source="teshu_png" fillMode="clip" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="titlePutong" width="216" height="41" scaleX="1" scaleY="1" fillMode="clip" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="putong_png"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,46 @@
+{"mc":{
+	"huangjinshuimu":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":5}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"huangjinshuimu_0000",
+			"x":0,
+			"y":17
+			},
+			{
+			"res":"huangjinshuimu_0001",
+			"x":6,
+			"y":15
+			},
+			{
+			"res":"huangjinshuimu_0002",
+			"x":12,
+			"y":6
+			},
+			{
+			"res":"huangjinshuimu_0003",
+			"x":8,
+			"y":0
+			},
+			{
+			"res":"huangjinshuimu_0004",
+			"x":12,
+			"y":5
+			}
+			]
+}},
+	"res":{
+		"huangjinshuimu_0001":{"x":170,"y":0,"w":154,"h":168},
+		"huangjinshuimu_0003":{"x":170,"y":171,"w":148,"h":168},
+		"huangjinshuimu_0000":{"x":0,"y":0,"w":168,"h":171},
+		"huangjinshuimu_0002":{"x":0,"y":173,"w":143,"h":169},
+		"huangjinshuimu_0004":{"x":145,"y":340,"w":148,"h":161}
+	}}

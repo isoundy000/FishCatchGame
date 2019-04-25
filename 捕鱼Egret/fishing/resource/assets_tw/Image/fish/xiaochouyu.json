@@ -1,0 +1,52 @@
+{"mc":{
+	"xiaochouyu":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"xiaochouyu_0000",
+			"x":2,
+			"y":13
+			},
+			{
+			"res":"xiaochouyu_0001",
+			"x":0,
+			"y":8
+			},
+			{
+			"res":"xiaochouyu_0002",
+			"x":1,
+			"y":4
+			},
+			{
+			"res":"xiaochouyu_0003",
+			"x":2,
+			"y":4
+			},
+			{
+			"res":"xiaochouyu_0004",
+			"x":2,
+			"y":4
+			},
+			{
+			"res":"xiaochouyu_0005",
+			"x":4,
+			"y":5
+			}
+			]
+}},
+	"res":{
+		"xiaochouyu_0005":{"x":77,"y":0,"w":73,"h":55},
+		"xiaochouyu_0001":{"x":77,"y":57,"w":77,"h":45},
+		"xiaochouyu_0003":{"x":0,"y":57,"w":75,"h":54},
+		"xiaochouyu_0000":{"x":156,"y":47,"w":75,"h":38},
+		"xiaochouyu_0004":{"x":0,"y":0,"w":75,"h":55},
+		"xiaochouyu_0002":{"x":152,"y":0,"w":76,"h":45}
+	}}

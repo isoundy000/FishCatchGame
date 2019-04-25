@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaveComing" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="play">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{430}" y="{226.33}" width="{855}" height="{34}" scaleX="{-1}" scaleY="{1}" alpha="{0.75}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="350">
+					<tween:props>
+						<e:Object x="{1081.51}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="1500"/>
+				<tween:Set/>
+				<tween:To duration="1100">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{800}" y="{392.33}" width="{855}" height="{34}" alpha="{0.75}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="350">
+					<tween:props>
+						<e:Object x="{209.1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="1500"/>
+				<tween:Set/>
+				<tween:To duration="1100">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{322.25}" x="{113.38}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="350">
+					<tween:props>
+						<e:Object x="{643.62}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="1500"/>
+				<tween:Set/>
+				<tween:To duration="1100">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{322.26}" x="{1158.81}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="350">
+					<tween:props>
+						<e:Object y="{322.23}" x="{643.72}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="350">
+					<tween:props>
+						<e:Object scaleX="{1.25}" scaleY="{1.25}" alpha="{0}" x="{643.72}" y="{322.23}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="image" width="855" height="34" x="74" y="88" source="wave_Tiao_Shang_png"/>
+	<e:Image id="image0" width="855" height="34" x="74" y="373" source="wave_Tiao_Shang_png"/>
+	<e:Image id="image1" width="317" height="79" x="134" y="183" source="wave_WenZi_png" anchorOffsetX="158.5" anchorOffsetY="39.5"/>
+	<e:Image id="image2" width="317" height="79" x="624" y="207" source="wave_WenZi_png" anchorOffsetX="158.5" anchorOffsetY="39.5"/>
+</e:Skin>

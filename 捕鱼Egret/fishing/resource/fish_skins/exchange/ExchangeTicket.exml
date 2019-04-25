@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15b41638a9f"/>
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.7"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="711" height="489" y="127.50000000000001" source="common_panel_big_bg_png" scale9Grid="30,74,19,450" horizontalCenter="1" x="154" scaleX="1" scaleY="1"/>
+		<e:Image width="711" height="70" y="74.15" source="common_panel_bg_png" scale9Grid="535,0,72,74" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image id="title" width="77" height="40" top="92" horizontalCenter="0" anchorOffsetX="38.5" anchorOffsetY="20" source="DanTouDuiHuan_png"/>
+		<e:Button id="closeBtn" label="" width="63" height="63" anchorOffsetX="31.5" anchorOffsetY="31.5" scaleX="1" scaleY="1" horizontalCenter="316.5" verticalCenter="-249.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image width="668" height="441" horizontalCenter="0" verticalCenter="14.5" source="LanDi_png" scale9Grid="48,35,36,16"/>
+		<e:Label id="nameT" text="手机号码:" right="743" verticalCenter="-100"/>
+		<e:Label id="phoneT" text="手机号码:" right="743" verticalCenter="2" textAlign="right"/>
+		<e:Image width="300" height="55" source="ID_ShuRu_png" scale9Grid="19,18,18,19" y="260.48" x="690.14" anchorOffsetX="150" anchorOffsetY="27.5"/>
+		<e:Image width="300" height="55" source="ID_ShuRu_png" scale9Grid="19,18,18,19" y="362.3" x="690.14" anchorOffsetX="150" anchorOffsetY="27.5"/>
+		<e:EditableText id="name_Edit" width="235" height="28" text="请输入手机号码" anchorOffsetY="0" textAlign="center" horizontalCenter="50.5" verticalCenter="-99"/>
+		<e:EditableText id="phone_Edit" width="235" height="28" text="请再次输入手机号" anchorOffsetY="0" textAlign="center" horizontalCenter="50.5" verticalCenter="3"/>
+		<e:Group id="okBtn" width="180" height="70" horizontalCenter="0" scaleX="1" scaleY="1" verticalCenter="194">
+			<e:Image width="180" height="70" x="0" y="0" source="common_s_y_btn_png" scale9Grid="59,0,0,70"/>
+			<e:Image width="90" height="42" verticalCenter="-3.5" horizontalCenter="0.5" scaleX="1" scaleY="1" source="TiJiao_png"/>
+		</e:Group>
+		<e:Group id="descGroup" width="590" height="95" horizontalCenter="0" verticalCenter="90.5"/>
+	</e:Group>
+</e:Skin>

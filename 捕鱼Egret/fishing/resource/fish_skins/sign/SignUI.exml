@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SignUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1100" height="636" horizontalCenter="0" verticalCenter="24">
+		<e:Image id="bg" width="1100" height="616" source="common_panel_big_bg_png" scale9Grid="31,31,21,539" horizontalCenter="0" verticalCenter="11"/>
+		<e:Image id="innerBg" width="1063" height="479" source="LanDi_png" scale9Grid="20,22,87,47" horizontalCenter="0" verticalCenter="-31"/>
+		<e:Image width="1142" height="111" source="vip_CaiDai_png" horizontalCenter="0" top="-48"/>
+		<e:Image id="titleBg" width="255" height="72" source="QianDaoFuTiao_png" horizontalCenter="0.5" top="-43"/>
+		<e:Group id="down" width="1100" height="100" horizontalCenter="0" verticalCenter="263">
+			<e:Label id="qiandaoLab" text="已签到" horizontalCenter="436" verticalCenter="0"/>
+			<e:Label id="buqianLab" text="已补签" horizontalCenter="226.5" verticalCenter="0"/>
+			<e:Image width="446" height="54" source="BenYueLeiJiQianDao_Tiao_png" left="0" verticalCenter="0"/>
+			<e:Image width="148" height="27" verticalCenter="0" source="ShengYuBuQianCiShu_png" horizontalCenter="0"/>
+	<e:Group id="buqian" width="155" height="52" verticalCenter="0" horizontalCenter="242.5">
+		<e:Image width="155" height="70" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="88,0,0,70"/>
+		<e:Image width="35" height="33" source="BuQian_HuaFeiTuBiao_png" verticalCenter="-1.5" left="26"/>
+		<e:Image height="31" verticalCenter="-2" right="31" width="59" source="BuQian_WenZi_png"/>
+	</e:Group>
+			<e:Group id="qiandao" width="155" height="52" verticalCenter="0" horizontalCenter="430.5">
+				<e:Image width="155" height="70" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="88,0,0,70"/>
+				<e:Image height="31" verticalCenter="-2" width="59" source="QianDao_WenZi_png" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="leijiGroup" width="1" height="1" horizontalCenter="-229.5" verticalCenter="-0.5"/>
+			<e:Group id="buqianGroup" width="1" height="1" horizontalCenter="98.5" verticalCenter="1.5"/>
+			<e:Image width="356" height="35" x="31" y="30" source="BenYueLeiJiQianDao_Tiao2_png"/>
+		</e:Group>
+		<e:Scroller id="scroller" width="1030" height="450" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="2" verticalCenter="-27">
+			<e:Group id="listGroup" width="1030" height="450"/>
+		</e:Scroller>
+		<e:Button id="btnClose" label="" width="63" horizontalCenter="486.5" verticalCenter="-296.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Button id="help" label="" width="52" height="52" x="1386" y="571">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="GuiZe_BangZhu_png" source.down="GuiZe_BangZhu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

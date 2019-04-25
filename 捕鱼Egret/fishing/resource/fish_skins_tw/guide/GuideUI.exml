@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15b27b146de"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="rectGroup" width="1280" height="720" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="first" width="1280" height="720" horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:Rect width="1280" height="720" fillAlpha="0.5" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="image_1" width="308" height="304" source="XinShouLiBao_1_png" verticalCenter="-85" horizontalCenter="0"/>
+			<e:Image id="image_2" width="446" height="63" verticalCenter="141.5" horizontalCenter="0" source="XinShouLiBao_WenZi_png"/>
+			<e:Image id="image_2_1" width="438" height="369" verticalCenter="-84.5" horizontalCenter="0" source="XinShouLiBao_2_png"/>
+			<e:Image id="image_1_1" width="342" height="337" verticalCenter="-52.5" horizontalCenter="6" source="XinShouLiBao_22_png"/>
+		</e:Group>
+		<e:Group id="txt" width="1280" height="720" x="0" y="0" visible="false">
+			<e:Rect width="1280" height="720" fillAlpha="0.5" verticalCenter="0" horizontalCenter="0"/>
+			<e:Group id="showT" width="200" height="200" x="748.21" y="207.69">
+				<e:Image width="609" height="228" x="-382.37" y="36.24" id="descBg0" source="XinShou_WenZi_DI_png" scaleX="1" scaleY="1"/>
+				<e:Label id="tips" text="" size="22" textAlign="left" horizontalCenter="-92.5" verticalCenter="96.5" width="403" height="65" x="-15" y="95" scaleX="1" scaleY="1" bold="true" textColor="0xe1f4ff" lineSpacing="12" anchorOffsetX="0" anchorOffsetY="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="fingerAndTxt" width="1280" height="720" horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0"/>
+			<e:Rect id="fingerAndTxtR" width="1280" height="720" horizontalCenter="0" verticalCenter="0" fillAlpha="0"/>
+			<e:Group id="showP" width="200" height="200" x="371" y="264">
+				<e:Image id="descBg" width="609" height="228" x="-382" y="36" source="XinShou_WenZi_DI_png" scaleX="1" scaleY="1"/>
+				<e:Label id="tips_1" text="出啊在\n加快立法的" size="22" verticalAlign="middle" textAlign="left" horizontalCenter="-92.5" verticalCenter="92.5" x="-137.0000000000001" y="56" scaleX="1" scaleY="1" width="403" height="69" textColor="0xffffff" bold="true" lineSpacing="12" anchorOffsetX="0" anchorOffsetY="0"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

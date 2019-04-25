@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TabButton" width="178" height="65" xmlns:e="http://ns.egret.com/eui"  states="up,down" >
+	<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFFFFFF" verticalAlign="middle" textAlign="center"/>
+	<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" source.down="lottery_tab_down_png" source.up="lottery_tab_up_png"/>
+</e:Skin>

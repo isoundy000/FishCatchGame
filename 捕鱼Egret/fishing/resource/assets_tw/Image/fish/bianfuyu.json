@@ -1,0 +1,52 @@
+{"mc":{
+	"bianfuyu":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"bianfuyu_0000",
+			"x":1,
+			"y":0
+			},
+			{
+			"res":"bianfuyu_0001",
+			"x":1,
+			"y":0
+			},
+			{
+			"res":"bianfuyu_0002",
+			"x":1,
+			"y":4
+			},
+			{
+			"res":"bianfuyu_0003",
+			"x":1,
+			"y":8
+			},
+			{
+			"res":"bianfuyu_0004",
+			"x":0,
+			"y":8
+			},
+			{
+			"res":"bianfuyu_0005",
+			"x":1,
+			"y":4
+			}
+			]
+}},
+	"res":{
+		"bianfuyu_0005":{"x":0,"y":207,"w":147,"h":94},
+		"bianfuyu_0004":{"x":149,"y":98,"w":148,"h":88},
+		"bianfuyu_0003":{"x":149,"y":188,"w":148,"h":88},
+		"bianfuyu_0001":{"x":0,"y":104,"w":147,"h":101},
+		"bianfuyu_0002":{"x":149,"y":0,"w":147,"h":96},
+		"bianfuyu_0000":{"x":0,"y":0,"w":147,"h":101}
+	}}

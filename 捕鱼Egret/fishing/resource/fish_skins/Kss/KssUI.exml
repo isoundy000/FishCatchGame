@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DjsUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="34">
+		<e:Image id="bg" width="1000" height="562" source="common_panel_big_bg_png" scale9Grid="24,74,27,450" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="inner" width="965" height="507" source="LanDi_png" horizontalCenter="0" verticalCenter="11" scale9Grid="24,24,81,42"/>
+		<e:Image width="681" height="475" source="lottery_bg_inner_png" scale9Grid="9,10,39,36" horizontalCenter="129" verticalCenter="10"/>
+		<e:Image width="707" height="132" source="JinBi_BaoShi_png" horizontalCenter="0" top="-30"/>
+		<e:Image id="titleBg" width="1050" height="123" horizontalCenter="0" top="0" source="vip_CaiDai_png"/>
+		<e:Image id="title" width="191" height="69" horizontalCenter="0" top="9" source="KuaiSuSai_png"/>
+		<e:Image id="jinbei" width="106" height="123" source="DJS_JiangBei_png" horizontalCenter="-271" top="-26"/>
+		<e:Group id="contain" width="990" height="555" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="descGroup" width="690" height="490" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="130.5" verticalCenter="10.5">
+				<e:Image width="689" height="52" source="Kss_banzi_png" scale9Grid="23,0,0,52" horizontalCenter="0" top="3"/>
+				<e:Group id="changName" width="124" height="45.33" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-264" verticalCenter="-215.5">
+					<e:Image id="img_0" width="94" height="35" source="mianfeichang_png" verticalCenter="0" horizontalCenter="0"/>
+					<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="0" id="img_1" source="ChuJiChang_png"/>
+					<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="0" id="img_2" source="ZhongJiChang_png"/>
+					<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="0" id="img_3" source="JingYingChang_png"/>
+				</e:Group>
+				<e:Label text="开放时间:" horizontalCenter="-116" verticalCenter="-215" textAlign="center" size="24"/>
+				<e:Label text="07:00-23:00" horizontalCenter="8" verticalCenter="-215" textAlign="center" size="24" textColor="0xecff02"/>
+				<e:Image width="687" height="105" source="exchange_ShuZiKuang_Di_png" scale9Grid="18,0,0,58" horizontalCenter="0" verticalCenter="198"/>
+				<e:Group id="ruleBtn" width="242" height="82" horizontalCenter="-150" verticalCenter="200">
+					<e:Image width="242" height="82" x="0" y="0" source="BiSaiGuiZe_png"/>
+				</e:Group>
+				<e:Group id="joinBtn" width="242" height="82" horizontalCenter="150" verticalCenter="200">
+					<e:Image width="242" height="82" x="0" y="0" source="common_s_y_btn_png" scale9Grid="84,0,1,70"/>
+					<e:Image width="179" height="36" source="BaoMingCanSai_png" horizontalCenter="0" verticalCenter="-3"/>
+				</e:Group>
+				<e:Image width="91" height="25" source="cansaitiaojian_png" horizontalCenter="-227.5" verticalCenter="-111.5"/>
+				<e:Image width="91" height="25" horizontalCenter="-227.5" verticalCenter="28.5" source="bisaijiangli_png"/>
+				<e:Label text="人数:8人" x="190" y="87"/>
+				<e:Label id="gunRateLab" text="解锁炮倍:{0}倍" x="429" y="87"/>
+				<e:Label id="gunRateLab0" text="入场费:" x="190" y="147"/>
+				<e:Label text="第1名:" x="190" y="231"/>
+				<e:Label text="第3名:" x="190" y="295"/>
+				<e:Label text="第2名:" x="429" y="230"/>
+				<e:Group id="ticket" width="1" height="1" x="322" y="162" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Group id="gain_0" width="1" height="1" x="312" y="245" anchorOffsetX="0" anchorOffsetY="0"/>
+				<e:Group width="1" height="1" x="542" y="245" anchorOffsetX="0" anchorOffsetY="0" id="gain_1"/>
+				<e:Group width="1" height="1" x="312" y="310" anchorOffsetX="0" anchorOffsetY="0" id="gain_2"/>
+			</e:Group>
+			<e:Group id="leftGroup" width="260" height="490" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="41.5" horizontalCenter="-334">
+				<e:Group id="free" width="254" height="98" horizontalCenter="-3" verticalCenter="-196">
+					<e:Group id="unFree" width="254" height="98" x="0" y="0">
+						<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="-12" verticalCenter="0"/>
+					</e:Group>
+					<e:Image width="94" height="35" source="mianfeichang_01_png" verticalCenter="0" horizontalCenter="14" x="7" y="-182" scaleX="1" scaleY="1"/>
+					<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="14" x="-3" y="-192" scaleX="1" scaleY="1" source="mianfeichang_png"/>
+					<e:Group id="selFree" width="254" height="98" x="0" y="0">
+						<e:Image width="254" height="98" horizontalCenter="0" verticalCenter="0" source="XuanZhong_png"/>
+						<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="14" x="-3" y="-192" scaleX="1" scaleY="1" source="mianfeichang_01_png"/>
+					</e:Group>
+					<e:Image width="84" height="85" source="mianfeichang_tubiao_png" verticalCenter="0" horizontalCenter="-74"/>
+				</e:Group>
+				<e:Group id="chu" width="254" height="98" horizontalCenter="-3" verticalCenter="-84" x="10" y="10">
+					<e:Group id="unChu" width="254" height="98" x="0" y="0">
+					<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="-12" verticalCenter="0"/>
+						<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="14" x="-3" y="-192" scaleX="1" scaleY="1" source="ChuJiChang_png"/>
+					</e:Group>
+					<e:Group id="selChu" width="254" height="98" x="0" y="0">
+					<e:Image width="254" height="98" horizontalCenter="0" verticalCenter="0" source="XuanZhong_png"/>
+					<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="14" x="-3" y="-192" scaleX="1" scaleY="1" source="ChuJiChang_01_png"/>
+					</e:Group>
+					<e:Image width="62" height="61" verticalCenter="0" horizontalCenter="-74" source="ChuJiChang_tubiao_png"/>
+				</e:Group>
+				<e:Group id="zhong" width="254" height="98" horizontalCenter="-3" verticalCenter="28" x="20" y="20">
+					<e:Group id="unZhong" width="254" height="98" x="0" y="0">
+					<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="-12" verticalCenter="0"/>
+					<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="14" x="-3" y="-192" scaleX="1" scaleY="1" source="ZhongJiChang_png"/>
+					</e:Group>
+					<e:Group id="selZhong" width="254" height="98" x="0" y="0">
+					<e:Image width="254" height="98" horizontalCenter="0" verticalCenter="0" source="XuanZhong_png"/>
+					<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="14" x="-3" y="-192" scaleX="1" scaleY="1" source="ZhongJiChang_01_png"/>
+					</e:Group>
+					<e:Image width="82" height="81" verticalCenter="0" horizontalCenter="-74" source="ZhongJiChang_tubiao_png"/>
+				</e:Group>
+				<e:Group id="jingying" width="254" height="98" horizontalCenter="-3" verticalCenter="140" x="30" y="30">
+					<e:Group id="unJingying" width="254" height="98" x="0" y="0">
+					<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="-12" verticalCenter="0"/>
+					<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="14" x="-3" y="-192" scaleX="1" scaleY="1" source="JingYingChang_png"/>
+					</e:Group>
+					<e:Group id="selJingying" width="254" height="98" x="0" y="0">
+					<e:Image width="254" height="98" horizontalCenter="0" verticalCenter="0" source="XuanZhong_png"/>
+					<e:Image width="94" height="35" verticalCenter="0" horizontalCenter="14" x="-3" y="-192" scaleX="1" scaleY="1" source="JingYingChang_01_png"/>
+					</e:Group>
+					<e:Image width="81" height="105" verticalCenter="0" horizontalCenter="-74" source="JingYingChang_tubiao_png"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Button id="btnClose" label="" horizontalCenter="420.5" verticalCenter="-280.5" anchorOffsetX="31.5" anchorOffsetY="31.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

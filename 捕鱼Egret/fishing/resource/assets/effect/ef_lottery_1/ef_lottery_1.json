@@ -1,0 +1,40 @@
+{"mc":{
+	"ef_lottery_1":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":4}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"ef_lottery_1_1_png",
+			"x":6,
+			"y":6
+			},
+			{
+			"res":"ef_lottery_1_2_png",
+			"x":2,
+			"y":2
+			},
+			{
+			"res":"ef_lottery_1_3_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"ef_lottery_1_4_png",
+			"x":2,
+			"y":2
+			}
+			]
+}},
+	"res":{
+		"ef_lottery_1_2_png":{"x":222,"y":0,"w":216,"h":258},
+		"ef_lottery_1_1_png":{"x":222,"y":260,"w":209,"h":249},
+		"ef_lottery_1_4_png":{"x":222,"y":0,"w":216,"h":258},
+		"ef_lottery_1_3_png":{"x":0,"y":0,"w":220,"h":263}
+	}}

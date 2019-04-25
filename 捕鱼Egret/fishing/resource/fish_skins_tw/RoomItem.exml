@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishLoginSkin" width="353" height="132" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group width="353" height="132" anchorOffsetX="0" anchorOffsetY="0" maxHeight="160" maxWidth="165" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="root" width="200" height="200" scaleX="1" scaleY="1" x="771" y="-39">
+			<e:Image id="imageBg" width="353" height="132" x="-771" y="39" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="NeiRongTiao_png" scale9Grid="24,44,8,2"/>
+			<e:Image width="106" height="132" source="XuanZuoDiBan_PinJie_png" verticalCenter="6" scale9Grid="36,54,8,11" left="-772"/>
+			<e:BitmapLabel id="name_bitLab" x="-761" y="78.5" scaleX="1" scaleY="1" font="number2_fnt" text="38" anchorOffsetX="1" anchorOffsetY="0.5"/>
+			<e:Image id="nameTitle" width="111" height="34" x="-656" y="65" scaleX="1" scaleY="1" source="totalNum_png" fillMode="clip"/>
+			<e:Image id="xie" width="15" height="24" x="-496" y="70" scaleX="1" scaleY="1" fillMode="clip" source="num_xie_png"/>
+			<e:Image id="ren" width="23" height="24" x="-461" y="70" scaleX="1" scaleY="1" fillMode="clip" source="roomlistRen_png"/>
+			<e:BitmapLabel id="name_bitLabCur" x="-514" y="72" scaleX="1" scaleY="1" text="2" anchorOffsetX="1" anchorOffsetY="0.5" font="number1_fnt"/>
+			<e:BitmapLabel id="name_bitLabMax" x="-484" y="72" scaleX="1" scaleY="1" font="number1_fnt" text="4" anchorOffsetX="1" anchorOffsetY="0.5"/>
+			<e:Image id="image_BG" width="222" height="28" y="108" scaleX="1" scaleY="1" source="proBarBg_png" fillMode="clip" x="-655" scale9Grid="10,1,1,1"/>
+			<e:Image id="image_CUR" width="111" height="28" y="108" scaleX="1" scaleY="1" fillMode="clip" x="-655" scale9Grid="10,10,1,1" source="proBar_png"/>
+			<e:Image id="image_RED" width="222" height="28" y="108" scaleX="1" scaleY="1" fillMode="clip" x="-655" scale9Grid="10,10,1,1" source="proBarBgRed_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" fillAlpha="0.5" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="panelBg" width="965" height="540" source="common_panel_big_bg_png" scale9Grid="29,0,15,598" horizontalCenter="0.5" verticalCenter="33" touchEnabled="false"/>
+		<e:Image id="titleBg" width="968" height="70" source="common_panel_bg_png" scale9Grid="432,0,135,74" horizontalCenter="0" top="67" touchEnabled="false"/>
+		<e:Button id="closeBtn" label="" width="63" height="63" anchorOffsetX="31.5" anchorOffsetY="31.5" horizontalCenter="440.5" verticalCenter="-257.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="title" width="80" height="44" source="RenWu_png" horizontalCenter="0" top="82" touchEnabled="false"/>
+		<e:Group id="inner" width="920" height="490" horizontalCenter="0" verticalCenter="41">
+			<e:Image id="panelInerBg" width="910" height="480" source="LanDi_png" scale9Grid="20,21,87,48" scaleX="1" scaleY="1" horizontalCenter="0.5" verticalCenter="-2.5" x="6" y="3" touchEnabled="false"/>
+			<e:Group id="up" width="920" height="60" top="0" horizontalCenter="0">
+				<e:Image id="horPanel" width="910" height="58" top="0" horizontalCenter="0" source="WeiXuanZhong_task_png" x="5" y="0" scaleX="1" scaleY="1" touchEnabled="false"/>
+				<e:Image id="dailyImg_off" width="118" height="28" x="171" y="15" source="MeiRi_1_png" scaleX="1" scaleY="1" touchEnabled="false"/>
+				<e:Image id="weekImg_off" width="118" height="28" x="627" y="15" source="MeiZhou_1_png" scaleX="1" scaleY="1" touchEnabled="false"/>
+				<e:Button id="dailyBtn" label="" x="2.1599999999999966" y="1" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="XuanZhongZhuangTai_task_png" source.down="XuanZhongZhuangTai_task_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="weekBtn" label="" x="917.8799999999999" y="1" scaleX="-1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="XuanZhongZhuangTai_task_png" source.down="XuanZhongZhuangTai_task_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="dailyImg_on" width="123" height="36" x="171" y="9.68" source="MeiRi_2_png" scaleX="1" scaleY="1" touchEnabled="false"/>
+				<e:Image id="weekImg_on" width="123" height="36" x="627" y="9.68" source="MeiZhou_2_png" scaleX="1" scaleY="1" touchEnabled="false"/>
+			</e:Group>
+			<e:Group id="mid" width="920" height="100" top="59" horizontalCenter="0">
+				<e:Image width="95" height="23" x="60" y="28" source="JinRiHuoYue_png" touchEnabled="false"/>
+				<e:Group id="task_pro_num" width="1" height="1" left="106" verticalCenter="18.5" touchThrough="false"/>
+				<e:Image id="pro_bg" width="682" height="15" x="199" y="38" source="HuoYue_JinDuTiao_Di_png" scale9Grid="12,1,1,16" touchEnabled="false"/>
+				<e:Image id="pro_cur" width="682" height="10" x="199" y="40.66" source="HuoYue_JinDuTiao_png" scale9Grid="9,0,2,10" touchEnabled="false"/>
+				<e:Group id="pro_0" width="1" height="1" x="345" y="45"/>
+				<e:Group id="pro_1" width="1" height="1" x="515" y="45"/>
+				<e:Group width="1" height="1" x="685" y="45" id="pro_2"/>
+				<e:Group width="1" height="1" x="855" y="45" id="pro_3"/>
+			</e:Group>
+			<e:Group id="down" width="894" height="316" verticalCenter="70" horizontalCenter="0">
+				<e:Scroller id="downScroll" width="894" height="316" x="0" y="0">
+					<e:Group id="listGroup" width="894" height="316316"/>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DjsItem" width="180" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="180" height="250" x="0" y="0">
+		<e:Image id="img_1" width="180" height="244" source="DJS_di1ming_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="img_2" width="180" height="244" horizontalCenter="0" verticalCenter="0" source="DJS_di2ming_png"/>
+		<e:Image id="img_3" width="180" height="244" horizontalCenter="0" verticalCenter="0" source="DJS_di3ming_png"/>
+		<e:Image id="img_4" width="180" height="244" horizontalCenter="0" verticalCenter="0" source="DJS_lanse_png"/>
+		<e:Image id="ava_1" width="60" height="57" source="rank_Di_1_png" scaleX="0.8" scaleY="0.8" horizontalCenter="-61" verticalCenter="-93" visible="false"/>
+		<e:Image id="ava_2" width="60" height="57" scaleX="0.8" scaleY="0.8" horizontalCenter="-61" verticalCenter="-93" source="Di_2_png" visible="false"/>
+		<e:Image id="ava_3" width="60" height="57" scaleX="0.8" scaleY="0.8" horizontalCenter="-61" verticalCenter="-93" source="rank_Di_3_png" visible="false"/>
+		<e:Label id="rankLab" text="第4000-5000名" textAlign="center" horizontalCenter="0" top="9" size="25"/>
+		<e:Group id="iconGroup" width="1" height="1" horizontalCenter="0" verticalCenter="-31"/>
+		<e:Label id="namelab" text="第5000名" textAlign="center" horizontalCenter="0" top="181" size="25"/>
+		<e:Label id="infoTip" text="暂无咨询" textAlign="center" horizontalCenter="0" top="196" size="25" visible="false"/>
+		<e:Label id="scoreLab" text="积分:10000000" textAlign="center" horizontalCenter="0" top="209" size="25"/>
+		<e:Label id="gainNumLab" text="x80" textAlign="center" verticalCenter="28" horizontalCenter="43.5" stroke="1"/>
+	</e:Group>
+</e:Skin>

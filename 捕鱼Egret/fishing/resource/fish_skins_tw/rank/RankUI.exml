@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmailUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" verticalCenter="0" horizontalCenter="0" fillAlpha="0.7"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="974" height="550" source="common_panel_big_bg_png" scale9Grid="30,74,19,450" horizontalCenter="0" verticalCenter="20"/>
+		<e:Image id="titleBg" width="974" height="70" source="common_panel_bg_png" scale9Grid="502,0,86,74" horizontalCenter="0" top="52"/>
+		<e:Image id="titleBg0" width="112" height="40" scale9Grid="502,0,86,74" horizontalCenter="0" top="68" source="rank_title_png"/>
+		<e:Image width="933" height="502" scale9Grid="12,12,32,31" horizontalCenter="0.5" verticalCenter="27" source="lottery_bg_inner_png"/>
+		<e:Image width="660" height="470" verticalCenter="27" source="LanDi_png" scale9Grid="22,20,85,50" right="186"/>
+		<e:Button id="closeBtn" label="" width="63" top="58" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="443.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scrol" width="651" height="395" y="160" x="438">
+			<e:Group id="scrolGroup" width="651" height="395">
+			</e:Group>
+		</e:Scroller>
+		<e:Group id="info" width="652" height="52" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="123" verticalCenter="228">
+			<e:Image width="652" height="52" source="DangQianJingYan_DiTiao_png" horizontalCenter="0" verticalCenter="0" scale9Grid="23,0,10,52"/>
+			<e:Label text="当前等级:" horizontalCenter="-210.5" verticalCenter="0"/>
+			<e:Label text="当前经验:" horizontalCenter="75.5" verticalCenter="0"/>
+			<e:BitmapLabel id="lvLab" width="51" height="20" font="chargeNum_fnt" text="9" horizontalCenter="-113" verticalCenter="-2"/>
+			<e:BitmapLabel id="expLab" width="234" height="20" font="chargeNum_fnt" text="999999999" verticalCenter="-2" left="472"/>
+		</e:Group>
+		<e:Scroller id="leftScrol" width="255" height="460" x="183" y="157" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="leftGroup">
+				<e:Group id="lvGroup" width="230" height="100" x="0" y="0" scaleX="1" scaleY="1">
+					<e:Group id="lvUnSel" width="230" height="100" horizontalCenter="0" verticalCenter="0">
+					<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="0" verticalCenter="0" x="1" y="2" scaleX="1" scaleY="1"/>
+					<e:Image width="42" height="46" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="rank_DJ_png"/>
+					<e:Image height="31" verticalCenter="0" right="33" width="134" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="DengJiPaiHang_png"/>
+					</e:Group>
+					<e:Group id="lvSel" width="230" height="100" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+					<e:Image width="254" height="98" source="XuanZhong_png" horizontalCenter="14" verticalCenter="0"/>
+					<e:Image width="42" height="46" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="rank_DJ_png"/>
+					<e:Image height="31" verticalCenter="0" right="33" width="134" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="DengJiPaiHang_H_png"/>
+					</e:Group>
+					<e:Button id="lvBtn" label="" horizontalCenter="0" verticalCenter="0" alpha="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="WeiXuanZhong_png" source.down="WeiXuanZhong_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Group id="goldGroup" width="230" height="100" x="0" y="112" scaleX="1" scaleY="1">
+					<e:Group id="goldUnSel" width="230" height="100" horizontalCenter="0" verticalCenter="0">
+					<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="0" verticalCenter="0" x="1" y="2" scaleX="1" scaleY="1"/>
+					<e:Image width="48" height="52" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="JinBi2_png"/>
+					<e:Image height="31" verticalCenter="0" right="33" width="135" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="JinBiPaiHang_png"/>
+					</e:Group>
+					<e:Group id="goldSel" width="230" height="100" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+					<e:Image width="254" height="98" source="XuanZhong_png" horizontalCenter="14" verticalCenter="0"/>
+					<e:Image width="48" height="52" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="JinBi2_png"/>
+					<e:Image height="31" verticalCenter="0" right="33" width="135" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="JinBiPaiHang_H_png"/>
+					</e:Group>
+					<e:Button id="goldBtn" label="" horizontalCenter="0" verticalCenter="0" alpha="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="WeiXuanZhong_png" source.down="WeiXuanZhong_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Group id="saiGroup" width="230" height="100" x="0" y="224" scaleX="1" scaleY="1">
+					<e:Group id="saiUnSel" width="230" height="100" horizontalCenter="0" verticalCenter="0">
+					<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="0" verticalCenter="0" x="1" y="2" scaleX="1" scaleY="1"/>
+					<e:Image width="58" height="68" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="JiangBei_png"/>
+					<e:Image height="31" verticalCenter="0" right="33" width="134" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="DaJiangSaiPaiHang_png"/>
+					</e:Group>
+					<e:Group id="saiSel" width="230" height="100" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+					<e:Image width="254" height="98" source="XuanZhong_png" horizontalCenter="14" verticalCenter="0"/>
+					<e:Image width="58" height="68" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="JiangBei_png"/>
+					<e:Image height="31" verticalCenter="0" right="33" width="134" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="DaJiangSaiPaiHang_H_png"/>
+					</e:Group>
+					<e:Button id="saiBtn" label="" horizontalCenter="0" verticalCenter="0" alpha="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="WeiXuanZhong_png" source.down="WeiXuanZhong_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Group id="zhouGroup" width="230" height="100" x="0" y="336" scaleX="1" scaleY="1">
+					<e:Group id="zhouUnSel" width="230" height="100" horizontalCenter="0" verticalCenter="0">
+					<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="0" verticalCenter="0" x="1" y="2" scaleX="1" scaleY="1"/>
+					<e:Image width="60" height="57" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="HuangGuan_png"/>
+					<e:Image height="31" verticalCenter="0" right="33" width="108" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="GuanJunBang_png"/>
+					</e:Group>
+					<e:Group id="zhouSel" width="230" height="100" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+					<e:Image width="254" height="98" source="XuanZhong_png" horizontalCenter="14" verticalCenter="0"/>
+					<e:Image width="60" height="57" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="HuangGuan_png"/>
+					<e:Image height="31" verticalCenter="0" right="33" width="108" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="GuanJunBang_H_png"/>
+					</e:Group>
+					<e:Button id="zhouBtn" label="" horizontalCenter="0" verticalCenter="0" alpha="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="WeiXuanZhong_png" source.down="WeiXuanZhong_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Group id="tuGroup" width="230" height="100" x="0" y="448" scaleX="1" scaleY="1">
+					<e:Group id="tuUnSel" width="230" height="100" horizontalCenter="0" verticalCenter="0">
+					<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="0" verticalCenter="0" x="1" y="2" scaleX="1" scaleY="1"/>
+					<e:Image width="60" height="57" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="WorldBoss_titleIcon_png"/>
+					<e:Image height="32" verticalCenter="0" right="33" width="83" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="TuMo_png"/>
+					</e:Group>
+					<e:Group id="tuSel" width="230" height="100" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+					<e:Image width="254" height="98" source="XuanZhong_png" horizontalCenter="14" verticalCenter="0"/>
+					<e:Image width="60" height="57" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="WorldBoss_titleIcon_png"/>
+					<e:Image height="32" verticalCenter="0" right="33" width="83" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="TuMo_H_png"/>
+					</e:Group>
+					<e:Button id="tuBtn" label="" horizontalCenter="0" verticalCenter="0" alpha="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="WeiXuanZhong_png" source.down="WeiXuanZhong_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+				</e:Group>
+			</e:Group>
+		</e:Scroller>
+		<e:Label id="nullLab" text="排行榜暂无数据" horizontalCenter="127" verticalCenter="0" size="40" bold="true" visible="false"/>
+	</e:Group>
+</e:Skin>

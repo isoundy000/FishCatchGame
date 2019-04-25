@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Confirm" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group width="648" height="493" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="1280" height="720" horizontalCenter="0" verticalCenter="0" fillAlpha="0.1"/>
+		<e:Image width="648" height="493" source="common_black_bg_png" anchorOffsetX="0.5" anchorOffsetY="0.5" fillMode="clip" scale9Grid="10,10,1,1" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Image id="titleBgBig" width="644" height="432" y="58" fillMode="clip" anchorOffsetX="0.5" horizontalCenter="0.5" source="common_panel_big_bg_png" scale9Grid="30,74,19,450"/>
+		<e:Image id="titleBgInner" width="611" height="304" y="88" fillMode="clip" anchorOffsetX="0.5" horizontalCenter="0.5" source="LanDi_png" scale9Grid="20,21,86,47"/>
+		<e:Image id="titleBg" width="637" height="76" y="-1" fillMode="scale" anchorOffsetX="0.5" source="titleConfirm_png" x="4.5"/>
+		<e:Label text="赠送给" size="35" bold="true" textAlign="right" height="40" verticalCenter="105.5" textColor="0xd5efe7" left="77"/>
+		<e:Button id="closeBtn" label="" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="278.5" verticalCenter="-208">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="itemName" text="锁定锁定" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="-123.5" height="50" width="300" verticalAlign="middle" textAlign="center" bold="true"/>
+		<e:Image id="shuruBg" width="379" height="54" source="ID_ShuRu_png" horizontalCenter="60.5" verticalCenter="102.5" scale9Grid="27,0,0,54"/>
+		<e:EditableText id="username" width="259.09" height="34.85" text="请输入对方的ID" x="249.42" y="334.67" anchorOffsetY="0" anchorOffsetX="0" textColor="0xf2f2f2" textAlign="center"/>
+		<e:Image id="numBg" width="291" height="43" y="271.68" source="JiaJian_ShuLiang_Di_png" scale9Grid="27,0,0,43" horizontalCenter="1" scaleX="0.9" scaleY="0.9"/>
+		<e:Image id="jiaBg" width="56" height="39" source="JiaJian_Di_png" verticalCenter="45" horizontalCenter="107" scaleX="0.9" scaleY="0.9"/>
+		<e:Image id="jianBg" width="56" height="39" source="JiaJian_Di_png" verticalCenter="45" horizontalCenter="-105" rotation="180" scaleY="-0.9" scaleX="0.9"/>
+		<e:Button id="resouceBtn" label="" horizontalCenter="-104.5" width="31" height="25" anchorOffsetY="12.5" y="290.15" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="send_jian_png" source.down="send_jian_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="addBtn" label="" horizontalCenter="106.5" width="31" height="25" anchorOffsetY="12.5" y="290.77" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="send_add_png" source.down="send_add_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="numLab" text="100" horizontalCenter="0" size="40" textColor="0x020000" bold="true" textAlign="center" height="40" verticalCenter="45.5" scaleX="0.9" scaleY="0.9"/>
+		<e:Group id="sendBtn" width="260" height="81.33" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="13">
+			<e:Image width="185" height="82" source="common_s_y_btn_png" scale9Grid="81,0,1,70" horizontalCenter="0" verticalCenter="1"/>
+			<e:Image width="56" height="28" source="Char_QunDing_png" horizontalCenter="0" verticalCenter="-1.1649999999999991" scaleX="1.4" scaleY="1.4"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="itemGroup" width="1" height="1" horizontalCenter="0.5" verticalCenter="-43.5" scaleX="1" scaleY="1"/>
+</e:Skin>

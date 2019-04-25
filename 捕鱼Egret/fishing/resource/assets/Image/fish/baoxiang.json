@@ -1,0 +1,52 @@
+{"mc":{
+	"baoxiang":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"baoxiang_0000",
+			"x":1,
+			"y":2
+			},
+			{
+			"res":"baoxiang_0001",
+			"x":1,
+			"y":2
+			},
+			{
+			"res":"baoxiang_0002",
+			"x":2,
+			"y":2
+			},
+			{
+			"res":"baoxiang_0003",
+			"x":1,
+			"y":2
+			},
+			{
+			"res":"baoxiang_0004",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"baoxiang_0005",
+			"x":1,
+			"y":2
+			}
+			]
+}},
+	"res":{
+		"baoxiang_0000":{"x":196,"y":0,"w":192,"h":207},
+		"baoxiang_0001":{"x":0,"y":212,"w":192,"h":207},
+		"baoxiang_0002":{"x":195,"y":418,"w":192,"h":207},
+		"baoxiang_0003":{"x":0,"y":421,"w":191,"h":207},
+		"baoxiang_0005":{"x":196,"y":209,"w":192,"h":207},
+		"baoxiang_0004":{"x":0,"y":0,"w":194,"h":210}
+	}}

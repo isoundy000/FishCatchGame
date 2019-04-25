@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossComing" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Rect id="bg" width="1280" height="720" x="0" y="2" fillAlpha="0.75" fillColor="0x000000"/>
+	<e:Image id="heiDi" width="855" height="150" x="198" y="256.33" source="Di_1_png" scale9Grid="24,0,7,150"/>
+	<e:Group id="group0" width="1" height="1" x="1000.36" y="380">
+		<e:Group id="name_1" width="1" height="1" x="62" y="-33">
+		</e:Group>
+		<e:Group id="rate_1" width="1" height="1" x="-75.68" y="31.33">
+		</e:Group>
+	</e:Group>
+	<e:Group id="group" width="1" height="1" x="111.36" y="380">
+		<e:Group id="name_2" width="1" height="1" x="62" y="-33">
+		</e:Group>
+		<e:Group id="rate_2" width="1" height="1" x="-75.68" y="31.33">
+		</e:Group>
+	</e:Group>
+	<e:Image id="Danger_1" width="1248" height="50" x="16.89" y="222.33" source="Tiao_Shang_png" scaleX="1" scaleY="1"/>
+	<e:Image id="Danger_2" width="1240" height="50" x="21.56" y="406.33" source="Tiao_Xia_png"/>
+	<e:Group id="group1" width="1" height="1" x="588.36" y="380">
+		<e:Group id="name_3" width="1" height="1" x="62" y="-33">
+		</e:Group>
+		<e:Group id="rate_3" width="1" height="1" x="-75.68" y="31.33">
+		</e:Group>
+	</e:Group>
+	<e:Image id="Zi_2" width="270" height="129" x="499" y="275.83" source="LaiLin_png" scaleX="1" scaleY="1" visible="false"/>
+	<e:Image id="Zi_1" width="270" height="129" x="499" y="275.83" source="LaiLin_png" scaleX="1" scaleY="1" visible="false"/>
+	<e:Image id="Zi_3" width="270" height="129" x="640" y="329.83" source="LaiLin_png" scaleX="1" scaleY="1" anchorOffsetX="141" anchorOffsetY="53.5" visible="false"/>
+	<e:Image id="L" width="653" height="104" x="651.36" y="337.36" source="GuanGongLaiXi_png" anchorOffsetX="326.5" anchorOffsetY="52" visible="false"/>
+	<e:Image id="R" width="653" height="104" x="651.36" y="337.36" source="GuanGongLaiXi_png" anchorOffsetY="52" anchorOffsetX="326.5" visible="false"/>
+	<e:Image id="N" width="653" height="104" x="651.36" y="337.36" source="GuanGongLaiXi_png" anchorOffsetY="52" anchorOffsetX="326.5" visible="false"/>
+</e:Skin>

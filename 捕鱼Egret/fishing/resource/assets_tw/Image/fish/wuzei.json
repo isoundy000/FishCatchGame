@@ -1,0 +1,40 @@
+{"mc":{
+	"wuzei":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":4}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"HuangGua0000",
+			"x":0,
+			"y":4
+			},
+			{
+			"res":"HuangGua0001",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"HuangGua0002",
+			"x":1,
+			"y":3
+			},
+			{
+			"res":"HuangGua0003",
+			"x":1,
+			"y":4
+			}
+			]
+}},
+	"res":{
+		"HuangGua0000":{"x":85,"y":61,"w":83,"h":53},
+		"HuangGua0003":{"x":170,"y":61,"w":83,"h":51},
+		"HuangGua0001":{"x":0,"y":0,"w":84,"h":59},
+		"HuangGua0002":{"x":0,"y":61,"w":83,"h":54}
+	}}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishLoginSkin" width="288" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group width="288" height="93" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" maxHeight="160" maxWidth="165">
+		<e:Group width="288" height="93" x="0" y="0" touchEnabled="false">
+			<e:Image id="image_bg" width="288" height="93" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="roomListItemUnChoos_png"/>
+			<e:Image id="image_select" width="288" height="93" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="roomListItemChoos_png" visible="false"/>
+			<e:Image width="157" height="40" scaleX="1" scaleY="1" source="roomListIcon_png" x="49" y="21"/>
+			<e:Image id="image_num" width="42" height="53" x="142" y="16" scaleX="1" scaleY="1" source="92_png" visible="false"/>
+			<e:Label id="name_lab" text="1" x="151" y="27" scaleX="1" scaleY="1" bold="true" textColor="0x000000" visible="false"/>
+			<e:BitmapLabel id="name_bitlab" y="30" font="number1_fnt" text="49" x="141" scaleX="1" scaleY="1"/>
+			<e:Image id="imgStage_2" width="66" height="70" source="roomlistBusy_png" x="211" y="6" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image id="imgStage_1" width="66" height="70" x="211" y="6" source="roomlistGreen_png" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image id="imgStage_3" width="66" height="70" x="211" y="6" source="roomlistOwn_png" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image id="imgStage_4" width="66" height="70" x="211" y="6" source="roomlistMax_png" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Group id="okBtn" width="288" height="93" x="0" y="0"/>
+	</e:Group>
+</e:Skin>

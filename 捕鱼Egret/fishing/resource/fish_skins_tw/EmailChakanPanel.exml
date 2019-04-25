@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Confirm" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="648" height="493" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="1280" height="720" horizontalCenter="0" verticalCenter="0" fillAlpha="0.5"/>
+		<e:Image width="648" height="493" source="common_black_bg_png" anchorOffsetX="0.5" anchorOffsetY="0.5" fillMode="clip" scale9Grid="10,10,1,1" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Image id="titleBgBig" width="644" height="432" y="58" fillMode="clip" anchorOffsetX="0.5" horizontalCenter="0.5" source="common_panel_big_bg_png" scale9Grid="30,74,19,450"/>
+		<e:Image id="titleBgInner" width="611" height="384" y="88" fillMode="clip" anchorOffsetX="0.5" horizontalCenter="0.5" source="lottery_bg_inner_png" scale9Grid="14,20,27,16"/>
+		<e:Image id="titleBg" width="637" height="76" y="-1" fillMode="scale" anchorOffsetX="0.5" source="titleConfirm_png" x="4.5"/>
+		<e:Image id="tishi" width="102" height="46" source="confirmTishi_png" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" top="18"/>
+		<e:Scroller id="scrol" width="600" height="140" horizontalCenter="0" verticalCenter="53.5">
+			<e:Group id="scrolGroup" anchorOffsetX="600" anchorOffsetY="140"/>
+		</e:Scroller>
+		<e:Group id="oneGroup" width="120" height="70" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="174">
+			<e:Group id="lingqu" width="112" height="71" verticalCenter="0" horizontalCenter="0" touchEnabled="false">
+				<e:Image width="120" height="70" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="5"/>
+				<e:Image id="endLingqu" width="120" height="75" source="WeiWanCheng_AnNiu_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgLingqu" width="58" height="27" verticalCenter="0" horizontalCenter="0" source="LingQu_png"/>
+				<e:Image id="imgYilingqu" width="73" height="28" source="YiLingQu_png" verticalCenter="0" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group id="chakan" width="112" height="71" verticalCenter="0" y="10" horizontalCenter="0" touchEnabled="false">
+				<e:Image width="120" height="70" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="5" x="-4" y="-164" scaleX="1" scaleY="1"/>
+				<e:Image id="endChakan" width="120" height="75" source="WeiWanCheng_AnNiu_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="imgChakan" width="58" height="27" verticalCenter="0" horizontalCenter="0" source="ChaKan_png"/>
+				<e:Image id="imgYiChakan" width="73" height="28" verticalCenter="0" horizontalCenter="0" source="YiChaKan_Green_png"/>
+			</e:Group>
+		</e:Group>
+		<e:Label id="showTips" text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="-57" height="100" width="600" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+</e:Skin>

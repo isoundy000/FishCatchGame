@@ -1,0 +1,28 @@
+{"mc":{
+	"ef_finger":{
+		"frameRate":5,
+		"labels":[
+			{"name":"play","frame":1,"end":2}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"ef_finger_1_png",
+			"x":2,
+			"y":15
+			},
+			{
+			"res":"ef_finger_2_png",
+			"x":0,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"ef_finger_2_png":{"x":0,"y":0,"w":149,"h":151},
+		"ef_finger_1_png":{"x":0,"y":153,"w":147,"h":136}
+	}}

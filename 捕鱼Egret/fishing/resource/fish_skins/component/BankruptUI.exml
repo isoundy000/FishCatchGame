@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BankruptUI" width="364" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" width="350" height="50" x="5" y="19" scale9Grid="35,0,97,42" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="bankrupt_bg_png"/>
+	<e:Group id="getBtn" width="79" height="75" x="5" y="1" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image width="59" height="50" x="9" y="6" scaleX="1" scaleY="1" source="bankrupt_icon_png"/>
+		<e:Image width="75" height="22" x="0" y="45" scaleX="1" scaleY="1" source="bankrupt_get_png"/>
+	</e:Group>
+	<e:Label id="timeTxt" text="" anchorOffsetX="0" width="261" anchorOffsetY="0" height="33" textAlign="center" verticalAlign="middle" size="26" stroke="2" bold="true" verticalCenter="8" horizontalCenter="28.5" touchEnabled="false"/>
+</e:Skin>

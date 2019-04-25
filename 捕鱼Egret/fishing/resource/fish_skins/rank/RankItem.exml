@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmailItme" width="651" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="651" height="105" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="651" height="105" x="0" y="4" source="NeiRongTiao_png" scale9Grid="27,0,4,105"/>
+		<e:Group id="numGroup" width="1" height="1" verticalCenter="-4" horizontalCenter="-275">
+			<e:BitmapLabel id="numLab" width="74" height="37" text="" horizontalCenter="9" verticalCenter="6" font="rankNum_fnt"/>
+			<e:Image id="img1" width="60" height="57" source="rank_Di_1_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+			<e:Image id="img2" width="60" height="57" horizontalCenter="0" verticalCenter="0" source="Di_2_png" visible="false"/>
+			<e:Image id="img3" width="60" height="57" horizontalCenter="0" verticalCenter="0" source="rank_Di_3_png" visible="false"/>
+			<e:Group id="weekGroup" width="65" height="65" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="3">
+				<e:Label id="lab1" text="99.99" size="21" stroke="1" horizontalCenter="0" verticalCenter="-17"/>
+				<e:Label id="henggang" text="—" size="21" stroke="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="lab2" text="99.99" size="21" stroke="1" horizontalCenter="0" verticalCenter="17"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="iconGroup" width="1" height="1" horizontalCenter="-201" verticalCenter="0"/>
+		<e:Label id="nameLab" text="名称" verticalCenter="-18.5" textAlign="left" left="178" textColor="0x12345e"/>
+		<e:Label id="lvLab" text="Lv.19" verticalCenter="19.5" textAlign="left" left="178" textColor="0x12345e"/>
+		<e:Label id="expLab" text="经验:" verticalCenter="19.5" textAlign="left" textColor="0x12345E" right="223" width="85" anchorOffsetX="0"/>
+		<e:Label id="goldExp" text="金币:" verticalCenter="19.5" textAlign="left" textColor="0x12345E" right="181" width="129" visible="false"/>
+		<e:Label id="scoreLab" text="积分:" verticalCenter="19.5" textAlign="left" textColor="0x12345E" right="181" width="129" visible="false"/>
+		<e:Group id="vipGroup" width="40" height="39" horizontalCenter="-36" verticalCenter="20">
+			<e:Image id="Vip_Di_png" width="40" height="39" x="0" source="Vip_Di_png" y="0"/>
+			<e:BitmapLabel id="vipLab" width="20" height="20" font="iconNum_1_fnt" text="9" horizontalCenter="-1" verticalCenter="-1.5" scaleX="0.7" scaleY="0.7"/>
+		</e:Group>
+		<e:Group id="expGroup" width="1" height="1" left="473" verticalCenter="13">
+			<e:BitmapLabel id="expLabel" width="234" height="30" scaleX="1" scaleY="1" font="vipShow_fnt" text="1000000000" verticalCenter="5.5" left="-58" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

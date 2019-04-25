@@ -1,0 +1,52 @@
+{"mc":{
+	"qunbaiyu":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"qunbaiyu_0001",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"qunbaiyu_0002",
+			"x":4,
+			"y":2
+			},
+			{
+			"res":"qunbaiyu_0003",
+			"x":7,
+			"y":7
+			},
+			{
+			"res":"qunbaiyu_0004",
+			"x":6,
+			"y":8
+			},
+			{
+			"res":"qunbaiyu_0005",
+			"x":2,
+			"y":8
+			},
+			{
+			"res":"qunbaiyu_0006",
+			"x":0,
+			"y":8
+			}
+			]
+}},
+	"res":{
+		"qunbaiyu_0004":{"x":106,"y":109,"w":100,"h":48},
+		"qunbaiyu_0001":{"x":0,"y":0,"w":105,"h":56},
+		"qunbaiyu_0005":{"x":0,"y":116,"w":104,"h":48},
+		"qunbaiyu_0003":{"x":104,"y":58,"w":99,"h":49},
+		"qunbaiyu_0006":{"x":108,"y":0,"w":105,"h":46},
+		"qunbaiyu_0002":{"x":0,"y":58,"w":101,"h":56}
+	}}

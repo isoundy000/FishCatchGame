@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Active_1" width="660" height="470" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="activeRoot" width="660" height="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="660" height="470" x="0" y="0" source="LanDi_png" scale9Grid="24,26,77,38"/>
+		<e:Label id="timeLab" text="活动期间:2017活动期间:" anchorOffsetX="0" width="608" anchorOffsetY="0" height="30" horizontalCenter="0" verticalCenter="-202.5" textAlign="center" size="28"/>
+		<e:Label id="desc" text="活动期间:2017活动期间:2017活动期间:2017活动期间:20" anchorOffsetX="0" width="608" anchorOffsetY="0" height="61" horizontalCenter="0" verticalCenter="-151.5" textAlign="center"/>
+		<e:Image width="610" height="207" horizontalCenter="0" verticalCenter="0" source="ID_ShuRu_png" scale9Grid="25,23,5,8"/>
+		<e:Image width="74" height="33" verticalCenter="-74.5" left="43" source="active_json.active_jiangli"/>
+		<e:Group id="gainIconGroup_80" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-120" verticalCenter="-13.5"/>
+		<e:Label id="gainLab_0" text="x50万" size="30" horizontalCenter="-119.5" verticalCenter="67" textColor="0xffb900" bold="true"/>
+		<e:Group id="gainIconGroup_0" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="120" verticalCenter="-13.5"/>
+		<e:Label id="gainLab_1" text="x50万" size="30" horizontalCenter="120.5" verticalCenter="67" textColor="0xFFB900" bold="true"/>
+		<e:Group id="gainGroup" width="274" height="87" horizontalCenter="0" verticalCenter="173.5">
+			<e:Image width="274" height="87" source="common_big_s_y_btn_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="lingqu" width="122" height="33" horizontalCenter="0" verticalCenter="-3" scaleX="1" scaleY="1" source="active_LingQuJiangLi_png"/>
+			<e:Image id="toGain" width="92" height="33" horizontalCenter="0" verticalCenter="-3" scaleX="1" scaleY="1" source="YiLingQu_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

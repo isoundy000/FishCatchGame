@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="817" height="456" source="common_panel_big_bg_png" scale9Grid="30,74,22,450" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="titleBg" width="865" height="98" source="vip_CaiDai_png" horizontalCenter="0" top="74"/>
+		<e:Image id="title" width="326" height="59" source="Share_BiaoTi_png" horizontalCenter="0" top="82"/>
+		<e:Button id="btnClose" label="" horizontalCenter="360.5" verticalCenter="-224.5" width="63" height="63" anchorOffsetX="31.5" anchorOffsetY="31.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png" source.disabled="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="innerBg" width="777" height="394" source="exchange_numBg_png" horizontalCenter="0" verticalCenter="11" scale9Grid="15,16,17,14"/>
+		<e:Image id="downBg" width="777" height="60" source="DuiHuanShuoMing_DiBan_png" bottom="154" horizontalCenter="0" scale9Grid="20,10,20,50"/>
+		<e:Button id="helpBtn" label="" width="52" anchorOffsetX="26" anchorOffsetY="26" horizontalCenter="-350" verticalCenter="180">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="GuiZe_BangZhu_png" source.down="GuiZe_BangZhu_png" source.disabled="GuiZe_BangZhu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="contain" width="557" height="313" horizontalCenter="6" verticalCenter="-16">
+			<e:Group id="item_left" width="236" height="324" horizontalCenter="-255" verticalCenter="0" scaleX="1" scaleY="1">
+				<e:Image id="itembg_0" width="236" height="324" source="exchange_ZhanShi_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="item_innerBg_0" width="190" height="230" source="exchange_numBg_png" horizontalCenter="0" verticalCenter="21" scale9Grid="15,15,17,14" alpha="0.5"/>
+				<e:Image id="itemTitle_0" width="118" height="32" horizontalCenter="0" top="25" source="Share_XinRenJiangLi_png"/>
+				<e:Label id="itemDesc_0" text="分享到朋友圈可获得奖励" horizontalCenter="0" top="83" textAlign="left" width="165" height="43" size="20" bold="true"/>
+				<e:Group id="iconGroup_1" width="1" height="1" horizontalCenter="-40" verticalCenter="11.5"/>
+				<e:Group id="iconGroup_2" width="1" height="1" horizontalCenter="40" verticalCenter="11.5"/>
+				<e:Group id="gainBtn" width="181" height="72" horizontalCenter="0" verticalCenter="96">
+				<e:Image width="169" height="65" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="4" scale9Grid="30,0,61,68"/>
+				<e:Image width="58" height="27" horizontalCenter="0" verticalCenter="2" source="LingQu_png"/>
+				</e:Group>
+				<e:Group id="gainedBtn" width="181" height="72" horizontalCenter="0" verticalCenter="96">
+				<e:Image width="169" height="65" horizontalCenter="0" verticalCenter="4" source="WeiWanCheng_AnNiu_png" scale9Grid="30,0,106,72"/>
+				<e:Image width="73" height="28" horizontalCenter="0" verticalCenter="2" source="YiLingQu_Green_png"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="item_center" width="236" height="324" horizontalCenter="0" verticalCenter="0" scaleX="1" scaleY="1">
+				<e:Image id="itembg_1" width="236" height="324" source="exchange_ZhanShi_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="item_innerBg_1" width="190" height="230" source="exchange_numBg_png" horizontalCenter="0" verticalCenter="21" scale9Grid="15,15,17,14" alpha="0.5"/>
+				<e:Image id="itemTitle_1" width="118" height="32" source="Share_YaoQingJiangLi_png" horizontalCenter="0" top="25"/>
+				<e:Label id="itemDesc_1" text="分享到朋友圈可获得奖励" horizontalCenter="0" top="83" textAlign="left" width="165" height="43" size="20" bold="true"/>
+				<e:Group id="iconGroup" width="1" height="1" horizontalCenter="0.5" verticalCenter="11.5"/>
+				<e:Label id="item_desc2" text="已成功邀请好友3人" size="15" horizontalCenter="0" verticalCenter="59.5" textAlign="center" textColor="0x00ff00" bold="true" width="144" height="18"/>
+				<e:Group id="inviteBtn" width="181" height="72" horizontalCenter="0" verticalCenter="96">
+					<e:Image width="169" height="65" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="4" scale9Grid="30,0,61,68"/>
+					<e:Image width="96" height="24" source="Share_YaoQingDeDaJiang_png" horizontalCenter="0" verticalCenter="2"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="item_right" width="236" height="324" horizontalCenter="255" verticalCenter="0" scaleX="1" scaleY="1">
+				<e:Image id="itembg_2" width="236" height="324" source="exchange_ZhanShi_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image id="item_innerBg_2" width="190" height="230" source="exchange_numBg_png" horizontalCenter="0" verticalCenter="21" scale9Grid="15,15,17,14" alpha="0.5"/>
+				<e:Image id="itemTitle_2" width="118" height="32" horizontalCenter="0" top="25" source="Share_HaoYouJinJie_png"/>
+				<e:Label id="itemDesc_2" text="您邀请的好友:" horizontalCenter="0" top="83" textAlign="left" width="165" height="22" size="20" bold="true"/>
+				<e:Scroller width="175" height="124" horizontalCenter="0" verticalCenter="6">
+					<e:Group id="listGroup"/>
+				</e:Scroller>
+				<e:Group id="listBtn" width="181" height="72" horizontalCenter="0" verticalCenter="96">
+				<e:Image width="169" height="65" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="4" scale9Grid="30,0,61,68"/>
+				<e:Image width="78" height="23" horizontalCenter="0" verticalCenter="2" source="Share_ChaKanJiangLi_png"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

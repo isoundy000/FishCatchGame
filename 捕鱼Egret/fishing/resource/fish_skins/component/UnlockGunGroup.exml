@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UnlockGunGroup" width="295" height="104" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="295" height="104" verticalCenter="0" anchorOffsetX="0" anchorOffsetY="0.5" left="0">
+		<e:Image width="295" height="114" source="room_json.message_bg" verticalCenter="0" horizontalCenter="0"/>
+		<e:Image id="gunUpdateBg" width="166" height="36" source="room_json.message_txt_bg" scale9Grid="17,0,31,30" horizontalCenter="37.5" verticalCenter="15"/>
+		<e:Image id="icon" width="77" height="68" source="common_diamond_png" scaleX="0.6" scaleY="0.6" horizontalCenter="-29" verticalCenter="15"/>
+		<e:Label id="gunUpdateTips" text="点击解锁20倍炮" anchorOffsetX="0.5" anchorOffsetY="0.5" verticalCenter="-23.5" size="23" horizontalCenter="37.5"/>
+		<e:Group id="send" width="177" height="36" horizontalCenter="47" verticalCenter="15.5" visible="false">
+			<e:Image width="50" height="49" verticalCenter="3" source="room_json.Zeng" horizontalCenter="-85"/>
+			<e:Group id="numGroup" width="1" height="1" verticalCenter="1" horizontalCenter="-8"/>
+			<e:Image width="77" height="77" source="common_coins_png" verticalCenter="-0.5" horizontalCenter="68.5" scaleX="0.41" scaleY="0.41"/>
+		</e:Group>
+		<e:Group id="updateGunCostGroup" width="1" height="1" right="103" verticalCenter="15.5"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,52 @@
+{"mc":{
+	"addGunRate":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"addGunRate_0000_png",
+			"x":78,
+			"y":73
+			},
+			{
+			"res":"addGunRate_0001_png",
+			"x":68,
+			"y":68
+			},
+			{
+			"res":"addGunRate_0002_png",
+			"x":32,
+			"y":32
+			},
+			{
+			"res":"addGunRate_0003_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"addGunRate_0004_png",
+			"x":24,
+			"y":24
+			},
+			{
+			"res":"addGunRate_0005_png",
+			"x":28,
+			"y":35
+			}
+			]
+}},
+	"res":{
+		"addGunRate_0005_png":{"x":222,"y":0,"w":160,"h":76},
+		"addGunRate_0001_png":{"x":222,"y":79,"w":84,"h":84},
+		"addGunRate_0004_png":{"x":0,"y":222,"w":174,"h":174},
+		"addGunRate_0002_png":{"x":176,"y":222,"w":156,"h":156},
+		"addGunRate_0000_png":{"x":308,"y":79,"w":63,"h":63},
+		"addGunRate_0003_png":{"x":0,"y":0,"w":220,"h":220}
+	}}

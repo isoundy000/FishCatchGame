@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FrozenAndLock" width="320" height="140" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="274" height="57" source="DiKuang_Di_png" horizontalCenter="1" bottom="-7" scale9Grid="38,0,235,50"/>
+	<e:Group id="frozenGroup" width="1" height="1" x="103.65" verticalCenter="15.5"/>
+	<e:Group id="lockGroup" width="1" height="1" x="220.35" verticalCenter="15.5"/>
+</e:Skin>

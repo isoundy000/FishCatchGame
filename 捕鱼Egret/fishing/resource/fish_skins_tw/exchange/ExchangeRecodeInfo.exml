@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonHelpUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="500" height="400" source="common_panel_big_bg_png" scale9Grid="34,33,14,535" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="bgInner" width="470" height="370" source="LanDi_png" scale9Grid="22,22,83,45" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="oneLab" text="支付宝账号:XXXXXXXXXXX" horizontalCenter="0" verticalCenter="0" width="430" textAlign="center" visible="false"/>
+		<e:Group id="goodsGroup" width="470" height="370" horizontalCenter="0" verticalCenter="0">
+			<e:Label text="姓名:" verticalCenter="-110" right="320"/>
+			<e:Label id="nameLab" text="" verticalCenter="-110" textAlign="left" left="159" width="300"/>
+			<e:Label id="phoneLab" text="" verticalCenter="-55" textAlign="left" left="159" width="300"/>
+			<e:Label id="qqLab" text="" verticalCenter="0" textAlign="left" left="159" width="300"/>
+			<e:Label id="addLab" text="" textAlign="left" left="159" width="300" height="130" top="227"/>
+			<e:Label text="手机号码:" verticalCenter="-55" right="320"/>
+			<e:Label text="QQ:" verticalCenter="0" right="320"/>
+			<e:Label text="地址:" verticalCenter="55" right="320"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

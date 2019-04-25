@@ -1,0 +1,17 @@
+{"file":"bitmapNum_3.png","frames":{
+"倍":{"x":89,"y":1,"w":26,"h":27,"offX":1,"offY":0,"sourceW":28,"sourceH":27},
+"炮":{"x":1,"y":1,"w":27,"h":27,"offX":0,"offY":0,"sourceW":28,"sourceH":27},
+"升":{"x":30,"y":1,"w":27,"h":27,"offX":1,"offY":0,"sourceW":28,"sourceH":27},
+"元":{"x":59,"y":29,"w":26,"h":26,"offX":1,"offY":1,"sourceW":28,"sourceH":27},
+".":{"x":117,"y":1,"w":9,"h":8,"offX":3,"offY":18,"sourceW":14,"sourceH":27},
+"0":{"x":1,"y":54,"w":17,"h":22,"offX":0,"offY":0,"sourceW":18,"sourceH":22},
+"1":{"x":105,"y":54,"w":12,"h":22,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"2":{"x":87,"y":54,"w":16,"h":22,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"3":{"x":38,"y":54,"w":16,"h":22,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"4":{"x":1,"y":30,"w":18,"h":22,"offX":0,"offY":0,"sourceW":18,"sourceH":22},
+"5":{"x":20,"y":54,"w":16,"h":22,"offX":0,"offY":0,"sourceW":18,"sourceH":22},
+"6":{"x":106,"y":30,"w":17,"h":22,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"7":{"x":40,"y":30,"w":17,"h":22,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"8":{"x":87,"y":30,"w":17,"h":22,"offX":0,"offY":0,"sourceW":18,"sourceH":22},
+"9":{"x":21,"y":30,"w":17,"h":22,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"級":{"x":59,"y":1,"w":28,"h":26,"offX":0,"offY":1,"sourceW":28,"sourceH":27}}}

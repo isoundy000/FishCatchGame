@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MonthRewardUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="674" height="332" anchorOffsetX="0.52" anchorOffsetY="0.36" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="titleBgInner" width="699" height="315" fillMode="clip" anchorOffsetX="0.5" horizontalCenter="1" top="23" source="common_panel_big_bg_png" scale9Grid="36,52,15,482" anchorOffsetY="0"/>
+		
+        <e:Image width="690" height="58" horizontalCenter="1.5" top="-4" source="titleConfirm_png" scale9Grid="322,0,38,76"/>
+		<e:Image id="title" y="4" horizontalCenter="3.5" source="YueKaJiangLi_Jian1_png"/>
+		<e:Scroller id="scroll" width="568" height="164" verticalCenter="-4.835000000000008" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="off" horizontalCenter="0">
+			<e:Group id="scrolGroup" anchorOffsetX="600" anchorOffsetY="140" width="100%" height="100%" y="142.67">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="12"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Group id="okBtn" width="205" height="57" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1" verticalCenter="125.16499999999999" scaleX="1" scaleY="1">
+			<e:Image id="bg" width="205" height="57" horizontalCenter="0" verticalCenter="0" scaleX="1.25" scaleY="1.25" source="common_big_s_y_btn_png"/>
+			<e:Image id="btnIcon" width="90" height="42" horizontalCenter="0.5" verticalCenter="-3" scaleX="1.25" scaleY="1.25" source="QueRen_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

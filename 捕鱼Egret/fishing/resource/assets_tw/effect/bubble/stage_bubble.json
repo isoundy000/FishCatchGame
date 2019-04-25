@@ -1,0 +1,64 @@
+{"mc":{
+	"stageBubble":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":8}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"stage_bubble_0001",
+			"x":7,
+			"y":38
+			},
+			{
+			"res":"stage_bubble_0002",
+			"x":5,
+			"y":29
+			},
+			{
+			"res":"stage_bubble_0003",
+			"x":4,
+			"y":23
+			},
+			{
+			"res":"stage_bubble_0004",
+			"x":3,
+			"y":15
+			},
+			{
+			"res":"stage_bubble_0005",
+			"x":1,
+			"y":6
+			},
+			{
+			"res":"stage_bubble_0006",
+			"x":0,
+			"y":1
+			},
+			{
+			"res":"stage_bubble_0007",
+			"x":5,
+			"y":23
+			},
+			{
+			"res":"stage_bubble_0008",
+			"x":15,
+			"y":18
+			}
+			]
+}},
+	"res":{
+		"stage_bubble_0003":{"x":30,"y":80,"w":23,"h":23},
+		"stage_bubble_0002":{"x":30,"y":104,"w":19,"h":21},
+		"stage_bubble_0008":{"x":35,"y":70,"w":5,"h":6},
+		"stage_bubble_0005":{"x":0,"y":41,"w":34,"h":38},
+		"stage_bubble_0007":{"x":35,"y":41,"w":22,"h":15},
+		"stage_bubble_0004":{"x":0,"y":80,"w":28,"h":35},
+		"stage_bubble_0006":{"x":0,"y":0,"w":37,"h":39},
+		"stage_bubble_0001":{"x":35,"y":57,"w":14,"h":12}
+	}}

@@ -1,0 +1,10 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": false,
+  "exmls": [
+    "resource/fish_skins/FishLogin.exml",
+    "resource/fish_skins/component/LoadingProgress.exml",
+    "resource/fish_skins/Loading.exml",
+    "resource/fish_skins/anim/LoadingAnim.exml"
+  ]
+}

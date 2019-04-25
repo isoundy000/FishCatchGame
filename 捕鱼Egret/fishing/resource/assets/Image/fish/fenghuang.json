@@ -1,0 +1,52 @@
+{"mc":{
+	"fenghuang":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"fenghuang_0000",
+			"x":0,
+			"y":21
+			},
+			{
+			"res":"fenghuang_0001",
+			"x":19,
+			"y":0
+			},
+			{
+			"res":"fenghuang_0002",
+			"x":27,
+			"y":108
+			},
+			{
+			"res":"fenghuang_0003",
+			"x":41,
+			"y":215
+			},
+			{
+			"res":"fenghuang_0004",
+			"x":38,
+			"y":183
+			},
+			{
+			"res":"fenghuang_0005",
+			"x":3,
+			"y":124
+			}
+			]
+}},
+	"res":{
+		"fenghuang_0001":{"x":0,"y":0,"w":391,"h":459},
+		"fenghuang_0002":{"x":0,"y":461,"w":384,"h":366},
+		"fenghuang_0000":{"x":393,"y":0,"w":408,"h":419},
+		"fenghuang_0003":{"x":0,"y":829,"w":369,"h":329},
+		"fenghuang_0004":{"x":387,"y":786,"w":370,"h":352},
+		"fenghuang_0005":{"x":393,"y":421,"w":404,"h":363}
+	}}

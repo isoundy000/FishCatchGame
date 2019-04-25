@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DjsMainUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" x="0" y="0">
+		<e:Button id="btnClose" label="" horizontalCenter="553.5" verticalCenter="-286.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="fast" width="300" height="500" horizontalCenter="0" verticalCenter="-110">
+			<e:Image width="291" height="442" source="Djs_Fast_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="descFast" width="150" height="120" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="123" visible="false"/>
+			<e:Group id="btnFast" width="200" height="46.97" anchorOffsetY="0" horizontalCenter="0" verticalCenter="213.5">
+				<e:Image width="181" height="70" source="common_s_y_btn_png" horizontalCenter="0.5" verticalCenter="-2.4849999999999994" scale9Grid="81,0,1,70"/>
+				<e:Image width="67" height="30" source="Djs_TiaoZhan_png" horizontalCenter="0.5" verticalCenter="-4.484999999999999"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="djs" width="300" height="500" horizontalCenter="-350" verticalCenter="-110">
+			<e:Image width="291" height="447" source="Djs_djs_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="descDjs" width="150" height="120" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="123" visible="false"/>
+			<e:Group id="btnDjs" width="200" height="46.97" anchorOffsetY="0" horizontalCenter="0" verticalCenter="213.5" x="400" y="440" scaleX="1" scaleY="1">
+				<e:Image width="181" height="70" source="common_s_y_btn_png" horizontalCenter="0.5" verticalCenter="-2.4849999999999994" scale9Grid="81,0,1,70"/>
+				<e:Image width="67" height="30" source="Djs_TiaoZhan_png" horizontalCenter="0.5" verticalCenter="-4.484999999999999"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="all" width="300" height="500" horizontalCenter="350" verticalCenter="-110">
+			<e:Image width="291" height="427" source="Djs_All_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="descAll" width="150" height="120" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="5" verticalCenter="123" visible="false"/>
+			<e:Group id="btnAll" width="200" height="46.97" anchorOffsetY="0" horizontalCenter="0" verticalCenter="213.5" x="-300" y="440" scaleX="1" scaleY="1">
+				<e:Image width="181" height="70" source="common_s_y_btn_png" horizontalCenter="0.5" verticalCenter="-2.4849999999999994" scale9Grid="81,0,1,70"/>
+				<e:Image width="67" height="30" source="Djs_TiaoZhan_png" horizontalCenter="0.5" verticalCenter="-4.484999999999999"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

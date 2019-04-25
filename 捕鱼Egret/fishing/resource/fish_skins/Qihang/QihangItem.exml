@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagItem" width="172" height="106" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="172" height="106" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="172" height="106" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-0.5" source="monthCard_TuBiao_Di_png"/>
+		<e:Group id="itemBg" width="1" height="1" anchorOffsetX="62" anchorOffsetY="62" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+		</e:Group>
+		<e:Label id="countTxt" text="Label" size="26" width="110" textAlign="center" bold="true" stroke="2" scaleX="1" scaleY="1" textColor="0xffffff" horizontalCenter="0" bottom="7"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FrozenAnim" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image id="GuangTiao" width="164" height="33" x="423" y="232" source="ef_ciguangxian_png" anchorOffsetX="82" anchorOffsetY="16.5"/>
+	<e:Image id="XuLie_1" width="256" height="128" x="1049" y="479" source="ef_ui_zalizi_00000_png" anchorOffsetX="128" anchorOffsetY="64" scaleX="1.1" scaleY="1.1"/>
+	<e:Image id="XuLie_2" width="256" height="128" x="1105" y="376" source="ef_ui_zalizi_00001_png" anchorOffsetX="128" anchorOffsetY="64" scaleX="1.1" scaleY="1.1"/>
+	<e:Image id="XuLie_3" width="256" height="128" x="1105" y="215.5" source="ef_ui_zalizi_00002_png" anchorOffsetX="128" anchorOffsetY="64" scaleX="1.1" scaleY="1.1"/>
+	<e:Image id="XuLie_4" width="256" height="128" x="1129.48" y="93" source="ef_ui_zalizi_00003_png" anchorOffsetX="128" anchorOffsetY="64" scaleX="1.1" scaleY="1.1"/>
+	<e:Image id="Zi" width="106" height="53" x="426" y="135" source="ef_bingdong_png" anchorOffsetX="53" anchorOffsetY="26.5"/>
+	<e:Image id="BaoGuang" width="237" height="245" x="196" y="215.5" source="ef_baiseciguang_png" anchorOffsetX="118.5" anchorOffsetY="122.5"/>
+</e:Skin>

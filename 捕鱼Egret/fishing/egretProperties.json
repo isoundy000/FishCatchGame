@@ -1,0 +1,38 @@
+{
+  "native": {
+    "path_ignore": []
+  },
+  "publish": {
+    "web": 0,
+    "native": 1,
+    "path": "bin-release"
+  },
+  "egret_version": "4.0.1",
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "res"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "protobuf",
+      "path": "../ThirdParty/protobuf"
+    },
+    {
+      "name": "dragonbones"
+    }
+  ]
+}

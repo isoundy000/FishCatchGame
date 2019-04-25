@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.7"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="711" height="489" y="127.50000000000001" source="common_panel_big_bg_png" scale9Grid="30,74,19,450" horizontalCenter="1" x="154" scaleX="1" scaleY="1"/>
+		<e:Image width="711" height="70" y="74.15" source="common_panel_bg_png" scale9Grid="535,0,72,74" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image id="title" width="148" height="40" source="userInfo_GeRenXinXi_png" top="92" horizontalCenter="0" anchorOffsetX="74" anchorOffsetY="20"/>
+		<e:Button id="closeBtn" label="" width="63" height="63" anchorOffsetX="31.5" anchorOffsetY="31.5" scaleX="1" scaleY="1" horizontalCenter="316.5" verticalCenter="-249.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="userInfoRight" width="672" height="450" verticalCenter="16" y="180.00000000000003" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Image width="668" height="441" horizontalCenter="0" verticalCenter="0" source="LanDi_png" scale9Grid="48,35,36,16"/>
+			<e:Label id="userName" text="" x="181.96" y="48.79" textAlign="left"/>
+			<e:Label id="userId" text="" x="181.96" y="94.79" textAlign="left"/>
+			<e:Image width="635" height="269" horizontalCenter="0.5" verticalCenter="70.5" source="common_black_bg_png" scale9Grid="10,10,35,36"/>
+			<e:Group id="avatorGroup" width="1" height="1" left="92" verticalCenter="-137"/>
+			<e:Label id="lvStr" text="Lv." textAlign="right" verticalCenter="-165" horizontalCenter="14"/>
+			<e:Group id="lvGroup" width="1" height="1" left="389" verticalCenter="-162.5"/>
+			<e:Group id="vipGroup" width="186" height="100" x="460" y="33.92">
+				<e:Image width="183" height="47" source="ID_ShuRu_png" horizontalCenter="0.5" verticalCenter="-23.5" scale9Grid="19,0,20,54"/>
+				<e:Button label="" width="60" height="60" verticalCenter="-26" left="-3">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="icon_ViP_png" source.down="icon_ViP_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Group id="vipNumGroup" width="0" height="0" verticalCenter="-21.5" horizontalCenter="37.5"/>
+				<e:Group id="chakanGroup" width="170" height="50" horizontalCenter="0" verticalCenter="31">
+					<e:Image width="223" height="70" source="common_s_y_btn_png" verticalCenter="0" horizontalCenter="0" scaleX="0.8" scaleY="0.8" scale9Grid="60,0,2,70"/>
+					<e:Image width="54" height="27" source="userInfo_ChaKan_png" horizontalCenter="0" verticalCenter="-3.5"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="functionGroup" width="625.76" height="257.58" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="72">
+				<e:Group id="scoreGroup" width="305" height="50" left="0" top="0">
+					<e:Image id="an" width="305" height="47" source="Tab_An_png" horizontalCenter="0" verticalCenter="-1.5"/>
+					<e:Image id="liang" width="305" height="47" horizontalCenter="0" verticalCenter="-1.5" x="10" y="10" source="Tab_Liang_png"/>
+					<e:Image id="zi" width="122" height="32" horizontalCenter="0" verticalCenter="0" x="20" y="20" source="userInfo_PuYuJiFen_png"/>
+				</e:Group>
+				<e:Group id="areaGroup" width="305" height="50" left="313" top="0" x="10" y="10" skewX="1">
+					<e:Image id="an0" width="305" height="47" source="Tab_An_png" horizontalCenter="0" verticalCenter="-1.5" skewX="0" skewY="180"/>
+					<e:Image id="liang0" width="305" height="47" horizontalCenter="0" verticalCenter="-1.5" x="10" y="10" source="Tab_Liang_png" skewX="0" skewY="180"/>
+					<e:Image id="zi0" width="91" height="33" horizontalCenter="0" verticalCenter="0" x="20" y="20" source="userInfo_JingJi_png"/>
+				</e:Group>
+				<e:Label text="暂无内容" horizontalCenter="0" verticalCenter="0" bold="true"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

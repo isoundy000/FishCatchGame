@@ -1,0 +1,52 @@
+{"mc":{
+	"gangkuiyu":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"gangkuiyu_0000",
+			"x":0,
+			"y":2
+			},
+			{
+			"res":"gangkuiyu_0001",
+			"x":0,
+			"y":1
+			},
+			{
+			"res":"gangkuiyu_0002",
+			"x":1,
+			"y":0
+			},
+			{
+			"res":"gangkuiyu_0003",
+			"x":1,
+			"y":0
+			},
+			{
+			"res":"gangkuiyu_0004",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"gangkuiyu_0005",
+			"x":0,
+			"y":1
+			}
+			]
+}},
+	"res":{
+		"gangkuiyu_0003":{"x":0,"y":176,"w":159,"h":85},
+		"gangkuiyu_0000":{"x":0,"y":88,"w":160,"h":85},
+		"gangkuiyu_0002":{"x":161,"y":176,"w":159,"h":85},
+		"gangkuiyu_0005":{"x":162,"y":0,"w":160,"h":86},
+		"gangkuiyu_0001":{"x":0,"y":0,"w":160,"h":86},
+		"gangkuiyu_0004":{"x":162,"y":88,"w":160,"h":85}
+	}}

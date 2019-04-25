@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Forge" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" fillColor="0x000000" fillAlpha="0.5" verticalCenter="0" x="-155" y="-75" scaleX="1" scaleY="1"/>
+	<e:Group id="root" width="970" height="570" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="977" height="519" horizontalCenter="0.5" fillMode="scale" y="56" source="common_panel_big_bg_png" anchorOffsetY="0" scale9Grid="31,0,18,598"/>
+		<e:Image id="title" width="977" height="74" horizontalCenter="0" source="titleConfirm_png" fillMode="scale" scale9Grid="308,1,16,75" y="2"/>
+		<e:Image id="titleZi" width="82" height="46" horizontalCenter="0" fillMode="scale" scale9Grid="308,1,16,75" source="duanzaoTitle_png" anchorOffsetY="0.5" anchorOffsetX="0.5" verticalCenter="-244"/>
+		<e:Image width="945" height="461" source="forgeBg_png" horizontalCenter="0" y="90"/>
+		<e:Button id="btnClose" label="" width="63" height="63" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="448.5" verticalCenter="-244.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image width="285.67" height="235.67" x="648.67" y="125.67" source="common_black_bg_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="21,22,9,9"/>
+		<e:Button id="useEns" label="" x="667" y="271" width="55" height="60">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="selectBg_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="okBtn" width="274" height="87" x="659.5" y="405">
+			<e:Image width="274" height="87" source="common_big_s_y_btn_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="81" height="41" horizontalCenter="0" verticalCenter="0" x="10" y="10" source="Char_DuanZao_png"/>
+		</e:Group>
+		<e:Image id="useEnsImag" width="46" height="38" x="671" y="284" source="select_png"/>
+		<e:Label text="勾选后锻造100%成功" x="733" y="283" width="192" height="25" size="20" textColor="0xc0c111" visible="false"/>
+		<e:Label id="costEnsLab" text="勾选后锻造100%成功,所需水晶精华160颗" x="733" y="281.66" width="192" height="41.01" size="20" textColor="0x00c918" anchorOffsetY="0"/>
+		<e:Group id="ensGroup" width="100" height="100" x="741" y="147">
+			<e:Image width="110" height="110" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="3" source="item_bg_png"/>
+			<e:Group id="ensIcon" width="100" height="100" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="costEnsLab0" text="10/10" x="0" y="78.5" width="100" height="25" size="20" anchorOffsetX="0.5" anchorOffsetY="0.5" textColor="0xffffff" scaleX="1" scaleY="1" textAlign="center" stroke="2"/>
+		</e:Group>
+		<e:Group id="item_0" width="100" height="100" x="51" y="207">
+			<e:Image width="110" height="110" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="2.5" source="item_bg_png"/>
+			<e:Group id="ensIcon0" width="100" height="100" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="costEnsLab1" text="10/10" x="0" y="78.5" width="100" height="25" size="20" textColor="0xFFFFFF" anchorOffsetX="0.5" anchorOffsetY="0.5" scaleX="1" scaleY="1" textAlign="center" stroke="2"/>
+		</e:Group>
+		<e:Group width="100" height="100" x="484" y="207" id="item_1">
+			<e:Image width="110" height="110" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="3" source="item_bg_png"/>
+			<e:Group id="ensIcon1" width="100" height="100" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="costEnsLab2" text="10/10" x="0" y="78.5" width="100" height="25" size="20" textColor="0xFFFFFF" anchorOffsetX="0.5" anchorOffsetY="0.5" scaleX="1" scaleY="1" textAlign="center" stroke="2"/>
+		</e:Group>
+		<e:Group width="100" height="100" x="59" y="421" id="item_2">
+			<e:Image width="110" height="110" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="3" source="item_bg_png"/>
+			<e:Group id="ensIcon2" width="100" height="100" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="costEnsLab3" text="10/10" x="0" y="78.5" width="100" height="25" size="20" textColor="0xFFFFFF" anchorOffsetX="0.5" anchorOffsetY="0.5" scaleX="1" scaleY="1" textAlign="center" stroke="2"/>
+		</e:Group>
+		<e:Group width="100" height="100" x="471" y="427" id="item_3">
+			<e:Image width="110" height="110" scaleX="1" scaleY="1" horizontalCenter="1.5" verticalCenter="3" source="item_bg_png"/>
+			<e:Group id="ensIcon3" width="100" height="100" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="costEnsLab4" text="10/10" x="0" y="78.5" width="100" height="25" size="20" textColor="0xFFFFFF" anchorOffsetX="0.5" anchorOffsetY="0.5" scaleX="1" scaleY="1" textAlign="center" stroke="2"/>
+		</e:Group>
+		<e:Group id="gunGroup" width="140.91" height="183.33" x="251" y="267" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="gunImage" width="127" height="136" x="7.5" y="11" source="gun_png" anchorOffsetX="0.5" anchorOffsetY="0.5" scaleX="1" scaleY="1"/>
+			<e:Group id="gunImgGroup" width="1" height="1" x="70" y="78"/>
+		</e:Group>
+		<e:Image id="gunImage0" width="158" height="48" x="244" y="395.5" anchorOffsetX="0.5" anchorOffsetY="0.5" source="paobeiBg_png"/>
+		<e:Label id="titleShow" text="锻造至20000倍炮" y="125" anchorOffsetX="0.5" anchorOffsetY="0.5" verticalAlign="middle" textColor="0x779fff" horizontalCenter="-172" textAlign="center"/>
+		<e:Label id="paobeiNum" text="20000" y="405" anchorOffsetX="0.5" anchorOffsetY="0.5" verticalAlign="middle" textColor="0x9ac600" horizontalCenter="-164"/>
+	</e:Group>
+</e:Skin>

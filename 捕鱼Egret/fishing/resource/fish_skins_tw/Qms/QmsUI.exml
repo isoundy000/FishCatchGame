@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DjsUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="-1.52" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="34">
+		<e:Image id="bg" width="1000" height="562" source="common_panel_big_bg_png" scale9Grid="24,74,27,450" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image width="932" height="451" source="lottery_bg_inner_png" scale9Grid="9,10,39,36" horizontalCenter="0" verticalCenter="23"/>
+		<e:Image id="inner" width="890" height="412" source="LanDi_png" horizontalCenter="-2" verticalCenter="24" scale9Grid="24,24,81,42"/>
+		<e:Image width="707" height="132" source="JinBi_BaoShi_png" horizontalCenter="0.5" top="2"/>
+		<e:Image id="titleBg" width="1050" height="123" horizontalCenter="0" top="32" source="vip_CaiDai_png"/>
+		<e:Image id="title" width="191" height="69" horizontalCenter="0.5" top="41" source="QuanMingSai_png"/>
+		<e:Image id="xian" width="880" height="1" source="Djs_Xian_png" scale9Grid="3,0,0,1" horizontalCenter="1" verticalCenter="-138.5"/>
+		<e:Image id="jinbei" width="106" height="123" source="DJS_JiangBei_png" horizontalCenter="-271" top="6"/>
+		<e:Group id="contain" width="982" height="546" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="labGroup" width="990" height="37" horizontalCenter="0" top="54">
+				<e:Label text="今日积分:" size="26" horizontalCenter="-214" verticalCenter="43.5" x="372" y="9" scaleX="1" scaleY="1"/>
+				<e:Label text="今日排名:" size="26" horizontalCenter="128" verticalCenter="43.5" x="714.0000000000001" y="9" scaleX="1" scaleY="1"/>
+				<e:Label id="dayScoreLab" text="123456" size="26" verticalCenter="43.5" textColor="0xF4B302" textAlign="left" left="346" x="493" y="9" scaleX="1" scaleY="1"/>
+				<e:Label id="rankLab" text="12/56" size="26" verticalCenter="43.5" textColor="0xF4B302" textAlign="left" left="686" x="833" y="9" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="midGroup" width="990" height="300" verticalCenter="-29" horizontalCenter="0">
+				<e:Scroller width="866" height="250" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="27">
+					<e:Group id="listGroup"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="downGroup" width="990" height="152" bottom="18" horizontalCenter="0">
+				<e:Image width="884" height="93" scale9Grid="27,31,5,21" horizontalCenter="0" verticalCenter="0" source="Djs_GuiZe_Tiao_png"/>
+				<e:Button id="helpBtn" label="" horizontalCenter="-190" verticalCenter="11" scaleX="1" scaleY="1" anchorOffsetX="26" anchorOffsetY="26">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="BiSaiGuiZe_png" source.down="BiSaiGuiZe_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label text="正在比赛中..." x="618" y="70"/>
+				<e:Group id="signUpGroup" width="242" height="82" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="190" verticalCenter="10">
+					<e:Group id="free" width="270" height="90" horizontalCenter="0" verticalCenter="0">
+						<e:Image width="242" height="82" source="common_big_s_y_btn_png" horizontalCenter="1.3950000000000102" verticalCenter="0" scaleX="1" scaleY="1" x="-78" y="-23"/>
+						<e:Image width="121" height="31" source="DJS_free_png" horizontalCenter="0.39500000000001023" verticalCenter="-1.7100000000000009" scaleX="1.5" scaleY="1.5800000000000003" x="-33" y="-6.000000000000114"/>
+					</e:Group>
+					<e:Group id="goldGroup" width="242" height="82" horizontalCenter="0" verticalCenter="0" x="10" y="10" visible="false">
+						<e:Image width="242" height="82" source="DjsC_ChongXiTiaoZhan_png" horizontalCenter="0" verticalCenter="0"/>
+						<e:Image width="50" height="50" source="common_diamond_png" verticalCenter="-7" horizontalCenter="-76"/>
+						<e:BitmapLabel width="72" height="36" x="24.68" y="45.34" text="20" font="number1_fnt"/>
+					</e:Group>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Button id="closeBtn" label="" horizontalCenter="420.5" verticalCenter="-248.5" anchorOffsetX="31.5" anchorOffsetY="31.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

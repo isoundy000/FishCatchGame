@@ -1,0 +1,311 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>燃烧网络-猎鱼大亨H5</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="landscape"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+	<meta name="renderer" content="webkit">
+	<!--防止index.html被浏览器缓存begin-->
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="0">
+    <!--防止index.html被浏览器缓存over-->
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+	<script>
+		window.FISHING_CONFIG = {
+			"RES_Prefix": "",
+			"giftId":-1,
+			"reyunId":"21a1681fe559a559726e7f051cd3bff5",
+"platformId":9
+		}
+	</script>
+	<link href="resource/css/loading.css" rel="stylesheet" type="text/css" />
+	<!-- 这个标签是用来打包发布用的，不要修改！！！ -->
+	<!--publish_End-->
+
+	<script src="http://2460.allugame.com/js/g2f_loader.js"></script>
+</head>
+
+<body>
+	
+	<!-- background-image: url('top.jpg') --> <!-- 纯色背景 -->
+	<!-- background-image: url('top.jpg');background-repeat: no-repeat;background-size: 100% 100%; --><!-- 一张图片拉伸 -->
+	<!-- background-image: url('top.jpg');background-repeat: repeat; --> <!-- 一张图片循环 -->
+    <div style="margin: auto;width: 100%;height: 100%; background: #000000;display:none;z-index: 1" class="egret-player" id="egret_main"
+         data-entry-class="Main"
+         data-orientation="landscape"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="1280"
+         data-content-height="720"
+         data-show-paint-rect="true"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:20,textColor:0xffffff,bgAlpha:0.75">
+		 <div id="dialogueMask"></div>
+		 <div id="gameDialogue"></div>
+    </div>
+
+	<div style="display:none" id="loading">
+		<div class="wrapper" id="wrapper">
+			<img src="resource/h5/icon.png" class="logo">
+			<img src="resource/h5/loading_title.png" class="logo1">
+			<h3 id="h3">首次加载时间稍长，请耐心等待...</h3>
+			<div id="progress" class="progressbar">&nbsp;
+				<div class="box">
+					<div id="bar" class="bar"></div>
+				</div>
+				<img id="star" src="resource/h5/star.png" class="star" />
+			</div>
+			<h3 id='tips'></h3>
+			<h3 id="warn">你的安卓版本偏低，建议升级到2.3以上版本</h3>
+		</div>
+	</div>
+
+	<script src="resource/script/h5loader.js"></script>
+<script>
+	var wrapper = document.getElementById('wrapper');
+	var body = document.body;
+	var scale = Math.min(body.clientWidth, body.clientHeight) / 720;
+	wrapper.style['-webkit-transform'] = 'scale(' + scale + ',' + scale + ')';
+	var egret_main;
+	var loadingUi;
+	var uiWidth;
+	var uiHeight;
+	var star;
+	var lbar;
+
+var isDebug = false;
+
+	//interval id
+	var loadingInterID;
+	var progressInterID;
+	var loadpercent = 0;
+	var loadFlag;
+	var h5_qq_itemid;
+	var h5_qq_num;
+
+	// ajax 对象
+	function ajaxObject() {
+		var xmlHttp;
+		try {
+			// Firefox, Opera 8.0+, Safari
+			xmlHttp = new XMLHttpRequest();
+		} 
+		catch (e) {
+			// Internet Explorer
+			try {
+				xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+			} catch (e) {
+				try {
+					xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (e) {
+					return false;
+				}
+			}
+		}
+		return xmlHttp;
+	}
+	// ajax post请求：
+	function ajaxPost (url, data, fnSucceed, fnFail, fnLoading) {
+		var ajax = ajaxObject();
+		ajax.open("POST", url, true);
+		ajax.setRequestHeader("Content-Type" , "application/x-www-form-urlencoded");
+		ajax.onreadystatechange = function () {
+			if(ajax.readyState == 4) {
+				if(ajax.status == 200) {
+					fnSucceed && fnSucceed(ajax.responseText);
+				} else {
+					fnFail && fnFail("HTTP请求错误！错误码：" + ajax.status);
+				}
+			} else {
+				fnLoading && fnLoading(ajax.readyState, ajax.status);
+			}
+		}
+		ajax.send(data);
+	}
+
+	//热云发送心跳日志
+	function sendReyunHeartbeat (dId, level, pId, uId) {
+		var jdata = JSON.stringify({appid:window.FISHING_CONFIG.reyunId, 
+									context:{
+										deviceid:dId,
+										level:level,
+										channelid:pId
+									},
+									who:uId
+								});
+		ajaxPost("http://log.reyun.com/receive/rest/heartbeat", jdata);
+	}
+	//发送热云自定义事件
+	function sendCostomEvent(eve, value, dId, level, pId, uId) {
+		var jdata = JSON.stringify({appid:window.FISHING_CONFIG.reyunId, 
+									context:{
+										deviceid:dId,
+										level:level,
+										channelid:pId,
+										txt:value
+									},
+									what:eve,
+									who:uId
+								});
+		ajaxPost("http://log.reyun.com/receive/rest/event", jdata);
+	}
+	ready();
+	//新的加载流程
+	function ready() {
+		uiWidth = 720;
+		uiHeight = 1280;
+		egret_main = document.getElementById('egret_main');
+		loadingUi = document.getElementById('loading');
+		star = document.getElementById('star');
+		lbar = document.getElementById('bar');
+		egret_main.style.display = 'none';
+		loadingUi.style.display = 'block';
+
+		if (isDebug) {
+			egret_main.style.display = 'block';
+			loadingUi.style.display = 'none';
+			egret.runEgret({renderMode:"webgl"});
+		} else {
+			// loadCodeAndRes();
+			egret_main.style.display = 'block';
+			loadingUi.style.display = 'none';
+			loadingInterID = setInterval(loadCodeAndRes, 200);
+			progressInterID = setInterval(tickProgress, 20);
+		}
+	}
+
+	function tickProgress(){
+		loadpercent += 1;
+		if(loadpercent >= 100){
+			loadpercent = 0;
+		}
+		showPro(loadpercent);
+	}
+
+	function showPro(pronum) {
+		lbar.style.width = pronum + "%";
+		star.style.left = ((pronum - 3) + '%');
+	}
+
+	//加载代码和资源
+	function loadCodeAndRes() {
+		if (!loadFlag) {
+			loadFlag = true;
+			egret_h5.loadSingleScript(window["FISHING_CONFIG"]["RES_Prefix"] + "resource/script/game_config.js?r=" + Math.random(), function (){
+				egret_h5.loadScript(game_preload_list,
+					function (){
+						// preloadingRes();
+						clearInterval(loadingInterID);
+						clearInterval(progressInterID);
+						egret_main.style.display = 'block';
+						loadingUi.style.display = 'none';
+						if (window["FISHING_CONFIG"]["platformId"] == 12 && window["OPEN_DATA"]["qua"]["app"] == "QZ") {
+							egret.runEgret({renderMode:"webgl", audioType:1});
+						} else {
+							egret.runEgret({renderMode:"webgl"});
+						}
+					},
+					function (pro) {
+						
+					}
+				);
+			});
+		}
+	}
+</script>
+	<!--flag_qq_zone_start-->
+	<!--flag_qq_zone_end-->
+	<!--flag_qun_hei_start-->
+	<!--flag_qun_hei_end-->
+	<script>
+		function initZiyouSDK(title, desc, openId) {
+			var shareInfo = {
+				title:title,
+				imgUrl:'http://s1.fishing.combunet.com/freeGame/20170531204118/resource/h5/icon.png',
+				desc:desc,
+				openId:openId,
+				status:'1'
+			}
+			g2f.init(CONFIG.APP_ID, function() {
+				console.log('初始化完成');
+				//分享回调
+				//g2f.setShareCallback(function(result) {
+				//	//可以在这里领奖
+				//	console.log("分享回调:" + result); 
+				//	YaoQingView.updateYaoQingView(result);
+			//	});
+			}, shareInfo, false);
+		}
+
+		function showZiyouPay(_id, _amount, _userId, _itemName, _openId, _openKey, _userName) {
+			burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "createOrder4FreeGame.action", egret.HttpResponseType.TEXT, egret.HttpMethod.GET, 
+			function(httpResp) {
+				var resp = JSON.parse(httpResp);
+				var orderId = resp.orderId;
+				g2f.charge(_id, _amount, function (data) {
+					//游戏订单详细
+					var objPara = {
+						orderNo: orderId, // 游戏订单ID
+						ext: _id, // 玩家所在服务器id
+						actor_id: _userId,// 玩家角色id
+						appId:CONFIG.APP_ID, // 2460 各渠道id，于g2f.init appid一致 例：1042
+						openId: _openId,// 2460 平台用户id,
+						openKey: _openKey, // 2460 openkey,
+						appUserName:_userName, // 用户角色名
+						subject: _itemName//道具名
+					}
+					return objPara;
+				});
+			}, function() {
+				console.log("pay fail1");
+				game.platform.PlatformManager.payState("__payError");
+			});
+			burn.net.HttpManager.addParam("chargeId", _id);
+			burn.net.HttpManager.addParam("accountId", CONFIG.OPEN_ID);
+			burn.net.HttpManager.addParam("platform", CONFIG.PLATFORM_ID);
+			burn.net.HttpManager.send();
+		}
+		//打开关注界面
+		function openQrCode() {
+			g2f.showQrCode();
+		}
+
+		//获取关注状态
+		function getFocusState(_openId, _openKey, _fun) {
+			g2f.getFocusState({appId:CONFIG.APP_ID, openId:_openId, openKey:_openKey},function(state) {
+				_fun(state);
+			});
+		}
+		
+		//获取是否能够
+		function getOpenShareState(_fun) {
+			g2f.isOpenShare(function(open){
+				console.log(open)//open:true 需要打开分享礼包功能 显示分享礼包按钮 false:不需要 不显示
+				_fun(open);
+			})
+		}
+
+		//发送到桌面
+		function ziyouSendToDesk() {
+			g2f.sendToDesktop();
+		}
+		
+	</script>
+</body>
+</html>

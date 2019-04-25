@@ -1,0 +1,30 @@
+{
+  "158cdbb24fe": {
+    "path": "..\\resource\\eui_skins\\Login.ts",
+    "class": "Login",
+    "parentPath": ""
+  },
+  "158cdc102bf": {
+    "path": "..\\resource\\test.ts",
+    "class": "test",
+    "parentPath": ""
+  },
+  "158cdc1db07": {
+    "path": "..\\resource\\eui_skins\\LoginSkin.ts",
+    "class": "LoginSkin",
+    "parentPath": ""
+  },
+  "158cdc92dd5": {
+    "path": "..\\resource\\eui_skins\\LoginSkin.ts",
+    "class": "LoginSkin",
+    "parentPath": ""
+  },
+  "158cdce609c": {
+    "path": "..\\resource\\FishLogin.ts",
+    "class": "FishLogin",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  }
+}

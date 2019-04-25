@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WarGroup" width="506" height="122" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="506" height="122" verticalCenter="0" right="0">
+		<e:Image width="504" height="122" source="room_json.warhead_bg" horizontalCenter="-2" verticalCenter="0"/>
+		<e:Group id="goldBulletGroup" width="1" height="1" verticalCenter="-2" horizontalCenter="-159.5" anchorOffsetX="0.5" anchorOffsetY="0.5">
+		</e:Group>
+		<e:Group id="silverBulletGroup" width="1" height="1" verticalCenter="-2" horizontalCenter="-70.5" anchorOffsetX="0.5" anchorOffsetY="0.5">
+		</e:Group>
+		<e:Group id="bronzeBulletGroup" width="1" height="1" verticalCenter="-2" horizontalCenter="16.5" anchorOffsetX="0.5" anchorOffsetY="0.5">
+		</e:Group>
+		<e:Group id="nuclearBulletGroup" width="1" height="1" verticalCenter="-2" horizontalCenter="103.5" anchorOffsetX="0.5" anchorOffsetY="0.5">
+		</e:Group>
+		<e:Button id="closeWarGroupBtn" label="" left="-4" verticalCenter="-4" alpha="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

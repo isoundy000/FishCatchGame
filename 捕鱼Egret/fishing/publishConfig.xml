@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Fishing">
+	<channel id="1">
+	   <name>Nei wang</name>
+	   <platformId>0</platformId>
+	   <appId>0</appId>
+	   <LOGIN_ADDR>http://192.168.3.243:8066/LoginServer/</LOGIN_ADDR>
+	   <description>Intranet test server</description>
+	   <reyunId>0</reyunId>
+	</channel>
+	<channel id="2">
+	   <name>Wai wang</name>
+	   <platformId>0</platformId>
+	   <appId>0</appId>
+	   <LOGIN_ADDR>http://120.92.138.194:8066/LoginServer/</LOGIN_ADDR>
+	   <description>Internet test server</description>
+	   <reyunId>0</reyunId>
+	</channel>
+	<channel id="3">
+	   <name>Sougou</name>
+	   <platformId>10</platformId>
+	   <appId>0</appId>
+	   <LOGIN_ADDR>http://s1.fishing.combunet.com:8066/LoginServer/</LOGIN_ADDR>
+	   <description>Sougou</description>
+	   <reyunId>0</reyunId>
+	</channel>
+	<channel id="4">
+	   <name>Egret</name>
+	   <platformId>11</platformId>
+	   <appId>91354</appId>
+	   <LOGIN_ADDR>http://120.92.138.194:8066/LoginServer/</LOGIN_ADDR>
+	   <description>Egret</description>
+	   <reyunId>0</reyunId>
+	</channel>
+	<channel id="5">
+	   <name>ziyou</name>
+	   <platformId>9</platformId>
+	   <appId>0</appId>
+	   <LOGIN_ADDR>http://s1.fishing.combunet.com:9066/LoginServer/</LOGIN_ADDR>
+	   <description>Freedom</description>
+	   <reyunId>21a1681fe559a559726e7f051cd3bff5</reyunId>
+	</channel>
+	<channel id="6">
+	   <name>combunet</name>
+	   <platformId>2</platformId>
+	   <appId>0</appId>
+	   <LOGIN_ADDR>http://gamecenter.combunet.com/LoginServer/</LOGIN_ADDR>
+	   <description>Combunet_web</description>
+	   <reyunId>e7788f671b0da28db2b990dc106da7f8</reyunId>
+	</channel>
+	<channel id="7">
+	   <name>combunet</name>
+	   <platformId>2</platformId>
+	   <appId>0</appId>
+	   <LOGIN_ADDR>http://gamecenter.combunet.com/LoginServer/</LOGIN_ADDR>
+	   <description>Combunet_h5</description>
+	   <reyunId>e7788f671b0da28db2b990dc106da7f8</reyunId>
+	</channel>
+	<channel id="8">
+	   <name>yiwantang</name>
+	   <platformId>5</platformId>
+	   <appId>0</appId>
+	   <LOGIN_ADDR>http://gamecenter.combunet.com/LoginServer4yiwantang/yiwantang/</LOGIN_ADDR>
+	   <description>YiWanTang</description>
+	   <reyunId>52a48deb7caf663eec4f58ae1878e703</reyunId>
+	</channel>
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AlivePerson" width="211" height="34" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="211" height="34" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="211" height="34" x="0" y="0" source="ZaiXianRenShu_DiBan_png" scale9Grid="27,15,6,3"/>
+		<e:Image width="100" height="26" source="ZaiXianRenShu_WenZi_png" horizontalCenter="-38.5" verticalCenter="0"/>
+		<e:BitmapLabel id="personLab" width="71" height="17" horizontalCenter="57.5" verticalCenter="1" text="99999" font="blueNum_fnt"/>
+	</e:Group>
+</e:Skin>

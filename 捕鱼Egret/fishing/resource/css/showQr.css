@@ -1,0 +1,337 @@
+/***********************公共************************/
+
+#qrbgMark{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.70;
+    opacity:0.70;
+    z-index: 888;
+}
+
+/***********************公共************************/
+
+
+
+/***********************************打开关注二维码样式start******************************************/
+
+#qrbodyCon{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    text-align:center;
+    z-index: 889;    
+}
+
+@media all and (orientation : landscape) {
+
+    #qrImgcon{
+        position: absolute;
+        display: none;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        width:35%;
+        height:75%;
+        margin:auto;
+        z-index: 890;    
+    }
+
+    #imgDiv{
+        display: none;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        z-index: 891;
+    }
+
+    #imgDivheke{
+        display: none;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        z-index: 891; 
+    }
+
+} 
+
+@media all and (orientation : portrait){ 
+
+    #qrImgcon{
+        position: absolute;
+        display: none;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        width:75%;
+        height:50%;
+        margin:auto;
+        z-index: 890;    
+    }
+
+    #imgDiv{
+        display: none;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        z-index: 891;    
+    }
+
+    #imgDivheke{
+        display: none;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        z-index: 891; 
+    }
+
+}
+/***********************************打开关注二维码样式end******************************************/
+
+
+
+/********************************扫码支付样式start***********************************/
+.black_overlay{ 
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    filter:alpha(opacity=80);
+    -moz-opacity:0.80;
+    opacity:0.80;
+    overflow: none;
+} 
+#qrContainer{
+	position: absolute;
+    display: none;
+    border-top: 5px solid #62b900;
+    width: 360px;
+    height: 500px;
+    top: 20%;
+    left: 50%;
+    margin-left: -180px;
+    background-color: white;
+    z-index: 1003;
+}
+#qrPay{
+    position: absolute;
+    display: block;
+    z-index: 1009;
+    top: 20%;
+    left: 50%;
+    margin-left: -150px;
+}
+#tips{
+    position: absolute;
+    display: block;
+    width: auto;
+    z-index: 1007;
+    font-size: 10px;
+    left: 50%;
+    top: 90%;
+    margin-left: -84px;
+}
+#chargeNum{
+    position: absolute;
+	z-index: 1007;
+	left: 50%;
+	margin-left: -60px;
+}
+#chargeCount{
+	font-size: 25px;
+	font-style: bold;
+}
+/********************************扫码支付样式end***********************************/
+
+
+
+/*******************************退出时弹出面板样式start***********************************/
+
+#quitCon{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    text-align:center;
+    z-index: 889;
+}
+
+#quitImgcon{
+    position: absolute;
+    display: none;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    z-index: 887;
+}
+
+#quitItemCon{
+    position: absolute;
+    display: none;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    z-index: 890;
+}
+
+#quitImgDiv{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    z-index: 891;
+}
+
+#quitImgQr{
+    display: none;
+    height: auto;
+    margin: auto;
+    z-index: 893;
+}
+
+#quitImgBtn{
+    display: none;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    z-index: 894;
+}
+
+#quitCheckBoxDiv{
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    z-index: 895;
+    color: #fff;
+}
+
+#quitCheckBox{
+    display: none;
+    z-index: 895;
+}
+
+@media all and (orientation : landscape) {
+    #quitImgcon{
+        width: 35%;
+        height: 100%;
+    }
+    #quitItemCon{
+        width: 35%;
+        height: 100%;
+    }
+    #quitImgQr{
+        width: 80%;
+        margin-top: 15%;
+    }
+    #quitImgBtn{
+        margin-top: 5px;
+    }
+    #quitCheckBoxDiv{
+        font-size: 15px;
+    }
+    #quitCheckBox{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media all and (orientation : portrait){
+    #quitImgcon{
+        width: 75%;
+        height: 70%;
+    }
+    #quitItemCon{
+        width: 75%;
+        height: 70%;
+    }
+    #quitImgQr{
+        width: 90%;
+        margin-top: 14%;
+    }
+    #quitImgBtn{
+        margin-top: 5px;
+    }
+    #quitCheckBoxDiv{
+        font-size: 15px;
+    }
+    #quitCheckBox{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+/*******************************退出时弹出面板样式end***********************************/
+
+
+
+/*****************************核客start****************************/
+	/*@media all and (orientation : landscape) {
+	    #hekeIFrameDiv{
+	    	width: 50%;
+	    	height: 92%;
+	    }
+	}
+
+	@media all and (orientation : portrait){
+	    #hekeIFrameDiv{
+	    	width: 85%;
+	    	height: 75%;
+	    }
+	}
+
+
+	#hekeIFrameCon{
+	    position: fixed;
+	    display: none;
+	    width: 100%;
+	    height: 100%;
+	    top:0;
+	    left:0;
+	    bottom:0;
+	    right:0;
+	    text-align:center;
+	}
+
+	#hekeIFrameDiv{
+		position: absolute;
+		display: none;
+		top:0;
+	    left:0;
+	    bottom:0;
+	    right:0;
+	    margin:auto;
+	}
+
+	#hekeIFrame{
+		display: none;
+	}*/
+/*****************************核客end****************************/
+    

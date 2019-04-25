@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="shareGainItem" width="175" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="175" height="40" verticalCenter="0" horizontalCenter="0">
+		<e:Label id="desc" text="充值任意金额" size="17" horizontalCenter="21" verticalCenter="0" bold="true" textColor="0x00ff00"/>
+		<e:Image width="40" height="40" source="item_bg_png" verticalCenter="0" horizontalCenter="-59.5"/>
+		<e:Group id="iconGroup" width="1" height="1" horizontalCenter="-60" verticalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskGuide" width="300" height="171" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="251" height="121" horizontalCenter="0" verticalCenter="-25">
+		<e:Image id="bg" width="251" height="121" source="RenWuJinCheng_DiKuang_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="bgHong" width="247" height="117" horizontalCenter="0" verticalCenter="0" x="10" y="10" source="HongBaoDiBan_png" visible="false"/>
+		<e:Image id="jiangliIcon" width="64" height="27" source="taskGuide_HuoDe_png" verticalCenter="19" x="42"/>
+		<e:Image id="jiangliHong" width="49" height="24" verticalCenter="19" x="15" source="Jiangli_Xin_png" visible="false"/>
+		<e:Label id="desc" text="击杀XXX" horizontalCenter="0" top="19" size="25" bold="true" textColor="0xffffff"/>
+		<e:Label id="str" text="奖励:" textAlign="right" bottom="30" left="30" size="20" visible="false"/>
+		<e:Group id="iconGroup" width="1" height="1" right="117" bottom="39"/>
+		<e:Group id="iconHong" width="251" height="73" horizontalCenter="0" verticalCenter="23" visible="false">
+			<e:Image width="67" height="73" source="HongBao_XiaoTuBiao_png" verticalCenter="-5" horizontalCenter="-32" x="106" y="8" scaleX="0.7" scaleY="0.7"/>
+			<e:Image width="121" height="25" scaleX="1" scaleY="1" source="RenWu_HongBao1_png" horizontalCenter="52" verticalCenter="-2"/>
+		</e:Group>
+		<e:Label id="gainNum" text="10" textAlign="left" bottom="30" size="20" right="51" visible="false"/>
+		<e:Image id="complete" height="91" source="WanCheng_png" left="-8" width="103" verticalCenter="-24" visible="false"/>
+		<e:Group id="numGroup" width="1" height="1" right="53" bottom="39"/>
+		<e:Group id="startGroup" width="251" height="171" horizontalCenter="0" verticalCenter="25" visible="false">
+			<e:Image width="293" height="155" source="taskGuide_kuang_png" horizontalCenter="0" verticalCenter="-29"/>
+			<e:Image width="228" height="50" horizontalCenter="0" verticalCenter="60" source="taskGuide_tips_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

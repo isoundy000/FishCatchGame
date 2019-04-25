@@ -1,0 +1,52 @@
+{"mc":{
+	"jinlongyu":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"jinlongyu_0000",
+			"x":5,
+			"y":8
+			},
+			{
+			"res":"jinlongyu_0001",
+			"x":0,
+			"y":10
+			},
+			{
+			"res":"jinlongyu_0002",
+			"x":7,
+			"y":4
+			},
+			{
+			"res":"jinlongyu_0003",
+			"x":6,
+			"y":0
+			},
+			{
+			"res":"jinlongyu_0004",
+			"x":5,
+			"y":4
+			},
+			{
+			"res":"jinlongyu_0005",
+			"x":11,
+			"y":10
+			}
+			]
+}},
+	"res":{
+		"jinlongyu_0001":{"x":0,"y":347,"w":325,"h":165},
+		"jinlongyu_0003":{"x":0,"y":0,"w":320,"h":175},
+		"jinlongyu_0005":{"x":328,"y":347,"w":314,"h":163},
+		"jinlongyu_0004":{"x":323,"y":174,"w":320,"h":171},
+		"jinlongyu_0002":{"x":323,"y":0,"w":320,"h":172},
+		"jinlongyu_0000":{"x":0,"y":177,"w":320,"h":166}
+	}}

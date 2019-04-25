@@ -1,0 +1,52 @@
+{"mc":{
+	"huangjinzhangyuwang":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"HuangJinZhuangYu0000",
+			"x":13,
+			"y":7
+			},
+			{
+			"res":"HuangJinZhuangYu0001",
+			"x":5,
+			"y":6
+			},
+			{
+			"res":"HuangJinZhuangYu0002",
+			"x":0,
+			"y":2
+			},
+			{
+			"res":"HuangJinZhuangYu0003",
+			"x":2,
+			"y":0
+			},
+			{
+			"res":"HuangJinZhuangYu0004",
+			"x":10,
+			"y":2
+			},
+			{
+			"res":"HuangJinZhuangYu0005",
+			"x":11,
+			"y":6
+			}
+			]
+}},
+	"res":{
+		"HuangJinZhuangYu0001":{"x":0,"y":0,"w":266,"h":267},
+		"HuangJinZhuangYu0000":{"x":0,"y":269,"w":260,"h":264},
+		"HuangJinZhuangYu0003":{"x":262,"y":269,"w":237,"h":242},
+		"HuangJinZhuangYu0005":{"x":250,"y":535,"w":242,"h":253},
+		"HuangJinZhuangYu0002":{"x":0,"y":535,"w":248,"h":273},
+		"HuangJinZhuangYu0004":{"x":268,"y":0,"w":226,"h":250}
+	}}

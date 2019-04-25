@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DjsUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="-1.33" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="34">
+		<e:Image id="bg" width="982" height="546" source="common_panel_big_bg_png" scale9Grid="24,74,27,450" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image width="932" height="451.67" source="lottery_bg_inner_png" scale9Grid="9,10,39,36" horizontalCenter="0" verticalCenter="23" anchorOffsetY="0"/>
+		<e:Image id="inner" width="890" height="412" source="LanDi_png" horizontalCenter="0" verticalCenter="24" scale9Grid="24,24,81,42"/>
+		<e:Image width="707" height="132" source="JinBi_BaoShi_png" horizontalCenter="0.5" top="2"/>
+		<e:Image id="titleBg" width="1050" height="123" horizontalCenter="0" top="32" source="vip_CaiDai_png"/>
+		<e:Image id="title" width="191" height="69" source="DaJiangSai_png" horizontalCenter="0.5" top="41"/>
+		<e:Image id="jinbei" width="106" height="123" source="DJS_JiangBei_png" horizontalCenter="-271" top="6"/>
+		<e:Image id="timeBg" width="535" height="25" source="Djs_Tiao_png" horizontalCenter="133.5" verticalCenter="-130.5" scale9Grid="42,0,1,40"/>
+		<e:Image id="xian" width="880" height="1" source="Djs_Xian_png" scale9Grid="3,0,0,1" horizontalCenter="1" verticalCenter="-142.5"/>
+		<e:Group id="contain" width="990" height="555" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="openDescGroup" width="386" height="30" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="5"/>
+			<e:Group id="labGroup" width="990" height="37" horizontalCenter="0" top="94">
+				<e:Label text="本周积分:" size="26" horizontalCenter="-359" verticalCenter="0.5" x="80" y="9" scaleX="1" scaleY="1"/>
+				<e:Label text="今日积分:" size="26" horizontalCenter="-67" verticalCenter="0.5" x="372" y="9" scaleX="1" scaleY="1"/>
+				<e:Label text="今日排名:" size="26" horizontalCenter="275" verticalCenter="0.5" x="714.0000000000001" y="9" scaleX="1" scaleY="1"/>
+				<e:Label id="weekScoreLab" text="123456" size="26" verticalCenter="0.5" textColor="0xf4b302" textAlign="left" left="220" x="220.00000000000006" y="9" scaleX="1" scaleY="1"/>
+				<e:Label id="dayScoreLab" text="123456" size="26" verticalCenter="0.5" textColor="0xF4B302" textAlign="left" left="493" x="493" y="9" scaleX="1" scaleY="1"/>
+				<e:Label id="rankLab" text="12/56" size="26" verticalCenter="0.5" textColor="0xF4B302" textAlign="left" left="833" x="833" y="9" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="midGroup" width="990" height="300" verticalCenter="1.5" horizontalCenter="0">
+				<e:Group width="230" height="300" left="64" verticalCenter="-2">
+					<e:Image width="222" height="273" source="ZhouGuanJun_DiBan_png" horizontalCenter="0" verticalCenter="-2"/>
+					<e:Image width="202" height="70" source="first_CaiQi_png" horizontalCenter="5.5" top="-1" rotation="352.79"/>
+					<e:Image width="91" height="34" source="ZhouGuanJun_Title_png" horizontalCenter="0" top="15"/>
+					<e:Image width="180" height="104" source="ZhouGuangJun_ShaYu_png" horizontalCenter="0" verticalCenter="-50"/>
+					<e:Image width="234" height="81" source="ZhouGuanJun_Hong_png" verticalCenter="9.5" horizontalCenter="0"/>
+					<e:Image width="161" height="16" source="ZhouGuanJun_zI_png" horizontalCenter="0" verticalCenter="52"/>
+					<e:Label text="5000元京东卡" anchorOffsetX="0" width="221.64" anchorOffsetY="0" height="36.06" horizontalCenter="-2" verticalCenter="-6" bold="true" textAlign="center" stroke="1" visible="false"/>
+					<e:Label text="黄金弹头x100" anchorOffsetX="0" width="218.64" anchorOffsetY="0" height="36.06" verticalCenter="27" horizontalCenter="-2" bold="true" textAlign="center" stroke="1" visible="false"/>
+					<e:Label id="zhouNameLab" text="周冠军:斌哥" textAlign="center" verticalCenter="78" horizontalCenter="0" width="202" size="22" bold="true"/>
+					<e:Label id="zhouScoreLab" text="周积分:20000" textAlign="center" verticalCenter="101" horizontalCenter="0" width="202" size="22" bold="true"/>
+					<e:Label id="weekInfoTip" text="暂无咨询" textAlign="center" verticalCenter="88" horizontalCenter="0" width="202" size="22" visible="false"/>
+				</e:Group>
+				<e:Label id="rankTimeLab" text="4月25日排行" textAlign="center" horizontalCenter="-57" verticalCenter="-129" size="20" width="152"/>
+				<e:Label text="(排行信息10分钟刷新,最终排名次日5点公布)" textAlign="center" horizontalCenter="197.5" verticalCenter="-129" size="20"/>
+				<e:Scroller width="607" height="250" anchorOffsetX="0" anchorOffsetY="0" x="323.32" y="30.34">
+					<e:Group id="listGroup"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="downGroup" width="990" height="152" bottom="23" horizontalCenter="0">
+				<e:Image width="884" height="93" horizontalCenter="0" verticalCenter="0" source="Djs_GuiZe_Tiao_png" scale9Grid="16,6,23,49"/>
+				<e:Button id="helpBtn" label="" horizontalCenter="-411" verticalCenter="11" scaleX="1" scaleY="1" anchorOffsetX="26" anchorOffsetY="26">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="GuiZe_BangZhu_png" source.down="GuiZe_BangZhu_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label text="规则" verticalCenter="6.5" horizontalCenter="-353" bold="true" size="35" textAlign="center"/>
+				<e:Label id="sendLab" text="每日首次积分超过2400赠" verticalCenter="7" width="356" left="185"/>
+				<e:BitmapLabel id="sendNumBitLab" width="60" height="27" font="chargeNum_fnt" text="100" horizontalCenter="73" verticalCenter="7.5"/>
+				<e:Image width="72" height="68" source="common_diamond_png" horizontalCenter="130" verticalCenter="5" scaleX="0.8" scaleY="0.8"/>
+				<e:Label text="正在比赛中..." x="710" y="61" anchorOffsetX="0" width="199.76" anchorOffsetY="0" height="45.15"/>
+				<e:Group id="signUpGroup" width="242" height="82" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="308" verticalCenter="9">
+					<e:Group id="free" width="242" height="82" horizontalCenter="0" verticalCenter="0">
+						<e:Image width="242" height="82" source="common_big_s_y_btn_png" horizontalCenter="1.3950000000000102" verticalCenter="0" scaleX="1" scaleY="1" x="-78" y="-23"/>
+						<e:Image width="121" height="31" source="DJS_free_png" horizontalCenter="0.39500000000001023" verticalCenter="-1.7100000000000009" scaleX="1.5" scaleY="1.5800000000000003" x="-33" y="-6.000000000000114"/>
+					</e:Group>
+					<e:Group id="goldGroup" width="242" height="82" horizontalCenter="0" verticalCenter="0" x="10" y="10" visible="false">
+						<e:Image width="222" height="91" source="DjsC_ChongXiTiaoZhan_png" horizontalCenter="0" verticalCenter="0"/>
+						<e:Image width="50" height="50" source="common_diamond_png" verticalCenter="-12" horizontalCenter="-66"/>
+						<e:BitmapLabel id="cost" width="72" height="36" x="27" y="46" text="100" font="number1_fnt"/>
+					</e:Group>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Button id="closeBtn" label="" horizontalCenter="420.5" verticalCenter="-248.5" anchorOffsetX="31.5" anchorOffsetY="31.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

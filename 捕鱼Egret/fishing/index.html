@@ -1,0 +1,1503 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>燃烧网络-猎鱼大亨H5</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="format-detection" content="telephone=no, email=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="full-screen" content="true" />
+	<meta name="screen-orientation" content="landscape" />
+	<meta name="MobileOptimized" content="320">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="360-fullscreen" content="true" />
+	<!-- UC应用模式 -->
+	<meta name="browsermode" content="application">
+	<!-- QQ应用模式 -->
+	<meta name="x5-page-mode" content="app">
+	<meta name="renderer" content="webkit">
+	<!--防止index.html被浏览器缓存begin-->
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<!--防止index.html被浏览器缓存over-->
+	<style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+	<script>
+		//indexFlag_yiwantang_start
+		function GetQueryString(name){
+			var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+			var r = window.location.search.substr(1).match(reg);
+			if(r!=null) return unescape(r[2]); return null;
+		}
+
+		window.FISHING_CONFIG = {
+			"RES_Prefix" : "http://res.s1.fishing.combunet.com/yiwantang/20170829203853/",
+			"reyunId" : "52a48deb7caf663eec4f58ae1878e703",
+			"platformId" : 5,
+			"oauthCode" : GetQueryString("oauthCode"),
+			"subplatform" : GetQueryString("subplatform"),
+			"loginType" : GetQueryString("loginType"),
+			"invitationCode" : GetQueryString("invitationCode"),
+			"curURL" : decodeURIComponent(GetQueryString("curURL")),
+		}
+		//indexFlag_yiwantang_end
+
+		//indexFlag_normal_start
+		window.FISHING_CONFIG = {
+			"RES_Prefix" : "",
+			"giftId": -1,
+			"reyunId" : "e7788f671b0da28db2b990dc106da7f8",
+			"oauthCode" : "",
+			"platformId" : 0,
+			"subplatform" : 0,
+			"loginType" : "",
+			"invitationCode" : ""
+		}
+		//indexFlag_normal_end
+
+	</script>
+<link href="resource/css/loading.css" rel="stylesheet" type="text/css" />
+<!--flag_combunet_start-->
+<link href="resource/css/showQr.css" rel="stylesheet" type="text/css" />
+<!--flag_combunet_end-->
+
+<!--flag_yiwantang_start-->
+<link href="resource/css/showQr.css" rel="stylesheet" type="text/css" />
+<!--flag_yiwantang_end-->
+
+<!-- 这个标签是用来打包发布用的，不要修改！！！ -->
+<!--publish_Start-->
+<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+<!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/protobuf/protobuf.js" src-release="libs/modules/protobuf/protobuf.min.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js" src-release="libs/modules/dragonBones/dragonBones.min.js"></script>
+	<!--modules_files_end-->
+
+<!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+<!--other_libs_files_start-->
+<script egret="lib" src="polyfill/promise.js" src-release="polyfill/promise.min.js"></script>
+<!--other_libs_files_end-->
+
+<!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+<!--game_files_start-->
+	<script egret="game" src="bin-debug/core/framework/view/ViewBase.js"></script>
+	<script egret="game" src="bin-debug/core/framework/mediator/MediatorBase.js"></script>
+	<script egret="game" src="bin-debug/core/framework/view/FullView.js"></script>
+	<script egret="game" src="bin-debug/game/room/actor/action/ActionBase.js"></script>
+	<script egret="game" src="bin-debug/GlobalManager.js"></script>
+	<script egret="game" src="bin-debug/core/display/pageView/PageItem.js"></script>
+	<script egret="game" src="bin-debug/core/framework/view/PopView.js"></script>
+	<script egret="game" src="bin-debug/core/error/ErrorBase.js"></script>
+	<script egret="game" src="bin-debug/game/net/MessageBase.js"></script>
+	<script egret="game" src="bin-debug/core/framework/mediator/SimpleMediator.js"></script>
+	<script egret="game" src="bin-debug/core/framework/model/ModelBase.js"></script>
+	<script egret="game" src="bin-debug/game/room/actor/ActorBase.js"></script>
+	<script egret="game" src="bin-debug/game/room/base/RoomBase.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/RoomUI.js"></script>
+	<script egret="game" src="bin-debug/game/view/ComponetBase.js"></script>
+	<script egret="game" src="bin-debug/core/util/Map.js"></script>
+	<script egret="game" src="bin-debug/game/CommonEnum.js"></script>
+	<script egret="game" src="bin-debug/core/base/IDestory.js"></script>
+	<script egret="game" src="bin-debug/game/room/actor/action/PointEventEnum.js"></script>
+	<script egret="game" src="bin-debug/core/framework/view/SimpleVew.js"></script>
+	<script egret="game" src="bin-debug/core/BurnEnum.js"></script>
+	<script egret="game" src="bin-debug/core/net/HttpManager.js"></script>
+	<script egret="game" src="bin-debug/core/net/RequestBase.js"></script>
+	<script egret="game" src="bin-debug/core/net/SocketManager.js"></script>
+	<script egret="game" src="bin-debug/core/tools/TweenTools.js"></script>
+	<script egret="game" src="bin-debug/core/tools/UIWrap.js"></script>
+	<script egret="game" src="bin-debug/core/error/SimpleError.js"></script>
+	<script egret="game" src="bin-debug/core/event/PageEvent.js"></script>
+	<script egret="game" src="bin-debug/game/data/SerchUtil.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Active.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Bullet.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Charge.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Config.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Desc.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Fish.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_FishCatchAll.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_FishGroup.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_FishPath.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_FishTaskItem.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_FishTaskType.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_GrandPrixRankRange.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Guide.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Gun_skin.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Gun.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Item.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Language.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Lottery.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_MonthSign.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_QuickGame.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_RoleLevel.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_SecretShop.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Share.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_Shop.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_VipLevel.js"></script>
+	<script egret="game" src="bin-debug/game/data/T_WorldBoss.js"></script>
+	<script egret="game" src="bin-debug/game/model/ActiveModel.js"></script>
+	<script egret="game" src="bin-debug/game/model/EmailModel.js"></script>
+	<script egret="game" src="bin-debug/game/model/ExchangeModel.js"></script>
+	<script egret="game" src="bin-debug/game/model/LotteryModel.js"></script>
+	<script egret="game" src="bin-debug/game/model/RoomModel.js"></script>
+	<script egret="game" src="bin-debug/game/model/TaskModel.js"></script>
+	<script egret="game" src="bin-debug/game/model/UserModel.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/ActiveObj.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/DjsObj.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/EmailItem.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/ExchangeItem.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/Fish.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/GunItem.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/Item.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/MonthObj.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/PhoenixObj.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/RankItem.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/Roomer.js"></script>
+	<script egret="game" src="bin-debug/game/model/vo/TaskItem.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ActiveConfigMessageMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ActiveConfigMessagesBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ActiveConfigMessagesSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/AddFishMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ArenaSignUpBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ArenaSignUpSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/BankruptMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/BroadcastMessageMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/BulletDisappearMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/CGBroadcastMessageSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ChangeGunBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ChangeGunSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ChargeBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ChargeSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/CommonRequestMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/CommonStatusMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/DailyLoginDrawBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/DailyLoginDrawMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/DrawLotteryBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/DrawLotterySendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ExchangeBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ExchangeGoodsBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ExchangeGoodsItemMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ExchangeGoodsSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ExchangeMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ExchangeRecordMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ExchangeSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/FindUserBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/FindUserSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/FinishTaskBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/FinishTaskSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/FishingGunBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/FishingGunSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/FishingHitBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/FishingHitSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/FishPosInfoMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GCBroadcastMessageBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GetLimitedTimeActiveInfoMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GetRankDataBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GetRankDataMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GetWanbaGiftBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GetWanbaGiftMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GiveItemBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GiveItemSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GrandPrixInfoChangeMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GrandPrixRankBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GrandPrixRankSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GrandPrixSettlementMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GrandPrixSettlementSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/GunFishPosInfoMessageMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/HeartbeatMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/IntoRoomBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/IntoRoomSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ItemProtoMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LevelUpMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LimitedTimeActiveBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LimitedTimeActiveInfoMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LimitedTimeActiveItemMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LimitedTimeActiveSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LockItemEndMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LogicalLogSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LoginBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LoginSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LoopExchangeRecordsBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LoopExchangeRecordsSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/LotteryConditonAccumulateMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/MailboxMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/MailMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/MajorParameterChangeMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ManualChooseRoomBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ManualChooseRoomSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ModifyDataMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/MonthSignBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/MonthSignSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/NewbieGuideSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/NextDayAwardBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/NextDayAwardSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/PirateRankItemMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/PirateRankResultMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/PondFishesMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/PondStateMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/QuickGameInfoChangeMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/QuickGameIntoRoomMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/QuickGameRankItemMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/QuickGameRankResultMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/QuitRoomMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/RandomFishHitBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ReceiveMailBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ReceiveMailSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ReceiveWeChatShareAwardBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ReceiveWeChatShareAwardSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ReplaceUserMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/RequestRoomBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/RequestRoomMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/RoomOnlineInfoMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/RoomOnlineMessageMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ShopBuyBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ShopBuyMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/SmallHornBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/SmallHornSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/SyncFishPosInfoMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/TaskParameterChangeMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/ThePeopleChangeMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/UpgradeOrForgeBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/UpgradeOrForgeSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/UseItemBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/UseItemSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/UseLockItemMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/UseWarheadBackMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/UseWarheadSendMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/VipLevelUpMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/WeChatShareInfoMessage.js"></script>
+	<script egret="game" src="bin-debug/game/net/message/WorldBossInfoBackMessage.js"></script>
+	<script egret="game" src="bin-debug/core/event/ScrollEvent.js"></script>
+	<script egret="game" src="bin-debug/game/net/MessageDispatcher.js"></script>
+	<script egret="game" src="bin-debug/game/net/NetManager.js"></script>
+	<script egret="game" src="bin-debug/game/net/ProtoFileEnum.js"></script>
+	<script egret="game" src="bin-debug/game/net/ResponseType.js"></script>
+	<script egret="game" src="bin-debug/game/NotifyEnum.js"></script>
+	<script egret="game" src="bin-debug/core/framework/_Notification_.js"></script>
+	<script egret="game" src="bin-debug/config.js"></script>
+	<script egret="game" src="bin-debug/game/room/actor/action/PointsAction.js"></script>
+	<script egret="game" src="bin-debug/core/Director.js"></script>
+	<script egret="game" src="bin-debug/game/room/actor/fish/FishBase.js"></script>
+	<script egret="game" src="bin-debug/game/room/actor/fish/FishGroup.js"></script>
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/game/room/bullet/bulletBase.js"></script>
+	<script egret="game" src="bin-debug/game/room/bullet/FishUtil.js"></script>
+	<script egret="game" src="bin-debug/game/room/bullet/moveLogic/moveLogicBase.js"></script>
+	<script egret="game" src="bin-debug/game/room/BulletLayer.js"></script>
+	<script egret="game" src="bin-debug/game/room/CeilingLayer.js"></script>
+	<script egret="game" src="bin-debug/game/room/FishingEnum.js"></script>
+	<script egret="game" src="bin-debug/game/room/FishingObjPool.js"></script>
+	<script egret="game" src="bin-debug/game/room/FloorLayer.js"></script>
+	<script egret="game" src="bin-debug/game/room/FrameUtil.js"></script>
+	<script egret="game" src="bin-debug/game/room/lottery/LotteryItemUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/lottery/LotteryUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/object/lockedObj.js"></script>
+	<script egret="game" src="bin-debug/game/room/object/quickInfoObj.js"></script>
+	<script egret="game" src="bin-debug/game/room/ObjectLayer.js"></script>
+	<script egret="game" src="bin-debug/game/room/RoomMediator.js"></script>
+	<script egret="game" src="bin-debug/game/room/RoomUtil.js"></script>
+	<script egret="game" src="bin-debug/game/room/RoomView.js"></script>
+	<script egret="game" src="bin-debug/game/room/special/OneKillMany.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/BankruptView.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/BossComingUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/ChakanPanelUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/DajiangsaiRoomUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/FrozenAndLockUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/GuideTaskUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/GunTemp.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/NewProgressButton.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/PhoenixShield.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/PriceFailUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/PriceTaskRank.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/PriceTaskUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/progresButton.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/RmbGain.js"></script>
+	<script egret="game" src="bin-debug/core/display/pageView/PageView.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/SidePropUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/UnlockGunUpdateUI.js"></script>
+	<script egret="game" src="bin-debug/game/room/ui/WarUI.js"></script>
+	<script egret="game" src="bin-debug/game/util/BonesUtil.js"></script>
+	<script egret="game" src="bin-debug/game/util/DragonBonesUtil.js"></script>
+	<script egret="game" src="bin-debug/game/util/FilterEnmu.js"></script>
+	<script egret="game" src="bin-debug/game/util/GameUtil.js"></script>
+	<script egret="game" src="bin-debug/game/util/GCBroadcastManager.js"></script>
+	<script egret="game" src="bin-debug/game/util/GorgeousManager.js"></script>
+	<script egret="game" src="bin-debug/game/util/IconUtil.js"></script>
+	<script egret="game" src="bin-debug/game/util/Language.js"></script>
+	<script egret="game" src="bin-debug/game/util/LoaderUtil.js"></script>
+	<script egret="game" src="bin-debug/game/util/LogEnum.js"></script>
+	<script egret="game" src="bin-debug/game/util/MovieManger/MovieFish.js"></script>
+	<script egret="game" src="bin-debug/game/util/ProtobufUtil.js"></script>
+	<script egret="game" src="bin-debug/game/util/ReyunUtil.js"></script>
+	<script egret="game" src="bin-debug/game/util/SoundManager.js"></script>
+	<script egret="game" src="bin-debug/game/util/TimeUtil.js"></script>
+	<script egret="game" src="bin-debug/game/util/UIUtil.js"></script>
+	<script egret="game" src="bin-debug/game/view/active/activeItem/Active1Item.js"></script>
+	<script egret="game" src="bin-debug/game/view/active/activeItem/Active2Item.js"></script>
+	<script egret="game" src="bin-debug/game/view/active/activeItem/Active3Item.js"></script>
+	<script egret="game" src="bin-debug/game/view/active/activeItem/Active4Item.js"></script>
+	<script egret="game" src="bin-debug/game/view/active/ActiveLeftItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/active/ActiveMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/active/ActiveRulePanel.js"></script>
+	<script egret="game" src="bin-debug/game/view/active/ActiveSurePanel.js"></script>
+	<script egret="game" src="bin-debug/game/view/active/ActiveView.js"></script>
+	<script egret="game" src="bin-debug/game/view/bag/BagMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/bag/BagView.js"></script>
+	<script egret="game" src="bin-debug/game/view/bag/BagViewItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/bag/SendView.js"></script>
+	<script egret="game" src="bin-debug/game/view/changeGun/ChangeGunItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/changeGun/ChangeGunMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/changeGun/ChangeGunView.js"></script>
+	<script egret="game" src="bin-debug/game/view/charge/ChargeItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/charge/ChargeMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/charge/ChargeView.js"></script>
+	<script egret="game" src="bin-debug/game/view/circle/CircleMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/circle/CircleView.js"></script>
+	<script egret="game" src="bin-debug/game/view/common/CommonGainUI.js"></script>
+	<script egret="game" src="bin-debug/game/view/common/CommonHelp.js"></script>
+	<script egret="game" src="bin-debug/game/view/common/CommonVip.js"></script>
+	<script egret="game" src="bin-debug/game/view/common/QihangUI.js"></script>
+	<script egret="game" src="bin-debug/core/display/scrollView/ScrollItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/confirm/confirmMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/confirm/confirmView.js"></script>
+	<script egret="game" src="bin-debug/game/view/djs/DjsItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/djs/DjsMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/djs/DjsView.js"></script>
+	<script egret="game" src="bin-debug/game/view/djsMain/DjsMainMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/djsMain/DjsMainView.js"></script>
+	<script egret="game" src="bin-debug/game/view/djsResult/DjsResultMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/djsResult/DjsResultView.js"></script>
+	<script egret="game" src="bin-debug/game/view/djsRule/DjsRuleMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/djsRule/DjsRuleView.js"></script>
+	<script egret="game" src="bin-debug/game/view/email/EmailChakanPanel.js"></script>
+	<script egret="game" src="bin-debug/game/view/email/EmailMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/email/EmailView.js"></script>
+	<script egret="game" src="bin-debug/game/view/email/EmailViewItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeRecodeMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeRecodeView.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeRedPacketMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeRedPacketView.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeSureMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeSureView.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeTicketMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeTicketView.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/ExchangeView.js"></script>
+	<script egret="game" src="bin-debug/game/view/exchange/RecodeItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/firstCharge/FirstChargeMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/firstCharge/FirstChargeView.js"></script>
+	<script egret="game" src="bin-debug/game/view/fishkinds/FishKindsMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/fishkinds/FishKindsView.js"></script>
+	<script egret="game" src="bin-debug/game/view/forge/forgeMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/forge/forgeView.js"></script>
+	<script egret="game" src="bin-debug/game/view/guide/Guide.js"></script>
+	<script egret="game" src="bin-debug/game/view/guide/GuideManager.js"></script>
+	<script egret="game" src="bin-debug/game/view/guide/GuideMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/guide/GuideView.js"></script>
+	<script egret="game" src="bin-debug/game/view/kss/KssMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/kss/kssResult/KssResultItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/kss/kssResult/KssResultMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/kss/kssResult/KssResultView.js"></script>
+	<script egret="game" src="bin-debug/game/view/kss/KssView.js"></script>
+	<script egret="game" src="bin-debug/game/view/kss/kssWait/KssWaitMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/kss/kssWait/KssWaitView.js"></script>
+	<script egret="game" src="bin-debug/game/view/LoginMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/LoginView.js"></script>
+	<script egret="game" src="bin-debug/game/view/mainView/FishMainMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/mainView/FishMainView.js"></script>
+	<script egret="game" src="bin-debug/game/view/mainView/scrollItem/AlivePersonItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/mainView/scrollItem/MainItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/monthCard/MohthCardMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/monthCard/MonthCardRewardItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/monthCard/MonthCardRewardMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/monthCard/MonthCardRewardView.js"></script>
+	<script egret="game" src="bin-debug/game/view/monthCard/MonthCardView.js"></script>
+	<script egret="game" src="bin-debug/game/view/notice/NoticeMeditor.js"></script>
+	<script egret="game" src="bin-debug/game/view/notice/NoticeTitleItemView.js"></script>
+	<script egret="game" src="bin-debug/game/view/notice/NoticeView.js"></script>
+	<script egret="game" src="bin-debug/game/view/qms/QmsMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/qms/QmsView.js"></script>
+	<script egret="game" src="bin-debug/game/view/qqWanba/WanbaGiftMeditor.js"></script>
+	<script egret="game" src="bin-debug/game/view/qqWanba/WanbaGiftView.js"></script>
+	<script egret="game" src="bin-debug/game/view/rank/RankItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/rank/RankMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/rank/RankView.js"></script>
+	<script egret="game" src="bin-debug/game/view/selectRoom/SelectRoomMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/selectRoom/SelectRoomView.js"></script>
+	<script egret="game" src="bin-debug/game/view/setting/SettingMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/setting/SettingView.js"></script>
+	<script egret="game" src="bin-debug/game/view/share/shareGain/ShareGainItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/share/shareGain/ShareGainMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/share/shareGain/ShareGainView.js"></script>
+	<script egret="game" src="bin-debug/game/view/share/ShareItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/share/ShareMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/share/ShareView.js"></script>
+	<script egret="game" src="bin-debug/game/view/shop/GunShopItemView.js"></script>
+	<script egret="game" src="bin-debug/game/view/shop/ItemShopMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/shop/ItemShopView.js"></script>
+	<script egret="game" src="bin-debug/game/view/sign/SignItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/sign/SignMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/sign/SignView.js"></script>
+	<script egret="game" src="bin-debug/game/view/task/TaskActivityItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/task/TaskItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/task/TaskMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/task/TaskView.js"></script>
+	<script egret="game" src="bin-debug/game/view/test/TestMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/test/TestView.js"></script>
+	<script egret="game" src="bin-debug/game/view/trumpet/TrumpetMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/trumpet/TrumpetView.js"></script>
+	<script egret="game" src="bin-debug/game/view/unlockGun/UnlockGunMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/unlockGun/UnlockGunView.js"></script>
+	<script egret="game" src="bin-debug/game/view/userInfo/userInfoMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/userInfo/userInfoView.js"></script>
+	<script egret="game" src="bin-debug/game/view/userInfo/userLvUpView.js"></script>
+	<script egret="game" src="bin-debug/game/view/vip/VipItem.js"></script>
+	<script egret="game" src="bin-debug/game/view/vip/VipMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/vip/VipView.js"></script>
+	<script egret="game" src="bin-debug/game/view/worldBoss/WorldBossMediator.js"></script>
+	<script egret="game" src="bin-debug/game/view/worldBoss/WorldBossView.js"></script>
+	<script egret="game" src="bin-debug/game/view/ziyou/GuanZhuView.js"></script>
+	<script egret="game" src="bin-debug/game/view/ziyou/ShareZiYou.js"></script>
+	<script egret="game" src="bin-debug/game/view/ziyou/YaoQingView.js"></script>
+	<script egret="game" src="bin-debug/core/display/scrollView/ScrollView.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/platform/js/JavaScriptHandler.js"></script>
+	<script egret="game" src="bin-debug/platform/PaymentManager.js"></script>
+	<script egret="game" src="bin-debug/platform/PlatformManager.js"></script>
+	<script egret="game" src="bin-debug/platform/PlatformType.js"></script>
+	<script egret="game" src="bin-debug/platform/ShareManager.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<!--game_files_end-->
+<!--publish_End-->
+
+<!--flag_ziyou_start-->
+<script src="http://2460.allugame.com/js/g2f_loader.js"></script>
+<!--flag_ziyou_end-->
+</head>
+
+<body onload="ready()">
+
+	<!-- background-image: url('top.jpg') -->
+	<!-- 纯色背景 -->
+	<!-- background-image: url('top.jpg');background-repeat: no-repeat;background-size: 100% 100%; -->
+	<!-- 一张图片拉伸 -->
+	<!-- background-image: url('top.jpg');background-repeat: repeat; -->
+	<!-- 一张图片循环 -->
+	<div style='margin: auto;width: 100%;height: 100%; background: #000000;display:none;z-index: 1' 
+		class="egret-player" 
+		id="egret_main" 
+		data-entry-class="Main" 
+		data-orientation="landscape" 
+		data-scale-mode="showAll" 
+		data-frame-rate="30" 
+		data-content-width="1280" 
+		data-content-height="720" 
+		data-show-paint-rect="true" 
+		data-multi-fingered="2" 
+		data-show-fps="false" 
+		data-show-log="false" 
+		data-log-filter="" 
+		data-show-fps-style="x:0,y:0,size:20,textColor:0xffffff,bgAlpha:0.75">
+	</div>
+
+<div id="qrbgMark"></div>
+<div id="qrbodyCon">
+	<div id="qrImgcon">
+		<img id="imgDiv" src="resource/h5/qrGz.png">
+		<img id="imgDivheke" src="resource/h5/qrGzHeke.png">
+	</div>
+</div>
+
+<div id="fade" class="black_overlay"></div>
+
+<div id="quitCon">
+	<div id="quitImgcon">
+		<img id="quitImgDiv" src="resource/h5/qr22.png">
+	</div>
+	<div id="quitItemCon">
+		<img id="quitImgQr" src="resource/h5/QrNode.png">
+		<img id="quitImgBtn" src="resource/h5/quitQrBtn.png">
+		<div id="quitCheckBoxDiv"><input id="quitCheckBox" type="checkbox">今日不再显示</div>
+	</div>
+</div>
+
+<!--<div id = "hekeIFrameCon">
+	<div id = "hekeIFrameDiv">
+		<iframe id = "hekeIFrame" src="" width='100%' height='100%'></iframe>
+	</div>
+</div>-->
+
+<div id = "qrContainer">
+	<p id="chargeNum">充值金额 : <span id="chargeCount">9</span> 元</p>
+	<div id = "tips">请使用微信扫描二维码完成支付</div>
+	<div id = "qrPay"></div>
+</div>
+
+<div style="display:none" id="loading">
+<div class="wrapper" id="wrapper">
+	<img src="resource/h5/icon.png" class="logo">
+	<img src="resource/h5/loading_title.png" class="logo1">
+	<h3 id="h3">首次加载时间稍长，请耐心等待...</h3>
+	<div id="progress" class="progressbar">&nbsp;
+		<div class="box">
+			<div id="bar" class="bar"></div>
+		</div>
+		<img id="star" src="resource/h5/star.png" class="star" />
+	</div>
+	<h3 id='tips'></h3>
+	<h3 id="warn">你的安卓版本偏低，建议升级到2.3以上版本</h3>
+</div>
+</div>
+
+<script src="resource/script/h5loader.js"></script>
+<script>
+	var wrapper = document.getElementById('wrapper');
+	var body = document.body;
+
+	var bodyWidth = window.screen.availWidth;
+	var bodyHeight = window.screen.availHeight;
+
+	var scaleXY = bodyWidth > bodyHeight ?  720 : 1280;
+	var scale = Math.min(bodyWidth, bodyHeight) /  scaleXY;
+	setScaleWH(scale);
+
+	window.addEventListener("orientationchange", function() {
+		var ori = window.orientation;
+		var whmin = Math.min(window.screen.availWidth,window.screen.availHeight);
+		if(ori == 90 || ori == -90){
+			scale = whmin /  720;
+		}else if(ori == 0){
+			scale =  whmin /  1280;
+		}
+		setScaleWH(scale);
+	}, false);
+
+	function setScaleWH(scale){
+		wrapper.style['-webkit-transform'] = 'scale(' + scale + ',' + scale + ')';
+		wrapper.style['transform'] = 'scale(' + scale + ',' + scale + ')';
+		wrapper.style['-ms-transform'] = 'scale(' + scale + ',' + scale + ')';
+		wrapper.style['-moz-transform'] = 'scale(' + scale + ',' + scale + ')';
+		wrapper.style['-webkit-transform'] = 'scale(' + scale + ',' + scale + ')';
+		wrapper.style['-o-transform'] = 'scale(' + scale + ',' + scale + ')';
+	}
+
+	var egret_main;
+	var loadingUi;
+	var star;
+	var lbar;
+
+	var isDebug = true;
+
+	/**interval id*/
+	var loadingInterID;
+	var progressInterID;
+	var loadpercent = 0;
+	var loadFlag;
+	var h5_qq_itemid;
+	var h5_qq_num;
+
+	/**ajax 对象*/
+	function ajaxObject() {
+		var xmlHttp;
+		try {
+			/**Firefox, Opera 8.0+, Safari*/
+			xmlHttp = new XMLHttpRequest();
+		}
+		catch (e) {
+			/**Internet Explorer*/
+			try {
+				xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+			} catch (e) {
+				try {
+					xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (e) {
+					return false;
+				}
+			}
+		}
+		return xmlHttp;
+	}
+	/** ajax post请求：*/
+	function ajaxPost(url, data, fnSucceed, fnFail, fnLoading) {
+		var ajax = ajaxObject();
+		ajax.open("POST", url, true);
+		ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+		ajax.onreadystatechange = function () {
+			if (ajax.readyState == 4) {
+				if (ajax.status == 200) {
+					fnSucceed && fnSucceed(ajax.responseText);
+				} else {
+					fnFail && fnFail("HTTP请求错误！错误码：" + ajax.status);
+				}
+			} else {
+				fnLoading && fnLoading(ajax.readyState, ajax.status);
+			}
+		}
+		ajax.send(data);
+	}
+
+	/**热云发送心跳日志*/
+	function sendReyunHeartbeat(dId, level, pId, uId) {
+		var appId = GlobalManager.getInstance().getKeyBySubId(CONFIG.SUB_PLATFORM_ID);
+		var jdata = JSON.stringify({
+			appid: appId,
+			context: {
+				deviceid: dId,
+				level: level,
+				channelid: pId
+			},
+			who: uId
+		});
+		ajaxPost("http://log.reyun.com/receive/rest/heartbeat", jdata);
+	}
+	/**发送热云自定义事件*/
+	function sendCostomEvent(eve, value, dId, level, pId, uId) {
+		var appId = GlobalManager.getInstance().getKeyBySubId(CONFIG.SUB_PLATFORM_ID);
+		var jdata = JSON.stringify({
+			appid: appId,
+			context: {
+				deviceid: dId,
+				level: level,
+				channelid: pId,
+				txt: value
+			},
+			what: eve,
+			who: uId
+								});
+		ajaxPost("http://log.reyun.com/receive/rest/event", jdata);
+	}
+	// ready();
+	/**新的加载流程*/
+	function ready() {
+		egret_main = document.getElementById('egret_main');
+		loadingUi = document.getElementById('loading');
+		star = document.getElementById('star');
+		lbar = document.getElementById('bar');
+		egret_main.style.display = 'none';
+		loadingUi.style.display = 'block';
+
+		if (isDebug) {
+			egret_main.style.display = 'block';
+			loadingUi.style.display = 'none';
+			egret.runEgret({ renderMode: "webgl" });
+		} else {
+			/** loadCodeAndRes();*/
+			egret_main.style.display = 'none';
+			loadingUi.style.display = 'block';
+			loadingInterID = setInterval(loadCodeAndRes, 200);
+			progressInterID = setInterval(tickProgress, 20);
+		}
+	}
+
+	function tickProgress() {
+		loadpercent += 1;
+		if (loadpercent >= 100) {
+			loadpercent = 0;
+		}
+		showPro(loadpercent);
+	}
+
+	function showPro(pronum) {
+		lbar.style.width = pronum + "%";
+		star.style.left = ((pronum - 3) + '%');
+	}
+
+	/**加载代码和资源*/
+	function loadCodeAndRes() {
+		if (!loadFlag) {
+			loadFlag = true;
+			egret_h5.loadSingleScript(window["FISHING_CONFIG"]["RES_Prefix"] + "resource/script/game_config.js?r=" + Math.random(), function () {
+				egret_h5.loadScript(game_preload_list,
+					function () {
+						/** preloadingRes();*/
+						clearInterval(loadingInterID);
+						clearInterval(progressInterID);
+						egret_main.style.display = 'block';
+						loadingUi.style.display = 'none';
+						if (window["FISHING_CONFIG"]["platformId"] == 12 && window["OPEN_DATA"]["qua"]["app"] == "QZ") {
+							egret.runEgret({ renderMode: "webgl", audioType: 1 });
+						} else {
+							egret.runEgret({ renderMode: "webgl" });
+						}
+					},
+					function (pro) {
+
+					}
+				);
+			});
+		}
+	}
+
+	function loadJSAsyn(src, callback) {
+		egret_h5.loadSingleScript(src, callback);
+	}
+</script>
+<!--flag_qq_zone_start-->
+<script>
+	//游戏内ts调用的函数
+	function callQZonePay(num, pid) {
+		h5_qq_itemid = pid;
+		h5_qq_num = num;
+		burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "getWanbaPayInfo.action", egret.HttpResponseType.TEXT, egret.HttpMethod.POST,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var code = resp.retcode;
+				if (code == 200) {
+					var is_vip = resp.is_vip;
+					var vip_level = resp.vip_level;
+					var score = resp.score;
+					var expiredtime = resp.expiredtime;
+					if (score - num >= 0) {
+						window.__paySuccess();
+					} else {
+						window.popPayTips({
+							defaultScore: num,
+							appid: 1105982149
+						});
+					}
+				} else {
+					game.platform.PlatformManager.payState("__getInfoError");
+				}
+			}, function (resp) {
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("openid", CONFIG.OPEN_ID);
+		burn.net.HttpManager.addParam("openkey", CONFIG.OPEN_KEY);
+		burn.net.HttpManager.addParam("channel", "" + CONFIG.CHANNEL_ID);
+		burn.net.HttpManager.send();
+	}
+
+	window.__paySuccess = function () {
+		burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "pay4Wanba.action", egret.HttpResponseType.TEXT, egret.HttpMethod.POST,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var code = resp.retcode;
+				if (code == 200) {
+					game.platform.PlatformManager.payState("__paySuccess");
+				} else {
+					game.platform.PlatformManager.payState("__payError");
+				}
+			}, function () {
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("openid", CONFIG.OPEN_ID);
+		burn.net.HttpManager.addParam("openkey", CONFIG.OPEN_KEY);
+		burn.net.HttpManager.addParam("channel", "" + CONFIG.CHANNEL_ID);
+		burn.net.HttpManager.addParam("itemid", "" + h5_qq_itemid);
+		burn.net.HttpManager.send();
+	}
+	window.__payError = function () {
+		game.platform.PlatformManager.payState("__payError");
+	}
+	window.__payClose = function () {
+		game.platform.PlatformManager.payState("__payClose");
+	}
+</script>
+<!--flag_qq_zone_end-->
+<!--flag_qun_hei_start-->
+<script src="resource/script/qunhei.js"></script>
+<script>
+	//初始化群黑游戏sdk
+	function initQunHeiSDK(name) {
+		var initdata = {
+			"username": name, 	//用户id
+			"gid": '3470' 		//群黑游戏id
+		};
+		qhsdk.init(initdata);
+	}
+	//群黑支付
+	function qunHeiPay(userid, username, goodId, goodName, money) {
+		burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "getClientSign4Qunhei.action", egret.HttpResponseType.TEXT, egret.HttpMethod.GET,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var sign = resp.sign;
+				var paydata = {
+					"userId": userid,
+					"gid": '3470',
+					"roleName": username,
+					'goodsId': goodId,
+					"goodsName": goodName,
+					"money": money,
+					"ext": goodId,
+					"sign": sign
+				};
+				qhsdk.pay(paydata, function (code, msg) {
+					if (code == 1) {
+						game.platform.PlatformManager.payState("__paySuccess");
+					} else {
+						game.platform.PlatformManager.payState("__payError");
+					}
+				});
+			}, function () {
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("money", money);
+		burn.net.HttpManager.addParam("userId", userid);
+		burn.net.HttpManager.addParam("ext", goodId);
+		burn.net.HttpManager.send();
+	}
+</script>
+<!--flag_qun_hei_end-->
+<!--flag_ziyou_start-->
+<script>
+	function initZiyouSDK(title, desc, openId) {
+		var shareInfo = {
+			title: title,
+			imgUrl: 'http://s1.fishing.combunet.com/freeGame/20170531204118/resource/h5/icon.png',
+			desc: desc,
+			openId: openId,
+			status: '1'
+		}
+		g2f.init(CONFIG.APP_ID, function () {
+			//分享回调
+			// g2f.setShareCallback(function(result) {
+			// 	//可以在这里领奖
+			// 	YaoQingView.updateYaoQingView(result);
+			// });
+		}, shareInfo, false);
+	}
+
+	function showZiyouPay(_id, _amount, _userId, _itemName, _openId, _openKey, _userName) {
+		burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "createOrder4FreeGame.action", egret.HttpResponseType.TEXT, egret.HttpMethod.GET,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var orderId = resp.orderId;
+				g2f.charge(_id, _amount, function (data) {
+					//游戏订单详细
+					var objPara = {
+						orderNo: orderId, // 游戏订单ID
+						ext: _id, // 玩家所在服务器id
+						actor_id: _userId,// 玩家角色id
+						appId: CONFIG.APP_ID, // 2460 各渠道id，于g2f.init appid一致 例：1042
+						openId: _openId,// 2460 平台用户id,
+						openKey: _openKey, // 2460 openkey,
+						appUserName: _userName, // 用户角色名
+						subject: _itemName//道具名
+					}
+					return objPara;
+				});
+			}, function () {
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("chargeId", _id);
+		burn.net.HttpManager.addParam("accountId", CONFIG.OPEN_ID);
+		burn.net.HttpManager.addParam("platform", CONFIG.PLATFORM_ID);
+		burn.net.HttpManager.send();
+	}
+	/**打开关注界面*/
+	function openQrCode() {
+		g2f.showQrCode();
+	}
+
+	/**获取关注状态*/
+	function getFocusState(_openId, _openKey, _fun) {
+		g2f.getFocusState({ appId: CONFIG.APP_ID, openId: _openId, openKey: _openKey }, function (state) {
+			_fun(state);
+		});
+	}
+
+	/**获取是否能够*/
+	function getOpenShareState(_fun) {
+		g2f.isOpenShare(function (open) {
+			_fun(open);
+		})
+	}
+
+	/**发送到桌面*/
+	function ziyouSendToDesk() {
+		g2f.sendToDesktop();
+	}
+
+</script>
+<!--flag_ziyou_end-->
+
+<!--flag_combunet_start-->
+<script src="resource/script/iframe.js"></script>
+<script src="resource/script/qrcode.js"></script>
+<script>
+
+	/**打开Combunet二维码*/
+	function openCombunetQrCode(pid) {
+		var bgMark = document.getElementById("qrbgMark");
+		var bodyCon = document.getElementById("qrbodyCon");
+		var qrImgcon = document.getElementById("qrImgcon");
+		var imgDiv = document.getElementById("imgDiv");
+		var imgDivheke = document.getElementById("imgDiv");
+		bgMark.style.display = "block";
+		bodyCon.style.display = "block";
+		qrImgcon.style.display = "block";
+		if(pid == 7){
+			imgDivheke.style.display = "block";
+		}else{
+			imgDiv.style.display = "block";
+		}
+		bodyCon.onclick = function () {
+			bgMark.style.display = "none";
+			bodyCon.style.display = "none";
+			qrImgcon.style.display = "none";
+			imgDivheke.style.display = "none";
+			imgDiv.style.display = "none";
+		};
+	}
+
+	/**创建订单*/
+	function createOrder4RS(cId, uId) {
+		burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "createOrder4RanshaoGame.action", egret.HttpResponseType.TEXT, egret.HttpMethod.GET,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var retcode = resp.errorCode;
+				if (retcode == 200) {
+					window.location.href = resp.gateWayUrl;
+				} else {
+					game.platform.PlatformManager.payState("__payError");
+				}
+			}, function () {
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("chargeId", cId);
+		burn.net.HttpManager.addParam("userId", uId);
+		burn.net.HttpManager.send();
+	}
+
+	/**微信公众号支付*/
+	function createOrder4Wechat(oauthCode, cId, uId) {
+		burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "makeOrder4Wechat.action", egret.HttpResponseType.TEXT, egret.HttpMethod.GET,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var retcode = resp.resCode;
+				if (retcode == 1) {
+					onBridgeReady(resp.extra);
+				} else {
+					game.platform.PlatformManager.payState("__payError");
+				}
+			}, function () {
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("oauthCode", oauthCode);
+		burn.net.HttpManager.addParam("chargeId", cId);
+		burn.net.HttpManager.addParam("userId", uId);
+		burn.net.HttpManager.send();
+		/**微信自带 WeixinJSBridge 对接公众号支付*/
+		function onBridgeReady(orderRes) {
+			WeixinJSBridge.invoke('getBrandWCPayRequest', {
+				"appId": orderRes.appId, 			/**公众号名称，由商户传入*/
+				"timeStamp": orderRes.timeStamp, 	/**时间戳，自1970年以来的秒数*/
+				"nonceStr": orderRes.nonceStr, 		/**随机串*/
+				"package": orderRes.package,
+				"signType": orderRes.signType, 		/**微信签名方式*/
+				"paySign": orderRes.paySign,		/**微信签名 */
+			}, function (res) {
+				if (res.err_msg == "get_brand_wcpay_request:ok") {
+					/**"支付成功"*/
+				}
+			});
+		}
+	}
+
+	/**微信扫码支付*/
+	function createOrder4QRcode(cId, uId, deviceType, chargeNum){
+		burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "makeOrder4WechatByDeviceType.action", egret.HttpResponseType.TEXT, egret.HttpMethod.GET,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var retcode = resp.result_code;
+				if (retcode == "SUCCESS") {
+					createQR(resp.code_url);
+				} else {
+					closeQrPayPanel();
+					game.platform.PlatformManager.payState("__payError");
+				}
+			}, function () {
+				closeQrPayPanel();
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("deviceType", deviceType);
+		burn.net.HttpManager.addParam("chargeId", cId);
+		burn.net.HttpManager.addParam("userId", uId);
+		burn.net.HttpManager.send();
+		/**生成二维码*/
+		function createQR(urlstr){
+			document.getElementById("chargeCount").innerHTML = chargeNum;
+			document.getElementById("qrContainer").style.display = "block";
+			var qrPay = document.getElementById("qrPay");
+			var fade = document.getElementById('fade');
+			fade.style.display = "block";
+	        var qrcode = new QRCode(qrPay, {
+	            width : 300,
+	            height : 300,
+	        });
+	        qrcode.makeCode(urlstr);
+			fade.onclick = function(){
+				closeQrPayPanel();
+			};
+		}
+	}
+
+	/**关闭二维码支付页面*/
+	function closeQrPayPanel(){
+		/**清除动态创建的二维码*/
+		document.getElementById("qrPay").innerHTML = "";
+		document.getElementById('fade').style.display = "none";
+		document.getElementById("qrContainer").style.display = "none";
+	}
+
+	/**微信h5支付*/
+	function createOrder4h5Pay(cId, uId, deviceType){
+		burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "makeOrder4WechatByDeviceType.action", egret.HttpResponseType.TEXT, egret.HttpMethod.GET,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var retcode = resp.result_code;
+				if (retcode == "SUCCESS") {
+					window.location.href = resp.mweb_url;
+				} else {
+					game.platform.PlatformManager.payState("__payError");
+				}
+			}, function () {
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("chargeId", cId);
+		burn.net.HttpManager.addParam("userId", uId);
+		burn.net.HttpManager.addParam("deviceType", deviceType);
+		burn.net.HttpManager.send();
+	}
+
+	/**核客支付*/
+	function createOrder4hekePay(cId, uId){
+		burn.net.HttpManager.init("http://3d311a-0.bj.1251991358.clb.myqcloud.com/LoginServer/"+ "makeOrder4Heke.action", egret.HttpResponseType.TEXT, egret.HttpMethod.GET,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var retcode = resp.status;
+				if (retcode == "ok") {
+					// var hekeCon = document.getElementById("hekeIFrameCon");
+					// var hekeDiv = document.getElementById("hekeIFrameDiv");
+					// var hekeFrame = document.getElementById("hekeIFrame");
+					// hekeCon.style.display = "block";
+					// hekeDiv.style.display = "block";
+					// hekeFrame.style.display = "block";
+					// hekeFrame.name = 'tmp_frame';
+					// hekeFrame.src = 'http://www.hekegame.com/index.php?ac=popup&orderId='+resp.orderId;
+                	if(typeof(exec_obj)=='undefined'){
+	        			exec_obj = document.createElement('iframe');
+	        			exec_obj.name = 'tmp_frame';
+	        			exec_obj.src = 'http://www.hekegame.com/index.php?ac=popup&orderId='+resp.orderId;
+	        			exec_obj.style.display = 'none';
+	        			document.body.appendChild(exec_obj);
+    		  		}else{
+        				exec_obj.src = 'http://www.hekegame.com/index.php?ac=popup&orderId='+resp.orderId;
+   		   			}
+				} else {
+					game.platform.PlatformManager.payState("__payError");
+				}
+			}, function () {
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("chargeId", cId);
+		burn.net.HttpManager.addParam("userId", uId);
+		burn.net.HttpManager.send();
+	}
+
+	/**是否在PC端*/
+	function IsInPC() {
+		var userAgentInfo = navigator.userAgent;
+		var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+		var flag = true;
+		for (var v = 0; v < Agents.length; v++) {
+			if (userAgentInfo.indexOf(Agents[v]) > 0) {
+				flag = false;
+				break;
+			}
+		}
+		return flag;
+	}
+
+	/**是否在微信浏览器*/
+	function isWeixin() {
+		var ua = navigator.userAgent.toLowerCase();
+		if (ua.match(/MicroMessenger/i) == "micromessenger") {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	/**弹出退出提示*/
+	function onReadyFn(){
+		pushHistory();
+		var bool = false;
+		setTimeout(function(){
+			bool = true;
+		},1500);
+		window.addEventListener("popstate", function(e) {
+			if(bool){
+				onQuitGame();
+			}
+			pushHistory();
+		}, false);
+	}
+
+	/**退出提示相关*/
+	function onQuitGame(){
+		var bgMark = document.getElementById("qrbgMark");
+		var quitCon = document.getElementById("quitCon");
+		var quitImgcon = document.getElementById("quitImgcon");
+		var quitImgDiv = document.getElementById("quitImgDiv");
+		var quitItemCon = document.getElementById("quitItemCon");
+		var quitImgQr = document.getElementById("quitImgQr");
+		var quitImgBtn = document.getElementById("quitImgBtn");
+		var quitCheckBoxDiv = document.getElementById("quitCheckBoxDiv");
+		var quitCheckBox = document.getElementById("quitCheckBox");
+
+		/**阻止事件冒泡*/
+		quitImgcon.onclick = function(event){
+			if (!event){
+				var event = window.event;
+			}
+        	event.cancelBubble = true;
+        	if (event.stopPropagation){
+				event.stopPropagation();
+			}
+		};
+		quitItemCon.onclick = function(event){
+			if (!event){
+				var event = window.event;
+			}
+        	event.cancelBubble = true;
+        	if (event.stopPropagation){
+				event.stopPropagation();
+			}
+		};
+
+		/**显示提示*/
+		bgMark.style.display = "block";
+		quitCon.style.display = "block";
+		quitImgcon.style.display = "block";
+		quitImgDiv.style.display = "block";
+		quitItemCon.style.display = "block";
+		quitImgQr.style.display = "block";
+		quitImgBtn.style.display = "block";
+		quitCheckBoxDiv.style.display = "block";
+		quitCheckBox.style.display = "inline";
+
+		/**离开游戏*/
+		quitImgBtn.onclick = function(){
+			WeixinJSBridge.call('closeWindow');
+		};
+
+		/**关闭退出提示页面*/
+		quitCon.onclick = function(){
+			bgMark.style.display = "none";
+			quitCon.style.display = "none";
+			quitImgcon.style.display = "none";
+			quitImgDiv.style.display = "none";
+			quitItemCon.style.display = "none";
+			quitImgQr.style.display = "none";
+			quitImgBtn.style.display = "none";
+			quitCheckBoxDiv.style.display = "none";
+			quitCheckBox.style.display = "none";
+			return;
+		};
+
+		/**记录今日不再提醒*/
+		quitCheckBox.onclick = function(){
+			if(quitCheckBox.checked){
+				/**todo*/
+			}
+		};
+
+	}
+
+	/**记录浏览器本页内容*/
+	function pushHistory() {
+		var state = {
+			title: "title",
+			url: "#",
+		};
+		window.history.pushState(state, "title", "#");
+	}
+
+	/**在微信浏览器中阻止退出游戏*/
+	if(isWeixin()){
+		document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+			var isOpenQr = false;
+			/**判断是否勾选过 “今日不再提示”*/
+			onReadyFn();
+		});
+	};
+
+</script>
+<!-- 引入微信jssdk -->
+<script src="resource/script/jweixin-1.js"></script>
+<script>
+		window.re_callback = function (type, str) {
+			SendServer.Sample.ShareEnd(type, str);
+		}
+		function WXConfig(timestamp, nonceStr, signature, invitecode, title, desc, iconUrl, type, str) {
+			wx.config({
+				debug: false, /** 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。*/
+				appId: 'wxc2c54c0388a0a5f6', /** 必填，公众号的唯一标识*/
+				timestamp: timestamp, /** 必填，生成签名的时间戳*/
+				nonceStr: nonceStr, /** 必填，生成签名的随机串*/
+				signature: signature,/** 必填，签名，见附录1*/
+				jsApiList: [
+					'checkJsApi',
+					'onMenuShareTimeline',
+					'onMenuShareAppMessage',
+				] /** 必填，需要使用的JS接口列表，所有JS接口列表见附录2*/
+			});
+			var registerData = function () {
+				var shareObject = {
+					title: title,
+					desc: desc,
+					link: 'http://gamecenter.combunet.com/LoginServer/combunet/combunetGame.jsp?invitationCode=' + invitecode,
+					imgUrl: iconUrl,
+					trigger: function (res) {
+						/** 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回*/
+						/**alert('用户点击_发送给朋友'  + JSON.stringify(res));*/
+					},
+					success: function (res) {
+						/**alert('已分享_发送给朋友');*/
+						/**SendServer.Sample.ShareEnd("function");*/
+						window.re_callback(type, str);
+					},
+					cancel: function (res) {
+						/**alert('已取消_发送给朋友');*/
+					},
+					complete: function (res) {
+						/**alert('已完成_发送给朋友' + JSON.stringify(res));*/
+					},
+					fail: function (res) {
+						/**alert("fail_发送给朋友" + JSON.stringify(res));*/
+					}
+				};
+				/** config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。*/
+				wx.onMenuShareAppMessage(shareObject);
+				wx.onMenuShareTimeline(shareObject);
+			}
+			wx.ready(registerData);
+			wx.error(function (res) {
+				/**alert("error" + JSON.stringify(res));*/
+			});
+		}
+</script>
+<!--flag_combunet_end-->
+
+
+<!--flag_yiwantang_start-->
+<script src="resource/script/iframe.js"></script>
+<script src="resource/script/qrcode.js"></script>
+<script src="resource/script/jweixin-1.js"></script>
+
+<script>
+
+	//亿玩堂通过删除cookie切换账号
+	function deleteCookie4YWT() {
+		if(typeof(exec_Cook)=='undefined'){
+			exec_Cook = document.createElement('iframe');
+			exec_Cook.name = "exec_Cook";
+			exec_Cook.src = "http://gamecenter.combunet.com/LoginServer4yiwantang/yiwantang/execF.html";
+			exec_Cook.style.display = "none";
+			document.body.appendChild(exec_Cook);
+		}else{
+			exec_Cook.src = "http://gamecenter.combunet.com/LoginServer4yiwantang/yiwantang/execF.html?" + Math.random();
+		}
+	}
+
+	/**打开yiwantang 二维码 pid不处理，兼容heke*/
+	function openCombunetQrCode(pid) {
+		var bgMark = document.getElementById("qrbgMark");
+		var bodyCon = document.getElementById("qrbodyCon");
+		var qrImgcon = document.getElementById("qrImgcon");
+		var imgDiv = document.getElementById("imgDiv");
+		bgMark.style.display = "block";
+		bodyCon.style.display = "block";
+		qrImgcon.style.display = "block";
+		imgDiv.style.display = "block";
+		bodyCon.onclick = function () {
+			bgMark.style.display = "none";
+			bodyCon.style.display = "none";
+			qrImgcon.style.display = "none";
+			imgDiv.style.display = "none";
+		};
+	}
+
+	//是否在微信浏览器
+	function isWeixin() {
+		console.log("isWeixin");
+		var ua = navigator.userAgent.toLowerCase();
+		if (ua.match(/MicroMessenger/i) == "micromessenger") {
+			//微信
+			console.log("在微信浏览器中");
+			return true;
+		} else {
+			//其他
+			console.log("在其他浏览器中");
+			return false;
+		}
+	}
+
+	/**微信扫码支付*/
+	function createOrder4QRcode(cId, uId, deviceType, chargeNum){
+		burn.net.HttpManager.init(CONFIG.LOGIN_ADDR + "makeOrder4WechatByDeviceType.action", egret.HttpResponseType.TEXT, egret.HttpMethod.GET,
+			function (httpResp) {
+				var resp = JSON.parse(httpResp);
+				var retcode = resp.result_code;
+				if (retcode == "SUCCESS") {
+					createQR(resp.code_url);
+				} else {
+					closeQrPayPanel();
+					game.platform.PlatformManager.payState("__payError");
+				}
+			}, function () {
+				closeQrPayPanel();
+				game.platform.PlatformManager.payState("__payError");
+			});
+		burn.net.HttpManager.addParam("deviceType", deviceType);
+		burn.net.HttpManager.addParam("chargeId", cId);
+		burn.net.HttpManager.addParam("userId", uId);
+		burn.net.HttpManager.send();
+		/**生成二维码*/
+		function createQR(urlstr){
+			document.getElementById("chargeCount").innerHTML = chargeNum;
+			document.getElementById("qrContainer").style.display = "block";
+			var qrPay = document.getElementById("qrPay");
+			var fade = document.getElementById('fade');
+			fade.style.display = "block";
+			var qrcode = new QRCode(qrPay, {
+				width : 300,
+				height : 300,
+			});
+			qrcode.makeCode(urlstr);
+			fade.onclick = function(){
+				closeQrPayPanel();
+			};
+		}
+	}
+
+	/**关闭二维码支付页面*/
+	function closeQrPayPanel(){
+		/**清除动态创建的二维码*/
+		document.getElementById("qrPay").innerHTML = "";
+		document.getElementById('fade').style.display = "none";
+		document.getElementById("qrContainer").style.display = "none";
+	}
+
+	//是否在PC端
+	function IsInPC() {
+		var userAgentInfo = navigator.userAgent;
+		var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+		var flag = true;
+		for (var v = 0; v < Agents.length; v++) {
+			if (userAgentInfo.indexOf(Agents[v]) > 0) {
+				flag = false;
+				break;
+			}
+		}
+		return flag;
+	}
+
+	function createOrder4h5Pay(cId, uId, deviceType){
+		console.log("======createOrder4h5Pay======");
+		h5PaySucc(cId, uId, deviceType, CONFIG.LOGIN_ADDR);
+	}
+
+	function h5PaySucc(cId, uId, deviceType, url){
+		console.log("======h5PaySuccCall======");
+		var myurl = url.replace("yiwantang/","");
+		var resUrl = encodeURIComponent(myurl);
+		if(typeof(exec_objh5)=='undefined'){
+			exec_objh5 = document.createElement('iframe');
+			exec_objh5.name = "exec_objh5";
+			exec_objh5.src = 'http://gamecenter.combunet.com/LoginServer4yiwantang/yiwantang/execE.html?cId='+cId+'&uId='+uId+'&deviceType='+deviceType+'&url='+resUrl;
+			exec_objh5.style.display = 'none';
+			document.body.appendChild(exec_objh5);
+		}else{
+			exec_objh5.src = 'http://gamecenter.combunet.com/LoginServer4yiwantang/yiwantang/execE.html?cId='+cId+'&uId='+uId+'&deviceType='+deviceType+'&url='+resUrl;
+		}
+	}
+
+	function createOrder4Wechat(oauthCode, cId, uId) {
+		console.log("======createOrder4Wechat======");
+		wechatPaySucc(oauthCode, cId, uId, CONFIG.LOGIN_ADDR);
+	}
+
+	function wechatPaySucc(oauthCode, cId, uId, url){
+		console.log("======wechatPaySucc======");
+		var myurl = url.replace("yiwantang/","");
+		var resUrl = encodeURIComponent(myurl);
+		if(typeof(exec_objwe)=='undefined'){
+			exec_objwe = document.createElement('iframe');
+			exec_objwe.name = "exec_objwe";
+			exec_objwe.src = 'http://gamecenter.combunet.com/LoginServer4yiwantang/yiwantang/execC.html?oauthCode='+oauthCode+'&cId='+cId+'&uId='+uId+'&url='+resUrl;
+			exec_objwe.style.display = 'none';
+			document.body.appendChild(exec_objwe);
+		}else{
+			exec_objwe.src = 'http://gamecenter.combunet.com/LoginServer4yiwantang/yiwantang/execC.html?oauthCode='+oauthCode+'&cId='+cId+'&uId='+uId+'&url='+resUrl;
+		}
+	}
+
+	function payFail(){
+		console.log("======payFail======");
+		game.platform.PlatformManager.payState("__payError");
+	}
+
+</script>
+<!-- 引入微信jssdk -->
+<script>
+	var ywt_shareStr = "";
+	var ywt_shareType = 0;
+	// iframe js function
+	function fIframe(){
+		console.log("ywt_shareType = " + ywt_shareType + ", ywt_shareStr = " + ywt_shareStr);
+		SendServer.Sample.ShareEnd(ywt_shareType, ywt_shareStr)
+	}
+	// exec main function
+	function exec_main(timestamp, nonceStr, signature, invitecode, title, desc, iconUrl){
+		title = encodeURI(title);
+		desc = encodeURI(desc);
+		iconUrl = encodeURIComponent(iconUrl);
+		if(typeof(exec_obj)=='undefined'){
+			exec_obj = document.createElement('iframe');
+			exec_obj.name = 'tmp_frame';
+			exec_obj.src = 'http://gamecenter.combunet.com/LoginServer4yiwantang/yiwantang/execA.html?timestamp='+timestamp+'&nonceStr='+nonceStr+'&signature='+signature+'&invitecode='+invitecode+'&title='+title+'&desc='+desc+'&iconUrl='+iconUrl;
+			exec_obj.style.display = 'none';
+			document.body.appendChild(exec_obj);
+		}else{
+			exec_obj.src = 'http://gamecenter.combunet.com/LoginServer4yiwantang/yiwantang/execA.html?timestamp='+timestamp+'&nonceStr='+nonceStr+'&signature='+signature+'&invitecode='+invitecode+'&title='+title+'&desc='+desc+'&iconUrl='+iconUrl;
+		}
+	}
+
+	function WXConfig(timestamp, nonceStr, signature, invitecode, title, desc, iconUrl, type, str) {
+		console.log("---------WXConfig-->",timestamp);
+		ywt_shareType = type;
+		ywt_shareStr = str;
+		exec_main(timestamp, nonceStr, signature, invitecode, title, desc, iconUrl);
+	}
+</script>
+<!--flag_yiwantang_end-->
+
+<!--flag_webalert_start-->
+<script>window.onbeforeunload = function () { return "您确定要退出游戏吗？"; }</script>
+<!--flag_webalert_end-->
+
+</body>
+
+</html>

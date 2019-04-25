@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmailItme" width="651" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="651" height="105" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="651" height="105" x="0" y="4" source="NeiRongTiao_png" scale9Grid="27,0,4,105"/>
+		<e:Image id="icon" width="134" height="64" source="TuPian_png" verticalCenter="0" left="25"/>
+		<e:Label id="labTil" text="12月26日全民竞技赛 竞技赛竞技赛" top="19" anchorOffsetX="0.5" anchorOffsetY="0.5" size="20" horizontalCenter="27.5" width="360" textColor="0x5f18e2" textAlign="center"/>
+		<e:Label id="labContain" text="排名:1000 奖励:1000" anchorOffsetX="0.5" anchorOffsetY="0.5" size="20" horizontalCenter="27.5" width="360" textColor="0x5F18E2" bottom="27" textAlign="center"/>
+		<e:Group id="lingqu" width="112" height="71" x="528" verticalCenter="0">
+			<e:Button id="lingquBtn" label="领取" verticalCenter="0" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="common_s_y_btn_png" source.down="common_s_y_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="endLingqu" width="120" height="75" source="WeiWanCheng_AnNiu_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+			<e:Image id="imgLingqu" width="58" height="27" verticalCenter="0" horizontalCenter="0" source="LingQu_png" touchEnabled="false"/>
+			<e:Image id="imgYilingqu" width="73" height="28" verticalCenter="0" horizontalCenter="0" touchEnabled="false" source="YiLingQu_Green_png"/>
+		</e:Group>
+		<e:Group id="chakan" width="112" height="71" x="528" verticalCenter="0">
+			<e:Button id="chakanBtn" label="领取" verticalCenter="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_s_y_btn_png" source.down="common_s_y_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="endChakan" width="120" height="75" source="WeiWanCheng_AnNiu_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+			<e:Image id="imgChakan" width="58" height="27" verticalCenter="0" horizontalCenter="0" source="ChaKan_png" touchEnabled="false"/>
+			<e:Image id="imgYiChakan" width="73" height="28" verticalCenter="0" horizontalCenter="0" touchEnabled="false" source="YiChaKan_Green_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

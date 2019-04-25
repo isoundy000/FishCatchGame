@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PriceTaskRank" width="150" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="150" height="50" horizontalCenter="0" verticalCenter="0">
+		<e:BitmapLabel id="rankLab" width="19" height="29" text="4" font="cardBlue_fnt" horizontalCenter="0" verticalCenter="6" scaleX="1.7" scaleY="1.7"/>
+	</e:Group>
+	<e:Image width="47" height="43" source="PriceTaskRank_Di_png" verticalCenter="0" left="10"/>
+	<e:Image height="43" verticalCenter="0" source="PriceTaskRank_Ming_png" right="10" width="47"/>
+</e:Skin>

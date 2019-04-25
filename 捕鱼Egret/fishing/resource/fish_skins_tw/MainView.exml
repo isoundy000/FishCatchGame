@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishLoginSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="play">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" x="{81.93}" y="{757.99}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1750">
+					<tween:props>
+						<e:Object y="{378.83}" x="{80.43}" alpha="{1}" width="{37.8}" height="{40.24}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1250">
+					<tween:props>
+						<e:Object y="{108}" alpha="{0}" x="{87.89}" width="{35.95}" height="{38.27}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{131}" y="{741.49}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1600"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{21.61}" height="{23}" alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="700">
+					<tween:props>
+						<e:Object width="{29.56}" height="{31.47}" alpha="{1}" x="{177.43}" y="{594.8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1450">
+					<tween:props>
+						<e:Object alpha="{0}" y="{324}" x="{172.66}" width="{37.49}" height="{39.91}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{97.5}" width="{46.5}" height="{49.49}" y="{776.1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="2300">
+					<tween:props>
+						<e:Object alpha="{1}" width="{37.73}" height="{40.16}" y="{785.43}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1800">
+					<tween:props>
+						<e:Object y="{89}" alpha="{0}" width="{48.57}" height="{51.7}" x="{-86.54}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{100.5}" y="{757.99}" width="{45}" height="{47.9}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1200"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}" width="{36.46}" height="{38.81}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1950">
+					<tween:props>
+						<e:Object alpha="{0}" x="{82.5}" y="{83}" width="{33.99}" height="{36.17}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{73}" height="{77.71}" x="{94.5}" y="{747.88}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="700"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{18.52}" height="{19.71}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1950">
+					<tween:props>
+						<e:Object x="{82.5}" y="{257.05}" alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image4}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{41.5}" y="{739.9}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="600"/>
+				<tween:Set/>
+				<tween:To duration="2300">
+					<tween:props>
+						<e:Object x="{47.5}" y="{130.28}" alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image5}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{23}" y="{756.4}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1900"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{15.97}" height="{17}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1950">
+					<tween:props>
+						<e:Object x="{15.97}" y="{122}" height="{17}" width="{15.97}" alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image6}">
+				<tween:Set/>
+				<tween:Wait duration="850"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{107.5}" y="{792.59}" width="{17}" height="{18.1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="2450">
+					<tween:props>
+						<e:Object x="{109.83}" y="{276.76}" width="{17}" height="{18.1}" alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image14}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1173.07}" y="{753.74}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1800">
+					<tween:props>
+						<e:Object alpha="{0.8}" x="{1156.44}" width="{39.26}" height="{41.78}" y="{313.61}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="700">
+					<tween:props>
+						<e:Object y="{129}" alpha="{0}" x="{1156.3}" width="{37.38}" height="{39.79}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image16}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1154.25}" y="{741.49}" width="{23}" height="{24.48}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="2250">
+					<tween:props>
+						<e:Object alpha="{0}" x="{1022.05}" y="{179.24}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image11}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1042.75}" y="{753.73}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1650">
+					<tween:props>
+						<e:Object alpha="{0}" y="{271.84}" width="{32.33}" height="{34.42}" x="{1072.47}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image12}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1082.8}" y="{772.9}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1950">
+					<tween:props>
+						<e:Object y="{403.97}" alpha="{0}" width="{31.4}" height="{33.43}" x="{1117.49}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image9}">
+				<tween:Wait duration="1700"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1183.81}" y="{756.4}" width="{17}" height="{18.1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1150">
+					<tween:props>
+						<e:Object x="{1126.57}" y="{384.26}" width="{17}" height="{18.1}" alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image8}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1182.93}" y="{765.97}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="2000"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1173.07}" y="{740.87}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1400">
+					<tween:props>
+						<e:Object y="{174.9}" alpha="{0}" width="{35.35}" height="{37.63}" x="{1099.72}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image7}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0.5}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1950">
+					<tween:props>
+						<e:Object rotation="{85.61}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="2150">
+					<tween:props>
+						<e:Object rotation="{180}" alpha="{0.5}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="158e6c56192"/>
+	<e:Group id="root" width="100%" height="100%" x="0" y="0">
+		<e:Image width="100%" height="100%" y="0" scale9Grid="15,10,90,60" x="0" source="main_image_bg_jpg"/>
+		<e:Group id="anim" width="1280" height="720" x="0" y="0" touchEnabled="false">
+			<e:Image id="image0" width="31" height="33" x="42" y="753" source="bubble_png"/>
+			<e:Image id="image" width="31" height="33" x="104" y="144" source="bubble_png"/>
+			<e:Image id="image1" width="31" height="33" x="299" y="305" source="bubble_png"/>
+			<e:Image id="image2" width="31" height="33" x="115" y="144" source="bubble_png"/>
+			<e:Image id="image3" width="31" height="33" x="83" y="252" source="bubble_png"/>
+			<e:Image id="image4" width="31" height="33" x="48" y="130" source="bubble_png"/>
+			<e:Image id="image5" width="31" height="33" x="143" y="122" source="bubble_png"/>
+			<e:Image id="image14" width="31" height="33" x="1143" y="126" source="bubble_png"/>
+			<e:Image id="image16" width="31" height="33" x="1018" y="241" source="bubble_png"/>
+			<e:Image id="image11" width="31" height="33" x="1069" y="324" source="bubble_png"/>
+			<e:Image id="image12" width="31" height="33" x="1093" y="395" source="bubble_png"/>
+			<e:Image id="image7" width="1418" height="1434" x="655.5" y="-20.5" source="guanghuan_png" anchorOffsetX="709" anchorOffsetY="717" scaleX="0.5" scaleY="0.5"/>
+			<e:Image id="image8" width="31" height="33" x="1160.3557142857142" y="660.0171428571429" source="bubble_png" scaleX="1" scaleY="1"/>
+			<e:Image id="image9" width="31" height="33" x="1182" y="759" source="bubble_png"/>
+			<e:Image id="image6" width="31" height="33" x="104" y="798" source="bubble_png"/>
+		</e:Group>
+		<e:Group id="down" width="1280" height="234" touchEnabled="false" y="488" x="0">
+			<e:Button id="start_btn" label="" anchorOffsetX="101.5" anchorOffsetY="101.5" height="203" width="203" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="514.5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_image_startBtn_png" source.down="main_image_startBtn_png" source.disabled="main_image_startBtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="mainBtnGroup" width="1280" height="234" x="0" y="0" touchEnabled="false">
+				<e:Button id="makeBtn" label="" width="102" height="108" anchorOffsetX="51" anchorOffsetY="54" verticalCenter="44" horizontalCenter="-264" x="325" y="107" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_btn_make_png" source.down="main_btn_make_png" source.disabled="main_btn_make_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="bagBtn" label="" width="102" height="108" anchorOffsetX="51" anchorOffsetY="54" verticalCenter="44" horizontalCenter="-378" x="211" y="107" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_btn_bag_png" source.down="main_btn_bag_png" source.disabled="main_btn_bag_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="taskBtn" label="" width="102" height="108" anchorOffsetX="51" anchorOffsetY="54" verticalCenter="42" horizontalCenter="-149" x="440" y="105" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_btn_task_png" source.down="main_btn_task_png" source.disabled="main_btn_task_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="shopBtn" label="" width="102" height="108" anchorOffsetX="51" anchorOffsetY="54" verticalCenter="42" horizontalCenter="-30" x="559" y="105" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_btn_shop_png" source.down="main_btn_shop_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="exchangeBtn" label="" width="103" height="106" anchorOffsetX="51" anchorOffsetY="53" verticalCenter="42" x="968" y="105" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_btn_exchange_png" source.down="main_btn_exchange_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="emailBtn" label="" width="102" height="108" anchorOffsetX="51" anchorOffsetY="54" verticalCenter="42" x="728" y="105" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_btn_email_png" source.down="main_btn_email_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="aquariumBtn" label="" width="160" height="163" anchorOffsetX="80" anchorOffsetY="81.5" verticalCenter="17.5" horizontalCenter="-543" x="17" y="20" scaleX="1" scaleY="1">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_aquariumBtn_png" source.down="main_aquariumBtn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="rankBtn" label="" width="102" height="108" anchorOffsetX="51" anchorOffsetY="54" scaleX="1" scaleY="1" verticalCenter="42" horizontalCenter="208" x="797" y="105">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_btn_rank_png" source.down="main_btn_rank_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="alertEmail" width="30" height="30" source="alertPoint_png" horizontalCenter="113" verticalCenter="7" x="987" y="114" scaleX="1" scaleY="1" visible="false"/>
+				<e:Image id="alertTask" width="30" height="30" source="alertPoint_png" horizontalCenter="-116" verticalCenter="7" x="514" y="114" scaleX="1" scaleY="1" visible="false"/>
+				<e:Group id="exchangeGroup" width="106" height="42" x="912" y="70" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image width="217" height="50" x="-92.99" y="0" source="main_btn_exchange_tips_3_png" scaleX="1"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="rightGroup" width="200" height="720" touchEnabled="false" x="1080" y="0">
+			<e:Button id="activityBtn" label="" x="136.14" y="141.23" width="96" height="99" anchorOffsetX="48" anchorOffsetY="49.5" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_btn_activity_png" source.down="main_btn_activity_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="monthBtn" label="" x="136.2" y="230.26" width="96" height="99" anchorOffsetX="48" anchorOffsetY="49.5" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_btn_month_png" source.down="main_btn_month_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="signinBtn" label="" x="133.87" y="329.21" width="96" height="99" anchorOffsetX="48" anchorOffsetY="49.5" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_signin_btn_png" source.down="main_signin_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="bankruptBtn" label="" x="132.99" y="430.41" width="96" height="99" anchorOffsetX="48" anchorOffsetY="49.6" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_btn_alms_png" source.down="main_btn_alms_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="bankruptTime" text="" x="81.87" y="470.59" width="110" verticalAlign="middle" textAlign="center" textColor="0xffffff" size="26" borderColor="0x000000" border="false" strokeColor="0x020000" stroke="2" height="26" touchEnabled="false" scaleX="1" scaleY="1"/>
+			<e:Image id="alertSign" width="30" height="30" source="alertPoint_png" horizontalCenter="56" verticalCenter="-52" visible="false"/>
+			<e:Image id="alertActive" width="30" height="30" source="alertPoint_png" horizontalCenter="56" verticalCenter="-239"/>
+			<e:Image id="alertMonth" width="30" height="30" source="alertPoint_png" horizontalCenter="56" verticalCenter="-148"/>
+		</e:Group>
+		<e:Group id="up" width="1280" height="200" x="0" y="0" touchEnabled="false">
+			<e:Group id="mainStateGroup" width="383" height="89" horizontalCenter="-173.5" x="279" scaleX="0.9" scaleY="0.95" verticalCenter="-41.5">
+				<e:Group id="goleGroup" width="195" height="83" scaleX="1" scaleY="1" y="0" anchorOffsetY="0" x="-11.34" anchorOffsetX="0">
+				<e:Image id="imageBg" width="263" height="55" x="0" scaleX="1" scaleY="1" source="main_item_bg_png" verticalCenter="0"/>
+				<e:Group id="imageGold" width="55" height="55" x="-1" y="15">
+					<e:Image id="imageGold1" width="55" height="55" x="1" scaleX="1" scaleY="1" verticalCenter="0" source="common_coins_png" y="-1"/>
+				</e:Group>
+				<e:Label id="labelGoldNum" text="9999999999" scaleX="1" scaleY="1" verticalCenter="4.5" horizontalCenter="43" size="26" width="165" height="36"/>
+				<e:Button id="btnAddGold" label="" scaleX="1" scaleY="1" width="48" height="48" anchorOffsetX="24" anchorOffsetY="24" x="232" y="40">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main_btn_add_png" source.down="main_btn_add_png" source.disabled="main_btn_add_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				</e:Group>
+				<e:Group id="gemGroup" width="195" height="83" scaleX="1" scaleY="1" y="0" anchorOffsetY="0" x="268.77" anchorOffsetX="0">
+				<e:Image id="imageGemBg" width="200" height="55" x="0" scaleX="1" scaleY="1" source="main_item_bg_png" verticalCenter="0"/>
+				<e:Label id="labelGemNum" text="999999" scaleX="1" scaleY="1" verticalCenter="0.5" horizontalCenter="8.5" size="26" width="102"/>
+				<e:Button id="btnAddGem" label="" scaleX="1" scaleY="1" width="48" height="48" anchorOffsetX="24" anchorOffsetY="24" x="171.69" y="40">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_btn_add_png" source.down="main_btn_add_png" source.disabled="main_btn_add_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:Button>
+				<e:Group id="imageGem" width="55" height="55" x="-9" y="14">
+					<e:Image id="imageGem1" width="55" height="55" x="3.67999999999995" scaleX="1" scaleY="1" verticalCenter="0" y="0" source="common_diamond_png"/>
+				</e:Group>
+				</e:Group>
+				<e:Group id="ticketGroup" width="195" height="83" scaleX="1" scaleY="1" y="-0.68" anchorOffsetY="0" x="485.47" anchorOffsetX="0">
+				<e:Image id="imageTicketBg" width="200" height="55" x="0" scaleX="1" scaleY="1" source="main_item_bg_png" verticalCenter="0"/>
+				<e:Label id="labelTicketNum" text="999999" scaleX="1" scaleY="1" verticalCenter="0.5" horizontalCenter="-2" size="26" width="93"/>
+				<e:Button id="btnAddTicket" label="" scaleX="1" scaleY="1" width="48" height="48" anchorOffsetX="24" anchorOffsetY="24" x="170.34" y="40">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_btn_add_png" source.down="main_btn_add_png" source.disabled="main_btn_add_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:Button>
+				<e:Group id="imageTicket" width="55" height="55" x="-9" y="14">
+					<e:Image id="imageTicket1" width="55" height="55" x="3.67999999999995" scaleX="1" scaleY="1" verticalCenter="0" y="0" source="common_point_ticket_png"/>
+				</e:Group>
+				</e:Group>
+			</e:Group>
+			<e:Group id="roleAvaGroup" width="252" height="105" anchorOffsetX="0" anchorOffsetY="0" x="9.31" y="5.32" scaleX="1" scaleY="1">
+				<e:Image id="imageAvaBg" width="263" height="55" scaleX="0.7" scaleY="0.7" verticalCenter="-20" fillMode="repeat" touchEnabled="false" source="main_item_bg_png" horizontalCenter="31"/>
+				<e:Image id="imageAvaBg0" width="263" height="55" scaleX="0.7" scaleY="0.7" verticalCenter="27" fillMode="repeat" touchEnabled="false" source="main_item_bg_png" horizontalCenter="31"/>
+				<e:Image id="expCur_152" width="152" height="35" source="HuangTiao_png" verticalCenter="26" scale9Grid="15,13,4,3" left="96"/>
+				<e:Label id="user_name" text="玩家昵称" y="24.67" scaleX="1" scaleY="1" textColor="0xE1F20B" size="19" width="153" touchEnabled="false" left="112"/>
+				<e:Image id="imageAva" width="108" height="108" x="0" y="4.56" scaleX="1" scaleY="1" source="main_iamge_avaBgR_png" touchEnabled="false"/>
+				<e:Label id="expLab" text="19999/99999" size="21" textAlign="center" horizontalCenter="51.5" verticalCenter="27"/>
+			</e:Group>
+			<e:Image width="102" height="49" source="VipDi_png" verticalCenter="23.5" horizontalCenter="-578"/>
+			<e:Label id="vipLab" text="VIP 6" size="22" textAlign="center" horizontalCenter="-577" verticalCenter="16" textColor="0xf9db00"/>
+			<e:Button id="settingBtn" label="" x="1217.05" y="56.41" width="85" height="85" anchorOffsetX="42.5" anchorOffsetY="42.5" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_setting_btn_png" source.down="main_setting_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="vipBtn" label="" x="1015.47" y="57.22" width="84" height="91" anchorOffsetX="42" anchorOffsetY="45.5" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_btn_vip_png" source.down="main_btn_vip_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="vipLotteryBtn" width="100" height="100" anchorOffsetX="50" anchorOffsetY="87.6" x="1123" y="97">
+				<e:Image id="firstChargeImg" width="76" height="92" source="main_btn_first_charge_png" horizontalCenter="0" verticalCenter="-4" touchEnabled="false"/>
+				<e:Image id="chargeImg" width="89" height="93" horizontalCenter="0" verticalCenter="-4" source="main_btn_charge_png" touchEnabled="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="rankGroup" width="162" height="387" verticalCenter="0" scaleX="0.9" scaleY="0.9" x="-100" touchEnabled="false">
+			<e:Image id="imageRankBg" width="157" height="324" verticalCenter="-7.5" x="1" y="183" scaleX="1" scaleY="1" source="main_image_rank_png" fillMode="repeat"/>
+		</e:Group>
+		<e:Group id="mainItemGroup" width="1020" height="535" x="120" y="100">
+		</e:Group>
+		<e:Group id="leftGroup" width="120" height="361" x="30" y="161" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button id="ciriBtn" label="" verticalCenter="111" x="1" y="170" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="CiRiLiBao_png" source.down="CiRiLiBao_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="yaoqingBtn" label="" x="35" y="-2">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fenxiang_png" source.down="fenxiang_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="guanzhuBtn" label="" x="33" y="96">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="guanzhu_png" source.down="guanzhu_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Label id="expireTime" text="" width="189" verticalAlign="middle" textAlign="center" textColor="0xFFFFFF" size="26" borderColor="0x000000" border="false" strokeColor="0x020000" stroke="2" height="26" touchEnabled="false" scaleX="1" scaleY="1" horizontalCenter="-543.5" verticalCenter="170"/>
+		<e:Image id="ciriAlert" width="30" height="30" source="alertPoint_png" horizontalCenter="-514" verticalCenter="63"/>
+	</e:Group>
+</e:Skin>

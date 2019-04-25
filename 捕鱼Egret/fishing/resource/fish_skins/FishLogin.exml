@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishLoginSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="158f261cdb8"/>
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Group id="bg" width="1280" height="720" x="0" y="0">
+		</e:Group>
+		<e:Image id="username_bg" width="409" height="52" scaleX="1" scaleY="1" horizontalCenter="0.5" source="login_serverBg_png" y="522.58"/>
+		<e:Button id="login_btn" label="" horizontalCenter="0" y="633.99" width="292" height="99" anchorOffsetX="146" anchorOffsetY="54.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login_startBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="change_id_btn" label="切换账号" y="629.89" width="171" height="56" anchorOffsetX="85.5" anchorOffsetY="27.4" x="1058.5" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_big_s_y_blue_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:EditableText id="username" width="418" height="37" text="" horizontalCenter="0" y="529.33" textAlign="center" verticalAlign="middle" x="359" scaleX="1" scaleY="1"/>
+		<e:Group id="login_group" width="560" height="80" y="547" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false">
+			<e:Group id="wechat_btn" width="250" height="60" y="0" anchorOffsetX="0" anchorOffsetY="0" x="0">
+			<e:Image width="220" height="72" x="18.26" y="-8.33" source="WeiWanCheng_AnNiu_png" scale9Grid="38,0,91,72" scaleX="1" scaleY="1"/>
+			<e:Image width="175" height="41" x="42" y="12" source="WeiXin_DengLu_txt_png"/>
+			</e:Group>
+			<e:Group id="qq_btn" width="250" height="60" y="0" anchorOffsetX="0" anchorOffsetY="0" x="310">
+			<e:Image width="220" height="72" x="18.26" y="-8.33" scale9Grid="38,0,91,72" scaleX="1" scaleY="1" source="common_big_s_y_blue_btn_png"/>
+			<e:Image width="175" height="41" x="41" y="7" source="QQ_DengLu_txt_png"/>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

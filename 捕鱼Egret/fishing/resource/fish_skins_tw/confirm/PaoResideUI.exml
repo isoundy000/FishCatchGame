@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActiveSure" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="484" height="389" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="511" height="360" source="common_panel_big_bg_png" horizontalCenter="0" verticalCenter="19" scale9Grid="31,74,21,450"/>
+		<e:Image width="504" height="76" source="titleConfirm_png" horizontalCenter="0" top="-10" scale9Grid="272,0,68,76"/>
+		<e:Image id="innerBg" width="466" height="217" source="LanDi_png" scale9Grid="24,23,78,44" horizontalCenter="0" verticalCenter="-9"/>
+		<e:Button id="btnClose" label="" horizontalCenter="214.5" verticalCenter="-167">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="ticketGroup" width="170" height="65" horizontalCenter="-110" verticalCenter="144">
+			<e:Image width="163" height="72" horizontalCenter="0" verticalCenter="0" x="-70" y="-146" scaleX="1" scaleY="1" source="WeiWanCheng_AnNiu_png"/>
+			<e:Image width="40" height="40" horizontalCenter="-42" verticalCenter="-0.5" source="common_point_ticket_png"/>
+			<e:BitmapLabel id="activeLab" width="94.33" height="24" anchorOffsetX="0" anchorOffsetY="0" font="bitmapNum_3_fnt" text="999999" verticalCenter="0.5" horizontalCenter="26"/>
+		</e:Group>
+		<e:Group id="goldGroup" width="170" height="65" horizontalCenter="110" verticalCenter="144">
+			<e:Image width="163" height="72" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="83,0,1,70"/>
+			<e:Image width="40" height="40" source="common_coins_png" horizontalCenter="-45" verticalCenter="-2.5"/>
+			<e:BitmapLabel id="goldLab" width="94.33" height="24" anchorOffsetX="0" anchorOffsetY="0" font="bitmapNum_3_fnt" text="999999" verticalCenter="-0.5" horizontalCenter="23"/>
+		</e:Group>
+		<e:Label id="descLab" text="" horizontalCenter="0" verticalCenter="-8.5" width="430" height="181" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

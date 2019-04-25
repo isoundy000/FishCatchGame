@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChargeItem" width="230" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="190" height="250" x="20" y="0">
+		<e:Image id="bg" width="182" height="227" source="ZhanShiKuang_png" horizontalCenter="0" verticalCenter="-5.5"/>
+		<e:Group id="iconGroup" width="1" height="1" horizontalCenter="0.5" top="80"/>
+		<e:Label id="desc" text="100钻石" stroke="1" horizontalCenter="0" verticalCenter="39.5" textAlign="center" size="25"/>
+		<e:Group id="sureGroup" width="190" height="50" horizontalCenter="0" verticalCenter="98">
+			<e:Image width="181" height="69" source="common_s_y_btn_png" verticalCenter="0" horizontalCenter="0" scale9Grid="29,0,2,70"/>
+			<e:Group id="priceGroup" width="1" height="1" x="112" y="23"/>
+			<e:Group id="priceTypeGroup" width="1" height="1" x="56" y="24"/>
+		</e:Group>
+		<e:Group id="firstGroup" width="169" height="32" horizontalCenter="0" verticalCenter="1">
+			<e:Image width="169" height="32" source="BenYueLeiJiQianDao_Tiao_png" horizontalCenter="0" verticalCenter="0" scale9Grid="223,0,11,54"/>
+			<e:Image width="18" height="19" source="ShouChong_Zeng_png" horizontalCenter="-55.5" verticalCenter="-1.5" scaleX="1.2" scaleY="1.2"/>
+			<e:Image id="img_10001" width="34" height="19" verticalCenter="-1.5" source="ShouChong_JinBi_png" right="17" scaleX="1.2" scaleY="1.2" visible="false"/>
+			<e:Image id="img_10002" width="34" height="19" verticalCenter="-1.5" right="17" source="ShouChong_ZuanShi_png" scaleX="1.2" scaleY="1.2" visible="false"/>
+			<e:Image id="img_10012" width="34" height="19" verticalCenter="-1.5" right="17" source="ShouChong_DianJuan_png" scaleX="1.2" scaleY="1.2" visible="false"/>
+			<e:BitmapLabel id="sendLab" width="100" height="24" font="chargeNum_fnt" text="1000万" scaleX="0.7" scaleY="0.7" x="43" y="5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KssResultUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" x="0" y="0">
+		<e:Image id="bg" width="1280" height="416" source="DjsC_diwen01_png" scale9Grid="348,16,25,4" horizontalCenter="0" verticalCenter="37"/>
+		<e:Image id="titleBg" width="410" height="128" source="KssResult_beij_png" horizontalCenter="0" top="15"/>
+		<e:Image id="titleWin" width="212" height="68" horizontalCenter="0" top="33" source="KssResult_Gongxi_png"/>
+		<e:Image id="titleLost" width="212" height="68" horizontalCenter="0" top="33" source="KssResult_YiHan_png"/>
+		<e:Image width="321" height="30" source="KssResult_DiJiMing_png" horizontalCenter="0" top="149"/>
+		<e:BitmapLabel id="rankLab" width="51" height="52" x="718.4" y="136.36" text="8" font="number_fnt"/>
+		<e:Group id="okGroup" width="210" height="80" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="287">
+			<e:Image width="210" height="80" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="81,0,1,70"/>
+			<e:Image id="imgWin" width="157" height="42" source="KssResult_LingQuJingLi_png" horizontalCenter="0" verticalCenter="-3"/>
+			<e:Image id="imgLost" width="103" height="46" horizontalCenter="0" verticalCenter="-3" source="KssResult_ok_png"/>
+		</e:Group>
+		<e:Label text="玩家昵称" verticalCenter="-148" horizontalCenter="-70" textAlign="center" size="30" textColor="0x95a3ca"/>
+		<e:Label text="玩家名词" verticalCenter="-148" horizontalCenter="-210" textAlign="center" size="30" textColor="0x95a3ca"/>
+		<e:Label text="玩家积分" verticalCenter="-148" horizontalCenter="70" textAlign="center" size="30" textColor="0x95a3ca"/>
+		<e:Label text="玩家奖励" verticalCenter="-148" horizontalCenter="210" textAlign="center" size="30" textColor="0x95a3ca"/>
+		<e:Scroller width="550" height="364" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="7" verticalCenter="55">
+			<e:Group id="listGroup"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

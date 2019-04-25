@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeItem" width="200" height="280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="196" height="280" horizontalCenter="0" verticalCenter="-0.5">
+		<e:Image id="type_1" width="198" height="286" source="exchange_ZhanShi_png" verticalCenter="1" horizontalCenter="1" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="type_2" width="196" height="273" verticalCenter="-28" horizontalCenter="0" x="10" y="10" source="exchange_ZhanShi_png" visible="false"/>
+		<e:Image id="type_3" width="198" height="275" horizontalCenter="1" verticalCenter="1" source="exchange_ZhanShi_1_png" visible="false"/>
+		<e:Image id="vis_1" width="172" height="166" source="WuPin_ChanShiKuang2_png" horizontalCenter="-1" verticalCenter="-19" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="vis_2" width="170" height="55" horizontalCenter="-1" source="exchange_num_png" scale9Grid="14,7,4,0" bottom="78"/>
+		<e:Label id="nameExchange" text="500红宝石" size="24" horizontalCenter="0" textAlign="center" top="10" textColor="0x000000"/>
+		<e:Label id="size" text="尺寸: 70cm" size="22" horizontalCenter="0.5" textAlign="center" verticalCenter="25" textColor="0xf9f9f9" stroke="1"/>
+		<e:Label id="marketPrice" text="市场价: 250元" size="22" horizontalCenter="0" textAlign="center" textColor="0xF9F9F9" verticalCenter="48" stroke="1"/>
+		<e:Label id="residue" text="尺寸: 70cm" size="21" horizontalCenter="1" textAlign="center" verticalCenter="38.5" textColor="0xF9F9F9" stroke="1" visible="false"/>
+		<e:Label id="updateTime" text="市场价: 250元" size="21" horizontalCenter="1" textAlign="center" textColor="0xF9F9F9" verticalCenter="58" stroke="1" visible="false"/>
+		<e:Group id="costGroup" width="151" height="70" horizontalCenter="-0.5" verticalCenter="100">
+			<e:Image width="160" height="64" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="59,0,0,70"/>
+			<e:Image id="huafei" width="44" height="44" verticalCenter="-4" horizontalCenter="-29.5" anchorOffsetX="22" anchorOffsetY="22" source="common_fish_ticket_png"/>
+			<e:Image id="dantou" width="44" height="44" verticalCenter="-4" horizontalCenter="-29.5" anchorOffsetX="22" anchorOffsetY="22" source="YuJuan_png"/>
+			<e:BitmapLabel id="costNum" width="98" height="26" text="900元" verticalCenter="0" left="55" font="bitmapNum_3_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group id="iconGroup" width="1" height="1" horizontalCenter="-0.5" verticalCenter="-28.5" scaleX="0.75" scaleY="0.75"/>
+		<e:Image id="HongBao_1" width="132" height="27" source="HongBao_1_png" horizontalCenter="0" top="10" visible="false"/>
+		<e:Image id="HongBao_5" width="136" height="27" horizontalCenter="0" top="10" source="HongBao_5_png" visible="false"/>
+		<e:Image id="HongBao_10" width="145" height="27" horizontalCenter="0" top="10" source="HongBao_10_png" visible="false"/>
+		<e:Image id="HongSelect" width="212" height="294" source="exchange_select_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false" scale9Grid="25,35,152,216" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,46 @@
+{"mc":{
+	"jinchanchu":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":5}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"JinChanChu0000",
+			"x":69,
+			"y":10
+			},
+			{
+			"res":"JinChanChu0001",
+			"x":0,
+			"y":18
+			},
+			{
+			"res":"JinChanChu0002",
+			"x":6,
+			"y":14
+			},
+			{
+			"res":"JinChanChu0003",
+			"x":20,
+			"y":6
+			},
+			{
+			"res":"JinChanChu0004",
+			"x":37,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"JinChanChu0001":{"x":0,"y":345,"w":270,"h":137},
+		"JinChanChu0003":{"x":0,"y":0,"w":255,"h":177},
+		"JinChanChu0002":{"x":0,"y":193,"w":270,"h":150},
+		"JinChanChu0000":{"x":272,"y":193,"w":199,"h":186},
+		"JinChanChu0004":{"x":257,"y":0,"w":235,"h":191}
+	}}

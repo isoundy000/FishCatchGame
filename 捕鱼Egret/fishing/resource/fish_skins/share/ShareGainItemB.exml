@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareGainItemB" width="750" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="750" height="90" verticalCenter="0" horizontalCenter="0">
+		<e:Image id="bg" width="749" height="90" source="NeiRongTiao_png" horizontalCenter="0" verticalCenter="0" scale9Grid="21,0,10,105"/>
+		<e:Group id="iconGroup" width="1" height="1" horizontalCenter="-315" verticalCenter="0"/>
+		<e:Image id="vipBg" width="54" height="30" source="vip_vip_png" verticalCenter="0" horizontalCenter="-250"/>
+		<e:BitmapLabel id="vipLv" width="38" height="35" font="vipShow_fnt" text="1" horizontalCenter="-201" verticalCenter="2"/>
+		<e:Label id="nameLab" text="名称" verticalCenter="0" textAlign="left" left="178" textColor="0x12345E" width="112"/>
+		<e:Label id="descLab" text="名称" verticalCenter="0" textAlign="left" left="348" textColor="0x12345E" width="112"/>
+		<e:Group id="yilingqu" width="170" height="71" verticalCenter="0" horizontalCenter="238">
+			<e:Image id="endLingqu0" width="170" height="75" source="WeiWanCheng_AnNiu_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+			<e:Image id="imgYilingqu0" width="73" height="28" verticalCenter="0" horizontalCenter="0" touchEnabled="false" source="YiLingQu_Green_png"/>
+		</e:Group>
+		<e:Group id="lingqu" width="170" height="70" verticalCenter="0" horizontalCenter="238">
+			<e:Image width="170" height="75" source="common_s_y_btn_png" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image id="imgLingqu0" width="58" height="27" verticalCenter="0" horizontalCenter="0" source="LingQu_png" touchEnabled="false" x="100" y="-14" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

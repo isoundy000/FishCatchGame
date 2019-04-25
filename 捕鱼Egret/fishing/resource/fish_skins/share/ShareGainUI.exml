@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareGainUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="802" height="454" source="common_panel_big_bg_png" horizontalCenter="0" verticalCenter="0" scale9Grid="25,74,24,450"/>
+		<e:Image id="innerBg" width="767" height="414" source="exchange_numBg_png" horizontalCenter="0.5" verticalCenter="5" scale9Grid="15,15,18,14"/>
+		<e:Image id="titleBg" width="807" height="70" source="common_panel_bg_png" horizontalCenter="0" verticalCenter="-245"/>
+		<e:Image id="title" width="201" height="38" source="Share_WoDeFenXiangJiangLi_png" horizontalCenter="0" top="99"/>
+		<e:Button id="btnClose" label="" anchorOffsetX="31" anchorOffsetY="31" horizontalCenter="359.5" verticalCenter="-244.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png" source.disabled="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller width="750" height="390" horizontalCenter="0" verticalCenter="5">
+			<e:Group id="llistGroup"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonHelpUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="400" height="300" source="common_panel_big_bg_png" scale9Grid="34,33,14,535" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="bgInner" width="370" height="270" source="LanDi_png" scale9Grid="22,22,83,45" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="contain" width="340" height="240" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

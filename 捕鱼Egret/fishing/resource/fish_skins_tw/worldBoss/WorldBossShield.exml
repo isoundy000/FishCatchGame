@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldBossBlode" width="455" height="88" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="455" height="88" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="423" height="31" source="worldBossShield_bg_png" scale9Grid="27,0,1,31" horizontalCenter="15" verticalCenter="-8.5"/>
+		<e:Image id="cur_362" width="362" height="22" source="worldBossShield_cur_png" verticalCenter="-10" scale9Grid="11,10,2,1" left="88"/>
+		<e:Image width="110" height="88" source="worldBossShield_icon_png" left="0" verticalCenter="0"/>
+		<e:Label id="shieldLab" text="999999/999999" horizontalCenter="28.5" verticalCenter="-8" stroke="1" strokeColor="0x4f392c" size="28" textAlign="center"/>
+	</e:Group>
+</e:Skin>

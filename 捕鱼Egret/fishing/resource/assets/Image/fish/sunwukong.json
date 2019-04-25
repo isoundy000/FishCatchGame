@@ -1,0 +1,64 @@
+{"mc":{
+	"sunwukong":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":8}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"SunWuKong_YinZi0000",
+			"x":4,
+			"y":15
+			},
+			{
+			"res":"SunWuKong_YinZi0001",
+			"x":1,
+			"y":11
+			},
+			{
+			"res":"SunWuKong_YinZi0002",
+			"x":2,
+			"y":5
+			},
+			{
+			"res":"SunWuKong_YinZi0003",
+			"x":5,
+			"y":1
+			},
+			{
+			"res":"SunWuKong_YinZi0004",
+			"x":4,
+			"y":0
+			},
+			{
+			"res":"SunWuKong_YinZi0005",
+			"x":2,
+			"y":4
+			},
+			{
+			"res":"SunWuKong_YinZi0006",
+			"x":4,
+			"y":9
+			},
+			{
+			"res":"SunWuKong_YinZi0007",
+			"x":8,
+			"y":12
+			}
+			]
+}},
+	"res":{
+		"SunWuKong_YinZi0003":{"x":417,"y":236,"w":192,"h":240},
+		"SunWuKong_YinZi0004":{"x":0,"y":474,"w":194,"h":240},
+		"SunWuKong_YinZi0000":{"x":611,"y":476,"w":172,"h":230},
+		"SunWuKong_YinZi0005":{"x":0,"y":236,"w":215,"h":236},
+		"SunWuKong_YinZi0006":{"x":238,"y":0,"w":221,"h":234},
+		"SunWuKong_YinZi0002":{"x":217,"y":236,"w":198,"h":237},
+		"SunWuKong_YinZi0007":{"x":196,"y":476,"w":169,"h":232},
+		"SunWuKong_YinZi0001":{"x":0,"y":0,"w":236,"h":233}
+	}}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoticeItemBtnUI" width="262" height="107" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="titleItem" width="230" height="100" horizontalCenter="-14" verticalCenter="0.5" x="191" y="166" scaleX="1" scaleY="1">
+		<e:Group id="unSelected" width="230" height="100" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="0" verticalCenter="0" x="1" y="2" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="selected" width="230" height="100" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+		<e:Image width="254" height="98" source="XuanZhong_png" horizontalCenter="14" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="alert" width="30" height="30" x="211" y="10" source="alertPoint_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Label id="titleTxt" text="这个是公告dd" x="20" y="13" anchorOffsetX="0" width="194" anchorOffsetY="0" height="77" size="26" touchEnabled="false" textAlign="center" verticalAlign="middle" bold="true" strokeColor="0x66340f" stroke="2"/>
+</e:Skin>

@@ -1,0 +1,52 @@
+{"mc":{
+	"jinwugui":{
+		"frameRate":24,
+		"labels":[
+			{"name":"run","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"JinWuGui0000",
+			"x":0,
+			"y":10
+			},
+			{
+			"res":"JinWuGui0001",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"JinWuGui0002",
+			"x":0,
+			"y":25
+			},
+			{
+			"res":"JinWuGui0003",
+			"x":6,
+			"y":33
+			},
+			{
+			"res":"JinWuGui0004",
+			"x":6,
+			"y":23
+			},
+			{
+			"res":"JinWuGui0005",
+			"x":4,
+			"y":12
+			}
+			]
+}},
+	"res":{
+		"JinWuGui0002":{"x":0,"y":441,"w":214,"h":190},
+		"JinWuGui0005":{"x":213,"y":222,"w":210,"h":217},
+		"JinWuGui0000":{"x":213,"y":0,"w":209,"h":220},
+		"JinWuGui0001":{"x":0,"y":0,"w":211,"h":230},
+		"JinWuGui0004":{"x":0,"y":232,"w":211,"h":194},
+		"JinWuGui0003":{"x":216,"y":441,"w":211,"h":174}
+	}}

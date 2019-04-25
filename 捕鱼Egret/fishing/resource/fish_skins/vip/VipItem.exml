@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipItem" width="175" height="285" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="175" height="280" horizontalCenter="0" verticalCenter="5">
+		<e:Image id="bg" width="175" height="290" horizontalCenter="0" verticalCenter="0" source="lottery_item_png"/>
+		<e:Image width="54" height="30" source="vip_vip_png" top="6" horizontalCenter="-22"/>
+		<e:Group id="vipLvGroup" width="1" height="1" horizontalCenter="17" top="21"/>
+		<e:Group id="iconGroup" width="1" height="1" horizontalCenter="0" verticalCenter="-3.5"/>
+		<e:Image width="143" height="31" source="vip_diwen_hei_png" scale9Grid="11,0,0,31" horizontalCenter="1" top="52"/>
+		<e:Label id="desc" text="累计充值1000元" textAlign="center" horizontalCenter="0" top="60" size="17" bold="true" stroke="1" strokeColor="0x000000"/>
+		<e:Image width="143" source="vip_diwen_hei_png" scale9Grid="11,0,0,31" horizontalCenter="1" bottom="67" height="31" scaleY="-1"/>
+		<e:Label id="desc0" text="每日登陆抽奖翻倍" textAlign="center" horizontalCenter="0" size="17" bold="true" stroke="1" strokeColor="0x000000" bottom="73" height="17"/>
+		<e:Label id="nameLab" text="强袭飓风" textAlign="center" horizontalCenter="3" bottom="18" stroke="1" bold="true" textColor="0xfff66f" strokeColor="0x4146af"/>
+		<e:Image id="lock" width="42" height="50" source="vip_Suo_png" right="16" top="-9.5"/>
+	</e:Group>
+</e:Skin>

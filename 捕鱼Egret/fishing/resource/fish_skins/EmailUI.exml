@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmailUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" verticalCenter="0" horizontalCenter="0" fillAlpha="0.7"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="974" height="550" source="common_panel_big_bg_png" scale9Grid="30,74,19,450" horizontalCenter="0" verticalCenter="20"/>
+		<e:Image id="titleBg" width="974" height="70" source="common_panel_bg_png" scale9Grid="502,0,86,74" horizontalCenter="0" top="52"/>
+		<e:Image id="titleBg0" width="76" height="41" scale9Grid="502,0,86,74" horizontalCenter="0" top="68" source="XinXiang_png"/>
+		<e:Image width="933" height="502" scale9Grid="12,12,32,31" horizontalCenter="0.5" verticalCenter="27" source="lottery_bg_inner_png"/>
+		<e:Image width="660" height="470" verticalCenter="27" source="LanDi_png" scale9Grid="22,20,85,50" right="186"/>
+		<e:Button id="closeBtn" label="" width="63" anchorOffsetX="31.5" anchorOffsetY="31.5" horizontalCenter="443.5" height="63" verticalCenter="-272.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="giftGroup" width="230" height="100" horizontalCenter="-334" verticalCenter="-144">
+			<e:Group id="unSel" width="230" height="100" horizontalCenter="0" verticalCenter="0">
+				<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="0" verticalCenter="0" x="1" y="2" scaleX="1" scaleY="1"/>
+				<e:Image width="56" height="67" verticalCenter="0" left="15" source="JiangBei_png" x="15" y="17" scaleX="1" scaleY="1"/>
+				<e:Image height="35" verticalCenter="0" source="LingJiang_1_png" right="33" width="125" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="Sel" width="230" height="100" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+				<e:Image width="254" height="98" source="XuanZhong_png" horizontalCenter="14" verticalCenter="0"/>
+				<e:Image width="56" height="67" verticalCenter="0" left="15" source="JiangBei_png" x="15" y="17" scaleX="1" scaleY="1"/>
+				<e:Image height="35" verticalCenter="0" right="33" width="125" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="LingJing_2_png"/>
+			</e:Group>
+			<e:Button id="giftBtn" label="" horizontalCenter="0" verticalCenter="0" alpha="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="WeiXuanZhong_png" source.down="WeiXuanZhong_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="giftAlert" width="30" height="30" x="209" y="11" source="alertPoint_png" visible="false"/>
+		</e:Group>
+		<e:Group id="serverGroup" width="230" height="100" horizontalCenter="-334" y="297">
+			<e:Group id="unSelServer" width="230" height="100" horizontalCenter="0" verticalCenter="0">
+			<e:Image width="228" height="97" source="WeiXuanZhong_png" horizontalCenter="0" verticalCenter="0" x="1" y="2" scaleX="1" scaleY="1"/>
+			<e:Image width="52" height="46" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="LaBa_png"/>
+			<e:Image height="35" verticalCenter="0" right="33" width="125" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="XiTong_1_png"/>
+			</e:Group>
+			<e:Group id="SelServer" width="230" height="100" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+			<e:Image width="254" height="98" source="XuanZhong_png" horizontalCenter="14" verticalCenter="0"/>
+			<e:Image width="52" height="46" verticalCenter="0" left="15" x="15" y="17" scaleX="1" scaleY="1" source="LaBa_png"/>
+			<e:Image height="35" verticalCenter="0" right="33" width="125" anchorOffsetX="0.5" anchorOffsetY="0.5" x="72" y="33" scaleX="1" scaleY="1" source="XiTong_2_png"/>
+			</e:Group>
+			<e:Button id="serverBtn" label="" horizontalCenter="0" verticalCenter="0" alpha="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="WeiXuanZhong_png" source.down="WeiXuanZhong_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="serverAlert" width="30" height="30" x="209" y="11" scaleX="1" scaleY="1" source="alertPoint_png" visible="false"/>
+		</e:Group>
+		<e:Scroller id="scrol" width="651" height="452" y="160" x="438">
+			<e:Group id="scrolGroup" width="651" height="452452"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

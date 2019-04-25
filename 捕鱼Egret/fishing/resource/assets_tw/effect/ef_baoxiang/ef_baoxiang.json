@@ -1,0 +1,52 @@
+{"mc":{
+	"ef_baoxiang":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":6}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"RenWuBaoXiang_1_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"RenWuBaoXiang_2_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"RenWuBaoXiang_3_png",
+			"x":20,
+			"y":20
+			},
+			{
+			"res":"RenWuBaoXiang_4_png",
+			"x":31,
+			"y":31
+			},
+			{
+			"res":"RenWuBaoXiang_5_png",
+			"x":41,
+			"y":41
+			},
+			{
+			"res":"RenWuBaoXiang_6_png",
+			"x":47,
+			"y":38
+			}
+			]
+}},
+	"res":{
+		"RenWuBaoXiang_1_png":{"x":232,"y":0,"w":230,"h":231},
+		"RenWuBaoXiang_3_png":{"x":0,"y":233,"w":190,"h":190},
+		"RenWuBaoXiang_4_png":{"x":192,"y":233,"w":168,"h":168},
+		"RenWuBaoXiang_5_png":{"x":192,"y":403,"w":152,"h":153},
+		"RenWuBaoXiang_6_png":{"x":346,"y":403,"w":143,"h":88},
+		"RenWuBaoXiang_2_png":{"x":0,"y":0,"w":230,"h":231}
+	}}

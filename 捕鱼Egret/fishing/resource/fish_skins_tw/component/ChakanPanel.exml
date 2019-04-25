@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChakanPanel" width="300" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="root" width="300" height="200" horizontalCenter="0" bottom="0" touchEnabled="false">
+		<e:Group id="mine" width="300" height="200" horizontalCenter="0" verticalCenter="0" touchEnabled="false" visible="false">
+			<e:Button id="emoji" label="" anchorOffsetX="48" anchorOffsetY="48" x="48" y="151" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gun_emoji_png" source.down="gun_emoji_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="chat" label="" anchorOffsetX="48" anchorOffsetY="48" y="60" x="100" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gun_chat_png" source.down="gun_chat_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="change" label="" height="97" anchorOffsetX="48" anchorOffsetY="48" horizontalCenter="-90" verticalCenter="48.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gun_change_png" source.down="gun_change_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="auto" label="" anchorOffsetX="52" anchorOffsetY="44" horizontalCenter="90" verticalCenter="47.5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gun_auto_png" source.down="gun_auto_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="other" width="300" height="200" rotation="0" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+			<e:Image id="di" width="272" height="180" source="DuiFangDiKuang_png" horizontalCenter="0" verticalCenter="0" rotation="0" anchorOffsetX="136" anchorOffsetY="90"/>
+			<e:Image id="kuang" width="209" height="84" source="DuiFangXinXiKuang_png" scale9Grid="13,14,17,7" horizontalCenter="0" verticalCenter="12"/>
+			<e:Label id="nameLab" text="某某某 Lv.15" size="20" textAlign="center" horizontalCenter="2.5" verticalCenter="-50"/>
+			<e:Label id="gun" text="炮台: 飓风" x="116.34" y="110.66" size="20" textColor="0xffe600"/>
+			<e:Label id="lvLab" text="炮台: 飓风" x="116.34" y="81" size="20" textColor="0xffe600"/>
+			<e:Label id="gun0" text="炮台:" x="58.99" y="111" size="20"/>
+			<e:Label id="lvLab0" text="等级:" x="58.99" y="81" size="20"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

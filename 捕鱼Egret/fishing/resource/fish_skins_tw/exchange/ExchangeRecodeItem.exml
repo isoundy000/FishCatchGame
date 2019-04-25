@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeRecodeItem" width="690" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="690" height="50" x="0" y="0">
+		<e:Label id="nameLab" text="企鹅" verticalCenter="0" left="11" textAlign="center" width="223" touchEnabled="false"/>
+		<e:Label id="timeLab" text="企鹅" verticalCenter="0" width="251" textAlign="center" anchorOffsetX="125" horizontalCenter="0" touchEnabled="false"/>
+		<e:Label id="stateLab" text="企鹅" verticalCenter="0" width="266" textAlign="center" anchorOffsetX="125" right="11" touchEnabled="false"/>
+		<e:Image width="1280" height="1" source="Exchange_Xian_png" scale9Grid="5,2,0,1" bottom="3" horizontalCenter="0" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

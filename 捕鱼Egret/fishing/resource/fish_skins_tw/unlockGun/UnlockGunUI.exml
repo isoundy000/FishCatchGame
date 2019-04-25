@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UnlockGunUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1024" height="340" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="1127" height="340" y="0" source="common_panel_big_bg_png" scale9Grid="28,73,24,451" horizontalCenter="0"/>
+		<e:Image id="titleBg" width="1130" height="74" source="titleConfirm_png" horizontalCenter="0" verticalCenter="-177" scale9Grid="300,0,38,76"/>
+		<e:Image width="134" height="38" source="UnlockGun_title_png" horizontalCenter="0" top="-24"/>
+		<e:Button id="btnClose" label="" horizontalCenter="522.5" verticalCenter="-175.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="cur" width="201" height="277" horizontalCenter="0" verticalCenter="10">
+			<e:Image width="201" height="277" x="0" y="0" source="exchange_ZhanShi_png"/>
+			<e:Image width="49" height="27" source="UnlockGun_JieSuo_png" horizontalCenter="-56" top="19"/>
+			<e:Image width="49" height="27" horizontalCenter="56" top="19" source="UnlockGun_PaoBei_png"/>
+			<e:Image width="163" height="154" horizontalCenter="0" verticalCenter="-8" source="WuPin_ChanShiKuang2_png"/>
+			<e:Group id="icon_0" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="7"/>
+			<e:Group id="unlockGu" width="149.33" height="48" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="100">
+				<e:Image width="152" height="61" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="79,0,2,70"/>
+				<e:Image width="72" height="68" source="common_diamond_png" scaleX="0.4" scaleY="0.4" horizontalCenter="-34.665000000000006" verticalCenter="0"/>
+				<e:BitmapLabel width="67" height="25" font="cardLeiji_fnt" text="999" horizontalCenter="13" verticalCenter="0" scaleX="0.7" scaleY="0.7" id="zengLab0" x="42" y="-39"/>
+			</e:Group>
+			<e:BitmapLabel id="curRateLab" width="64" height="24" font="cardBlue_fnt" text="9999" horizontalCenter="0.5" y="19.67"/>
+			<e:Image id="suo_0" width="49" height="57" source="ChangeGun_Suo_png" scaleX="0.7" scaleY="0.7" horizontalCenter="61.5" verticalCenter="-63.5"/>
+			<e:Image id="zeng" width="50" height="49" source="Zeng_png" horizontalCenter="-57.5" verticalCenter="47"/>
+			<e:Image width="30" height="30" source="common_coins_png" verticalCenter="47.5" horizontalCenter="55.5"/>
+			<e:BitmapLabel id="zengLab" width="104" height="25" font="cardLeiji_fnt" text="999999" horizontalCenter="4" verticalCenter="46.5" scaleX="0.7" scaleY="0.7"/>
+			<e:Image id="select" width="209" height="281" source="s_Gou_select_png" horizontalCenter="0.5" verticalCenter="0" scale9Grid="37,27,226,167"/>
+		</e:Group>
+		<e:Group id="last_0" width="201" height="277" horizontalCenter="-220" verticalCenter="10">
+			<e:Image width="201" height="277" x="0" y="0" source="exchange_ZhanShi_png"/>
+			<e:Image width="49" height="27" source="UnlockGun_JieSuo_png" horizontalCenter="-56" top="19"/>
+			<e:Image width="49" height="27" source="UnlockGun_PaoBei_png" horizontalCenter="56" top="19"/>
+			<e:Image width="163" height="154" horizontalCenter="0" verticalCenter="-8" x="239" y="43" scaleX="1" scaleY="1" source="WuPin_ChanShiKuang2_png"/>
+			<e:Group id="iconLast_0" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="7"/>
+			<e:Group width="149.33" height="48" anchorOffsetX="0" anchorOffsetY="0" id="unlockGu0" horizontalCenter="0" verticalCenter="100">
+			<e:Image width="152" height="61" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="79,0,2,70"/>
+				<e:Image width="90" height="25" source="UnlockGun_JieSuoChengGong_png" horizontalCenter="0" verticalCenter="-3"/>
+			</e:Group>
+			<e:BitmapLabel id="lastRate_0" width="64" height="24" font="cardBlue_fnt" text="9999" x="69" y="19.67"/>
+			<e:Image width="46" height="37" source="select_png" right="21" top="55"/>
+		</e:Group>
+		<e:Group id="last_1" width="201" height="277" horizontalCenter="-440" verticalCenter="10">
+			<e:Image width="201" height="277" x="0" y="0" source="exchange_ZhanShi_png"/>
+			<e:Image width="49" height="27" source="UnlockGun_JieSuo_png" horizontalCenter="-56" top="19"/>
+			<e:Image width="49" height="27" source="UnlockGun_PaoBei_png" horizontalCenter="56" top="19"/>
+			<e:Image width="163" height="154" horizontalCenter="0" verticalCenter="-8" x="239" y="54" scaleX="1" scaleY="1" source="WuPin_ChanShiKuang2_png"/>
+			<e:Group id="iconLast_1" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="7"/>
+			<e:Group width="149.33" height="48" anchorOffsetX="0" anchorOffsetY="0" id="unlockGu1" horizontalCenter="0" verticalCenter="100">
+			<e:Image width="152" height="61" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="79,0,2,70"/>
+			<e:Image width="90" height="25" source="UnlockGun_JieSuoChengGong_png" horizontalCenter="0" verticalCenter="-3"/>
+			</e:Group>
+			<e:BitmapLabel id="lastRate_1" width="64" height="24" font="cardBlue_fnt" text="9999" verticalCenter="-106.5" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5"/>
+			<e:Image width="46" height="37" source="select_png" right="21" top="55"/>
+		</e:Group>
+		<e:Group id="next_0" width="201" height="277" horizontalCenter="220" verticalCenter="10">
+			<e:Image width="201" height="277" x="0" y="0" source="exchange_ZhanShi_png"/>
+			<e:Image width="49" height="27" source="UnlockGun_JieSuo_png" horizontalCenter="-56" top="19"/>
+			<e:Image width="49" height="27" horizontalCenter="56" top="19" source="UnlockGun_PaoBei_png"/>
+			<e:Image width="163" height="154" horizontalCenter="0" verticalCenter="-8" source="WuPin_ChanShiKuang2_png"/>
+			<e:Group id="iconNext_0" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="7"/>
+			<e:Group id="unlockGu2" width="149.33" height="48" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="100">
+			<e:Image width="152" height="61" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="79,0,2,70"/>
+			<e:Image width="72" height="68" source="common_diamond_png" scaleX="0.4" scaleY="0.4" horizontalCenter="-34.665000000000006" verticalCenter="0"/>
+			<e:BitmapLabel width="67" height="25" font="cardLeiji_fnt" text="???" horizontalCenter="13" verticalCenter="0" scaleX="0.7" scaleY="0.7" id="zengLab1" x="42" y="-39"/>
+			</e:Group>
+			<e:BitmapLabel id="nextRate_0" width="64" height="24" font="cardBlue_fnt" text="9999" x="69" y="19.67"/>
+			<e:Image id="suo_1" width="49" height="57" source="ChangeGun_Suo_png" scaleX="0.7" scaleY="0.7" horizontalCenter="61.5" verticalCenter="-63.5"/>
+			<e:Image id="zeng0" width="50" height="49" source="Zeng_png" horizontalCenter="-57.5" verticalCenter="47"/>
+			<e:Image width="30" height="30" source="common_coins_png" verticalCenter="47.5" horizontalCenter="55.5"/>
+			<e:BitmapLabel id="zengLab2" width="71" height="25" font="cardLeiji_fnt" text="???" verticalCenter="46.5" scaleX="0.9" scaleY="0.9" horizontalCenter="8"/>
+		</e:Group>
+		<e:Group id="next_1" width="201" height="277" horizontalCenter="440" verticalCenter="10">
+			<e:Image width="201" height="277" x="0" y="0" source="exchange_ZhanShi_png"/>
+			<e:Image width="49" height="27" source="UnlockGun_JieSuo_png" horizontalCenter="-57" top="19"/>
+			<e:Image width="49" height="27" horizontalCenter="56" top="19" source="UnlockGun_PaoBei_png"/>
+			<e:Image width="163" height="154" horizontalCenter="0" verticalCenter="-8" source="WuPin_ChanShiKuang2_png"/>
+			<e:Group id="iconNext_1" width="1" height="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="7"/>
+			<e:Group id="unlockGu3" width="149.33" height="48" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="100">
+			<e:Image width="152" height="61" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0" scale9Grid="79,0,2,70"/>
+			<e:Image width="72" height="68" source="common_diamond_png" scaleX="0.4" scaleY="0.4" horizontalCenter="-34.665000000000006" verticalCenter="0"/>
+			<e:BitmapLabel width="67" height="25" font="cardLeiji_fnt" text="???" horizontalCenter="13" verticalCenter="0" scaleX="0.7" scaleY="0.7" id="zengLab3" x="42" y="-39"/>
+			</e:Group>
+			<e:BitmapLabel width="64" height="24" font="cardBlue_fnt" text="9999" id="nextRate_1" x="69" y="19.67"/>
+			<e:Image id="suo_2" width="49" height="57" source="ChangeGun_Suo_png" scaleX="0.7" scaleY="0.7" horizontalCenter="61.5" verticalCenter="-63.5"/>
+			<e:Image id="zeng1" width="50" height="49" source="Zeng_png" horizontalCenter="-57.5" verticalCenter="47"/>
+			<e:Image width="30" height="30" source="common_coins_png" verticalCenter="47.5" horizontalCenter="55.5"/>
+			<e:BitmapLabel id="zengLab4" width="71" height="25" font="cardLeiji_fnt" text="???" verticalCenter="46.5" scaleX="0.9" scaleY="0.9" horizontalCenter="8"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

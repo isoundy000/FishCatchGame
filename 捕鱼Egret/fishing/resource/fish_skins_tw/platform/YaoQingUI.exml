@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YaoQingUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="1280" height="720" x="0" y="0">
+		<e:Image width="594" height="390" source="common_panel_big_bg_png" scale9Grid="34,74,17,450" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image width="594" height="76" x="343.01" y="143.01" source="titleConfirm_png"/>
+		<e:Button id="closeBtn" label="" x="862.32" y="149.51">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image width="560" height="106.67" x="361" y="431" source="di_png" scale9Grid="18,13,6,6" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image width="550" height="212" x="365" y="221.33" source="tupian_png" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="desTxt" text="" x="381" y="448" anchorOffsetX="0" width="523.33" anchorOffsetY="0" height="70" verticalAlign="middle" textAlign="center" textColor="0xf4e209"/>
+	</e:Group>
+</e:Skin>

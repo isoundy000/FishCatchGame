@@ -1,0 +1,22 @@
+{"mc":{
+	"ef_gunPos":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":1}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"QiangKouHuoYan",
+			"x":-20,
+			"y":-62
+			}
+			]
+}},
+	"res":{
+		"QiangKouHuoYan":{"x":0,"y":0,"w":41,"h":67}
+	}}

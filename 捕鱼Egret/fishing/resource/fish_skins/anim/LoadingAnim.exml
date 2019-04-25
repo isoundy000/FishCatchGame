@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingAnim" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image id="WuShi" width="204" height="110" x="496" y="448" source="DaYu_png" anchorOffsetX="102" anchorOffsetY="55"/>
+	<e:Image id="Zi_L_Qi" width="20" height="22" x="935" y="656.85" source="Zi_Chi_L_png" anchorOffsetY="12"/>
+	<e:Image id="Zi_ShenTi" width="110" height="131" x="903" y="619.83" source="Zi_png" anchorOffsetX="55" anchorOffsetY="65.5"/>
+	<e:Image id="Zi_R_Qi" width="29" height="31" x="896" y="645.33" source="Zi_Chi_R_png" anchorOffsetX="29" anchorOffsetY="31"/>
+	<e:Image id="Zi_Yan" width="56" height="56" x="930" y="616.33" source="Zi_Yan_png" anchorOffsetX="28" anchorOffsetY="28"/>
+	<e:Image id="Zi_Zui" width="30" height="40" x="927" y="665.33" source="Zi_Zui_png" anchorOffsetX="15" anchorOffsetY="20"/>
+	<e:Image id="WuGui_L_Qi" width="89" height="41" x="346.01" y="613" source="wugui_qi_r_png"/>
+	<e:Image id="WuGui_Ke" width="111" height="84" x="303.23" y="623" source="wugui_st_png" anchorOffsetX="55.5" anchorOffsetY="42"/>
+	<e:Image id="WuGui_R_QI" width="79" height="56" x="292.51" y="623" source="wugui_qi_l_png" anchorOffsetY="0" anchorOffsetX="79"/>
+	<e:Image id="WuGui_Tou" width="92" height="77" x="325.51" y="594.82" source="wugui_tou_png" anchorOffsetX="46" anchorOffsetY="38.5"/>
+	<e:Image id="WuGui_Yan_R" width="33" height="46" x="299.01" y="584" source="wugui_yanjing_l_png" anchorOffsetX="16.5" anchorOffsetY="23"/>
+	<e:Image id="WuGui_Yan_L" width="42" height="25" x="344.01" y="571" source="wugui_yanjing_r_png" anchorOffsetX="21" anchorOffsetY="12.5"/>
+	<e:Image id="WuGui_Zui" width="44" height="42" x="339.01" y="611" source="wugui_zui_png" anchorOffsetX="22" anchorOffsetY="21" rotation="8.57"/>
+	<e:Image id="XiaoChou_ShenTI" width="135" height="121" x="1052.22" y="297" source="Chou_png" anchorOffsetX="67.5" anchorOffsetY="60.5"/>
+	<e:Image id="XiaoChou_L_Yan" width="32" height="31" x="1096" y="264" source="Chou_Yan_L_png" anchorOffsetX="16" anchorOffsetY="15.5"/>
+	<e:Image id="XiaoChou_R_Yan" width="37" height="41" x="1053" y="283.5" source="Chou_Yan_R_png" anchorOffsetX="18.5" anchorOffsetY="20.5"/>
+	<e:Image id="XiaoChou_R_Chi" width="29" height="34" x="1038.5" y="310" source="Chou_YuQi_png" anchorOffsetX="27" anchorOffsetY="7"/>
+	<e:Image id="XiaoChou_Zui" width="40" height="46" x="1093" y="302" source="Chou_Zui_png" anchorOffsetX="20" anchorOffsetY="23"/>
+	<e:Image id="HeTun_WeiBa" width="30" height="47" x="290" y="313" source="ht_weiqi_png" anchorOffsetY="34"/>
+	<e:Image id="HeTun_R_Chi" width="24" height="25" x="228" y="352" source="ht_qi_l_png" anchorOffsetX="23" anchorOffsetY="3"/>
+	<e:Image id="HeTun_ShenTI" width="139" height="132" x="205" y="262" source="ht_st_png"/>
+	<e:Image id="HeTun_L_Chi" width="25" height="22" x="305" y="309" source="ht_qi_r_png" anchorOffsetY="19"/>
+	<e:Image id="HeTun_Yan_R" width="29" height="45" x="223" y="326" source="ht_yanjing_l_png" anchorOffsetX="14.5" anchorOffsetY="22.5"/>
+	<e:Image id="HeTun_Yan_L" width="47" height="36" x="267" y="295" source="ht_yanjing_r_png" anchorOffsetX="23.5" anchorOffsetY="18"/>
+	<e:Image id="HeTun_Zui" width="51" height="55" x="262" y="339" source="ht_zui_png" anchorOffsetX="25.5" anchorOffsetY="27.5"/>
+	<e:Image id="Lan_L_Qi" width="27" height="20" x="1087.02" y="520.32" source="Lan_Qi_L_png"/>
+	<e:Image id="lan_ShenTi" width="129" height="138" x="1046.5" y="494.93" source="Lan_png" anchorOffsetX="64.5" anchorOffsetY="69"/>
+	<e:Image id="Lan_R_Qi" width="31" height="51" x="1023.66" y="517.62" source="Lan_Qi_R_png" anchorOffsetX="31" anchorOffsetY="51"/>
+	<e:Image id="Lan_Zui" width="63" height="49" x="1060.74" y="536.33" source="Lan_Zui_png" anchorOffsetX="31.5" anchorOffsetY="24.5"/>
+	<e:Image id="Lan_Yan" width="40" height="43" x="1061.86" y="491.32" source="Lan_Yan_png" anchorOffsetX="20" anchorOffsetY="21.5"/>
+	<e:Image id="ShaYu_Chi" width="99" height="60" x="756.23" y="105.79" source="YuChi_di_png" anchorOffsetX="47" anchorOffsetY="23"/>
+	<e:Image id="ShaYu_ShenTI" width="279" height="145" x="676.51" y="156.5" source="ShaYu2_png" anchorOffsetX="139.5" anchorOffsetY="72.5"/>
+	<e:Image id="ShaYu_Zui" width="99" height="56" x="636.77" y="131.58" source="ShaYu_zui_png"/>
+	<e:Image id="ShaYu_Yan1" width="30" height="17" x="696.43" y="112.3" source="YanPi_1_png"/>
+	<e:Image id="ShaYu_Yan2" width="30" height="27" x="698.7" y="109.67" source="YanPi_2_png"/>
+	<e:Image id="ShaYu_Zhao" width="225" height="224" x="591.55" y="22.99" source="ZhaoZi_png"/>
+	<e:Image id="ShaYu_Pao" width="451" height="268" x="621.27" y="207.5" source="Pao_png" anchorOffsetX="225.5" anchorOffsetY="134" rotation="2.15"/>
+	<e:Image id="ShaYu_Qi" width="58" height="78" x="754.88" y="162.83" source="YuChi_2_png" anchorOffsetX="20" anchorOffsetY="14"/>
+	<e:Image id="ShaYu_TuoWei" width="311" height="69" x="242.39" y="180.17" source="TuoWei_png" anchorOffsetY="31" rotation="11.61"/>
+	<e:Image id="ShaYu_Huo" width="239" height="168" x="203.52" y="174.84" source="FeiDan_huo_png" anchorOffsetX="45" anchorOffsetY="74" rotation="1.46"/>
+	<e:Image id="ShaYu_DanTou" width="235" height="159" x="202.91" y="160.29" source="FeiDan_png" anchorOffsetX="177.5" anchorOffsetY="75.5" rotation="4.71"/>
+	<e:Image id="ShaYu_Bao4" width="124" height="108" x="1122.74" y="74" source="QH-4_png" anchorOffsetX="62" anchorOffsetY="54"/>
+	<e:Image id="ShaYu_Bao3" width="134" height="128" x="955" y="64" source="QH-3_png" anchorOffsetX="67" anchorOffsetY="64"/>
+	<e:Image id="ShaYu_Bao2" width="134" height="110" x="400.22" y="41" source="QH-2_png" anchorOffsetX="67" anchorOffsetY="55"/>
+	<e:Image id="ShaYu_Bao1" width="96" height="84" x="277.96" y="33" source="QH-1_png" anchorOffsetX="48" anchorOffsetY="42"/>
+	<e:Image id="YiYuan" width="317" height="171" x="765" y="377" source="HongBao_png" anchorOffsetX="158.5" anchorOffsetY="85.5"/>
+</e:Skin>

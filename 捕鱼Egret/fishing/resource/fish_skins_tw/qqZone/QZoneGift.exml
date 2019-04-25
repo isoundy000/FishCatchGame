@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QZoneGift" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="1.52" y="0" fillAlpha="0.7"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="571" height="301" source="common_panel_big_bg_png" scale9Grid="31,74,23,450" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-5.5" horizontalCenter="-3.5"/>
+		<e:Image width="564" height="55" source="titleConfirm_png" scale9Grid="310,0,54,76" horizontalCenter="-4" verticalCenter="-168.5"/>
+		<e:Image width="531" height="271" source="Bai_Di_png" scale9Grid="14,0,6,262" verticalCenter="-4.5" horizontalCenter="-2.5"/>
+		<e:Button id="closeBtn" label="" horizontalCenter="245.5" verticalCenter="-168" anchorOffsetX="0" width="51" anchorOffsetY="0" height="48">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="title_txt" text="恭喜您获得" width="360" height="40" anchorOffsetX="180" verticalAlign="middle" textAlign="center" size="35" horizontalCenter="2" verticalCenter="-121" stroke="0" textColor="0x437fa3"/>
+		<e:Label text="记得明天继续到玩吧礼包中心领取新的礼包哦!" horizontalCenter="-1.5" bottom="243" size="24" stroke="0" textAlign="center" textColor="0x437fa3"/>
+		<e:Label id="tips_txt" text="你今天已经领取过：" width="300" height="30" anchorOffsetX="150" verticalAlign="middle" textAlign="center" horizontalCenter="14" verticalCenter="-87" stroke="0" size="26" textColor="0x437fa3"/>
+		<e:Label id="gift_txt" text="Labelx5\njlkdf发\nfddf" anchorOffsetX="0" width="435.45" anchorOffsetY="0" height="31.18" verticalAlign="top" textAlign="center" lineSpacing="15" horizontalCenter="-3.5" bottom="277" stroke="0" size="28" textColor="0x437fa3" visible="false"/>
+		<e:Group id="gift_grop" width="527" height="131" horizontalCenter="-3.5" verticalCenter="-3.5"/>
+		<e:Image width="151" height="41" source="WanBa_LiBaoJiangli_png" horizontalCenter="0" verticalCenter="-170"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,64 @@
+{"mc":{
+	"electric_line":{
+		"frameRate":24,
+		"labels":[
+			{"name":"play","frame":1,"end":8}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"electric_line_01_png",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"electric_line_02_png",
+			"x":0,
+			"y":3
+			},
+			{
+			"res":"electric_line_03_png",
+			"x":0,
+			"y":3
+			},
+			{
+			"res":"electric_line_04_png",
+			"x":0,
+			"y":1
+			},
+			{
+			"res":"electric_line_05_png",
+			"x":0,
+			"y":2
+			},
+			{
+			"res":"electric_line_06_png",
+			"x":0,
+			"y":2
+			},
+			{
+			"res":"electric_line_07_png",
+			"x":0,
+			"y":2
+			},
+			{
+			"res":"electric_line_08_png",
+			"x":0,
+			"y":0
+			}
+			]
+}},
+	"res":{
+		"electric_line_01_png":{"x":0,"y":235,"w":512,"h":75},
+		"electric_line_06_png":{"x":0,"y":157,"w":512,"h":76},
+		"electric_line_08_png":{"x":0,"y":235,"w":512,"h":75},
+		"electric_line_02_png":{"x":0,"y":388,"w":512,"h":73},
+		"electric_line_05_png":{"x":0,"y":79,"w":512,"h":76},
+		"electric_line_07_png":{"x":0,"y":463,"w":512,"h":72},
+		"electric_line_03_png":{"x":0,"y":312,"w":512,"h":74},
+		"electric_line_04_png":{"x":0,"y":0,"w":512,"h":77}
+	}}

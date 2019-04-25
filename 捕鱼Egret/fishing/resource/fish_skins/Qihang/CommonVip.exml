@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Confirm" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.5"/>
+	<e:Group id="root" width="647" height="460" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="titleBgInner" width="699" height="399" fillMode="clip" anchorOffsetX="0.5" horizontalCenter="1" top="23" source="common_panel_big_bg_png" scale9Grid="36,52,15,482"/>
+		<e:Image width="659" height="364" x="-4.67" y="42.66" anchorOffsetX="0" anchorOffsetY="0" source="Bai_Di_png" scale9Grid="11,0,10,165"/>
+		<e:Image width="690" height="58" horizontalCenter="1.5" top="-4" source="titleConfirm_png" scale9Grid="322,0,38,76"/>
+		<e:Scroller id="scrol" width="526.67" height="164.67" horizontalCenter="-2" verticalCenter="-41.5" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="scrolGroup" anchorOffsetX="600" anchorOffsetY="140" width="400" height="250"/>
+		</e:Scroller>
+		<e:Group id="okBtn" width="205" height="57" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1" verticalCenter="129.5" scaleX="1" scaleY="1">
+			<e:Image id="bg" width="205" height="57" horizontalCenter="0" verticalCenter="0" scaleX="1.25" scaleY="1.25" source="common_big_s_y_btn_png"/>
+			<e:Image id="btnIcon" width="90" height="42" horizontalCenter="0.5" verticalCenter="-3" scaleX="1.25" scaleY="1.25" source="QueRen_png"/>
+			<e:Image id="btnIconCiri" width="62" height="32" horizontalCenter="0" verticalCenter="0" source="CiRi_QueDing_png" scaleX="1.25" scaleY="1.25" visible="false"/>
+		</e:Group>
+		<e:Label id="descTitle" text="恭喜您!获得高级VIP每日福利" x="87.67" y="64.33" anchorOffsetX="0" width="479.33" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="34" textColor="0xffa200"/>
+		<e:Label id="descGold" text="补足到{0}" anchorOffsetX="0" width="479.33" verticalAlign="middle" textAlign="left" anchorOffsetY="0" height="34" verticalCenter="64" left="88" textColor="0xffa200"/>
+		<e:Image width="163" height="233" x="-45.5" y="204.66" source="common_left_down_corner_png"/>
+		<e:Image width="159" height="226" x="531.17" y="208.66" source="common_right_down_corner_png"/>
+	</e:Group>
+</e:Skin>

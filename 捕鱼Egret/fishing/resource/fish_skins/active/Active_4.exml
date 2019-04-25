@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Active_1" width="660" height="470" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="activeRoot" width="660" height="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="660" height="470" x="0" y="0" source="LanDi_png" scale9Grid="24,26,77,38"/>
+		<e:Image id="topGai" width="664" height="52" source="Kss_banzi_png" horizontalCenter="0" top="-3" scale9Grid="23,46,0,6"/>
+		<e:Scroller width="630" height="305" horizontalCenter="0" verticalCenter="-26">
+			<e:Group id="listGroup"/>
+		</e:Scroller>
+		<e:Image id="bottomGai" width="664" height="52" source="Kss_banzi_png" horizontalCenter="0" top="-3" scale9Grid="23,46,0,6"/>
+		<e:Image width="660" height="100" source="DangQianJingYan_DiTiao_png" horizontalCenter="0" bottom="0" scale9Grid="29,21,5,4"/>
+		<e:Label text="活动时间:" horizontalCenter="-228" verticalCenter="-210" textAlign="right"/>
+		<e:Label id="actTimeLab" text="2017/4/5-2018/4/5 23:59" verticalCenter="-210" left="176" textColor="0xffca00"/>
+		<e:Image width="40" height="40" source="common_coins_png" horizontalCenter="-289" verticalCenter="183" scaleX="0.9" scaleY="0.9"/>
+		<e:Image width="40" height="40" horizontalCenter="-90" verticalCenter="183" scaleX="0.9" scaleY="0.9" source="active_json.active_icon"/>
+		<e:BitmapLabel id="goldLab" width="164" height="28" anchorOffsetX="0" anchorOffsetY="0" text="9999999999" font="bitmapNum_4_fnt" verticalCenter="186" left="65" scaleX="0.8" scaleY="0.8"/>
+		<e:BitmapLabel id="activeIconLab" width="87" height="28" anchorOffsetX="0" anchorOffsetY="0" text="99999" font="bitmapNum_4_fnt" verticalCenter="186" left="265" scaleX="0.8" scaleY="0.8"/>
+		<e:Button id="ruleBtn" label="" verticalCenter="189" horizontalCenter="266">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="GuiZe_BangZhu_png" source.down="GuiZe_BangZhu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="gainGroup" width="163" height="72" horizontalCenter="621" verticalCenter="190" visible="false">
+			<e:Image width="163" height="72" source="WeiWanCheng_AnNiu_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="74" height="27" source="active_lingqubi_png" horizontalCenter="0.5" verticalCenter="-0.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

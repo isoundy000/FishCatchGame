@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SideProp" width="101" height="282" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="106" height="264" source="room_right_bg_png" scale9Grid="21,32,56,195" anchorOffsetX="53" anchorOffsetY="132" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="rageGroup" width="1" height="1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="calabashGroup" width="1" height="1" horizontalCenter="0" verticalCenter="-80.5"/>
+	<e:Group id="cloneGroup" width="1" height="1" horizontalCenter="0" verticalCenter="81.5"/>
+</e:Skin>

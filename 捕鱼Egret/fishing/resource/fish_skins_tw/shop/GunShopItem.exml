@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GunShopItem" width="313" height="218" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="313" height="218" x="0" y="0" source="s_GouMaiJieMian_png" touchEnabled="false"/>
+	<e:Image id="select" width="300" height="221" source="s_Gou_select_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Group id="icon_point" width="1" height="1" x="205" y="145" touchEnabled="false"/>
+	<e:Label id="item_name" text="Label" x="26" y="12" textColor="0xfdff07" anchorOffsetX="0" width="138" anchorOffsetY="0" height="42" textAlign="center" verticalAlign="middle" touchEnabled="false"/>
+	<e:Label id="desTxt" text="Label" x="47" y="66" size="26" anchorOffsetX="0" width="91" anchorOffsetY="0" height="25" textAlign="center" touchEnabled="false"/>
+	<e:Label id="priceTxt" text="有效期30天" x="28" y="167" size="24" bold="true" touchEnabled="false"/>
+	<e:Group id="buy" width="130" height="58" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="63.5" verticalCenter="72">
+		<e:Image width="130" height="58" x="0" y="0" source="AnNiu_png"/>
+		<e:Image id="buyIcon" width="59" height="33" source="GouMai_png" horizontalCenter="0" verticalCenter="-5"/>
+		<e:Image id="xufeiIcon" width="59" height="33" horizontalCenter="0" verticalCenter="-5" source="XuFei_png" visible="false"/>
+	</e:Group>
+	<e:Image id="timeImg" width="112" height="25" x="33" y="168" source="itemShop_30tian_png" visible="false"/>
+</e:Skin>

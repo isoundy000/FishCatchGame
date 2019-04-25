@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" fillAlpha="0.7" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0" anchorOffsetX="0.5" anchorOffsetY="0.5">
+		<e:Image id="panel" width="982" height="520" source="common_panel_big_bg_png" scale9Grid="30,74,19,450" fillMode="clip" horizontalCenter="0" verticalCenter="36"/>
+		<e:Image id="bg" width="982" height="70" source="common_panel_bg_png" scale9Grid="535,0,72,74" horizontalCenter="0" top="83" fillMode="clip"/>
+		<e:Image width="941" height="100" horizontalCenter="0.5" verticalCenter="-153" fillMode="clip" source="LanDi_png" scale9Grid="24,25,81,40"/>
+		<e:Image width="674" height="351" horizontalCenter="-132" verticalCenter="79.5" fillMode="clip" source="LanDi_png" scale9Grid="20,25,83,39"/>
+		<e:Image width="257" height="375" horizontalCenter="343.5" verticalCenter="89" fillMode="clip" source="LanDi_png" scale9Grid="20,25,85,43"/>
+		<e:Image id="title" width="77" height="40" horizontalCenter="0" top="99" source="DanTouDuiHuan_png"/>
+		<e:Button id="closeBtn" label="" width="63" height="63" horizontalCenter="447.5" verticalCenter="-240.5" anchorOffsetX="31" anchorOffsetY="31">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png" source.down="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="smallGroup" width="920" height="105" verticalCenter="-152.5" horizontalCenter="0">
+			<e:Image id="smallHorPanel" width="922" height="85" horizontalCenter="0" verticalCenter="2" x="-186" y="0" scaleX="1" scaleY="1" source="NeiRongTiao_png" scale9Grid="22,0,11,105"/>
+			<e:Image width="255" height="55" verticalCenter="-1" left="347" source="exchange_numBg_png" scale9Grid="15,15,17,15"/>
+			<e:Image id="icon" width="90" height="94" left="335" verticalCenter="-2" scaleX="0.8" scaleY="0.8" anchorOffsetX="45" anchorOffsetY="47" source="common_fish_ticket_png"/>
+			<e:Label id="num" text="10000" verticalCenter="-1.5" anchorOffsetX="84" anchorOffsetY="15" horizontalCenter="30"/>
+			<e:Image width="255" height="55" verticalCenter="-1" left="34" source="exchange_numBg_png" scale9Grid="15,15,17,15"/>
+			<e:Image id="icon0" width="90" height="94" left="21" verticalCenter="-5" scaleX="0.8" scaleY="0.8" anchorOffsetX="45" anchorOffsetY="47" source="YuJuan_png"/>
+			<e:Label id="d_num" text="10000" verticalCenter="-1.5" anchorOffsetX="84" anchorOffsetY="15" horizontalCenter="-287"/>
+			<e:Group id="recoderGroup" width="241" height="74.67" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="312.5" verticalCenter="-2">
+				<e:Image width="231" height="85" source="common_s_y_btn_png" scale9Grid="39,0,39,70" horizontalCenter="0" verticalCenter="0" scaleX="0.8" scaleY="0.8"/>
+				<e:Image width="125" height="37" source="DuiHuanJiLu_png" horizontalCenter="0" verticalCenter="-3.835000000000001" scaleX="0.8" scaleY="0.8"/>
+			</e:Group>
+			<e:Image width="23" height="23" source="Mei_png" verticalCenter="-1.5" right="531" scaleX="2" scaleY="2" anchorOffsetX="11.5" anchorOffsetY="11.5" visible="false"/>
+		</e:Group>
+		<e:Scroller width="638" height="300" horizontalCenter="-133" verticalCenter="63">
+			<e:Group id="itemGroup" width="597" height="340" y="1.33"/>
+		</e:Scroller>
+		<e:Scroller id="listScroller" width="230" height="338.67" x="868.67" y="282.01" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+			<e:Group id="recodeList" width="230" height="320" touchEnabled="false"/>
+		</e:Scroller>
+		<e:Image width="673" height="80" x="171.02" y="557.7" source="DuiHuanShuoMing_DiBan_png" scale9Grid="24,0,8,85"/>
+		<e:Label id="des_txt" text="" x="200" y="565.01" anchorOffsetX="0" width="615" anchorOffsetY="0" height="66" size="21" verticalAlign="middle" textAlign="center" lineSpacing="5"/>
+	</e:Group>
+</e:Skin>

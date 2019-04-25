@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.7"/>
+	<e:Group id="root" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="1099" height="622" y="73.5" source="common_panel_big_bg_png" scale9Grid="30,74,19,450" horizontalCenter="0" x="154" scaleX="1" scaleY="1"/>
+		<e:Image width="1059" height="543" horizontalCenter="0" verticalCenter="41" source="LanDi_png" scale9Grid="48,35,36,16"/>
+		<e:Image width="1099" height="118" y="28.13" scale9Grid="535,0,72,74" scaleX="1" scaleY="1" horizontalCenter="0.5" source="BiaoTiLan_png"/>
+		<e:Button id="closeBtn" label="" width="75" height="79" anchorOffsetX="37" anchorOffsetY="37" scaleX="1" scaleY="1" horizontalCenter="517.5" verticalCenter="-269.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="GuanBi_png" source.down="GuanBi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image width="79" height="40" source="ChongZhi_png" horizontalCenter="0.5" top="34"/>
+		<e:Group id="left" width="241" height="509.09" anchorOffsetX="0" anchorOffsetY="0" left="126" top="150">
+			<e:Group id="gold" width="276" height="96" anchorOffsetX="0" anchorOffsetY="0" left="-19" y="240">
+				<e:Image width="241" height="94" source="XuanZe1_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+				<e:Image id="selectGold" width="276" height="94" horizontalCenter="18" verticalCenter="0" source="XuanZe2_png" touchEnabled="false"/>
+				<e:Image id="iconGold" width="40" height="40" source="common_coins_png" horizontalCenter="-44" verticalCenter="-6" touchEnabled="false"/>
+				<e:Image id="nameGold" width="70" height="36" horizontalCenter="17" verticalCenter="-6" source="JinBi_png" touchEnabled="false"/>
+			</e:Group>
+			<e:Group id="gem" width="276" height="96" anchorOffsetX="0" anchorOffsetY="0" left="-19" top="130">
+				<e:Image width="241" height="94" source="XuanZe1_png" horizontalCenter="0" verticalCenter="0" x="19" y="78" scaleX="1" scaleY="1" touchEnabled="false"/>
+				<e:Image id="selectGem" width="276" height="94" source="XuanZe2_png" horizontalCenter="18" verticalCenter="0" x="20" y="78" scaleX="1" scaleY="1" touchEnabled="false"/>
+				<e:Image id="iconGem" width="40" height="40" horizontalCenter="-44" verticalCenter="-6" x="76" y="99" scaleX="1" scaleY="1" source="common_diamond_png" touchEnabled="false"/>
+				<e:Image id="nameGem" width="70" height="36" horizontalCenter="17" verticalCenter="-6" x="122" y="101" scaleX="1" scaleY="1" source="ZuanShi_png" touchEnabled="false"/>
+			</e:Group>
+			<e:Group id="ticket" width="276" height="96" anchorOffsetX="0" anchorOffsetY="0" left="-19" y="20">
+				<e:Image width="241" height="94" source="XuanZe1_png" horizontalCenter="0" verticalCenter="0" x="19" y="-32" scaleX="1" scaleY="1" touchEnabled="false"/>
+				<e:Image id="selectTicket" width="276" height="94" source="XuanZe2_png" horizontalCenter="18" verticalCenter="0" x="20" y="-32" scaleX="1" scaleY="1" touchEnabled="false"/>
+				<e:Image id="iconTicket" width="40" height="40" horizontalCenter="-44" verticalCenter="-6" x="76" y="-11" scaleX="1" scaleY="1" source="common_point_ticket_png" touchEnabled="false"/>
+				<e:Image id="nameTicket" width="70" height="36" horizontalCenter="17" verticalCenter="-6" x="122" y="-9" scaleX="1" scaleY="1" source="DianJuan_png" touchEnabled="false"/>
+			</e:Group>
+			<e:Image width="301" height="3" source="Exchange_Xian_png" horizontalCenter="-13" verticalCenter="92.95500000000001"/>
+			<e:Group id="showPrivilege" width="209" height="59" horizontalCenter="0.5" verticalCenter="229.955">
+				<e:Image width="209" height="59" source="ChaKanTeQuan_png" horizontalCenter="-2" verticalCenter="-1"/>
+			</e:Group>
+			<e:Image width="38" height="20" source="ViP_png" scaleX="1.2" scaleY="1.2" horizontalCenter="-77.5" verticalCenter="122.45500000000001"/>
+			<e:Image id="nextVipIcon" width="38" height="20" source="ViP_png" scaleX="1" scaleY="1" horizontalCenter="62.5" verticalCenter="122.45500000000001"/>
+			<e:Image id="proBg" width="219" height="25" horizontalCenter="0" verticalCenter="157.955" scale9Grid="14,0,29,25" source="lottery_exp_bg_png"/>
+			<e:Image id="proCur_228" width="172" height="25" verticalCenter="157.955" left="7" scale9Grid="14,0,29,25" source="lottery_exp_bar_png"/>
+			<e:Label id="txt" text="再充值7元升级到VIP1" textColor="0x3fb8ff" size="20" horizontalCenter="0" verticalCenter="189.455" textAlign="center"/>
+			<e:Label id="proTxt" text="0/10" stroke="1" size="20" horizontalCenter="0" bottom="88.09" verticalAlign="middle"/>
+			<e:Group id="vipCurGroup" width="1" height="1" horizontalCenter="-44" verticalCenter="122.95500000000001"/>
+			<e:Group id="vipNextGroup" width="1" height="1" horizontalCenter="88" verticalCenter="122.95500000000001"/>
+		</e:Group>
+		<e:Group id="right" width="748" height="504" x="397" y="154" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image width="770" height="536" scaleX="1" scaleY="1" source="WuPinDi_png" horizontalCenter="11" verticalCenter="-5" scale9Grid="19,18,400,34"/>
+			<e:Scroller id="scroller" width="748" height="508" x="12.03" y="-1" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Group id="listGroup">
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

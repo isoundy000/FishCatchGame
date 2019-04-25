@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Confirm" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" horizontalCenter="0" verticalCenter="0" fillAlpha="0.5"/>
+	<e:Group width="570" height="348" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="titleBgBig" width="571" height="301" y="39" fillMode="clip" anchorOffsetX="0.5" horizontalCenter="0.5" source="common_panel_big_bg_png" scale9Grid="30,74,19,450"/>
+		<e:Image id="titleBgInner" width="531" height="271" y="51" fillMode="clip" anchorOffsetX="0.5" horizontalCenter="0.5" source="Bai_Di_png" scale9Grid="14,0,2,262"/>
+		<e:Image id="titleBg" width="564" height="55" y="-1" fillMode="scale" anchorOffsetX="0.5" source="titleConfirm_png" horizontalCenter="0"/>
+		<e:Image id="tishi" width="78" height="41" source="confirmTishi_png" anchorOffsetX="39" anchorOffsetY="20.5" horizontalCenter="0" top="6"/>
+		<e:Label id="showTips" text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0.5" verticalCenter="-18.5" height="151" width="476" verticalAlign="middle" textAlign="center" size="30" textColor="0x437fa3" bold="true"/>
+		<e:Button id="closeBtn" label="" anchorOffsetX="31.5" anchorOffsetY="31.5" verticalCenter="-150" horizontalCenter="231" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="twoGroup" width="531" height="369" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0.5" verticalCenter="10.5" visible="false">
+			<e:Group id="okBtn" width="120" height="70" horizontalCenter="-107.5" verticalCenter="97.5">
+				<e:Image width="120" height="70" x="0" y="0" source="common_s_y_btn_png"/>
+				<e:Image width="56" height="28" source="Char_QunDing_png" horizontalCenter="0" verticalCenter="-3"/>
+			</e:Group>
+			<e:Group id="cancleBtn" width="120" height="70" verticalCenter="97.5" horizontalCenter="108.5">
+				<e:Image width="120" height="70" source="common_s_y_btn_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="56" height="28" horizontalCenter="0" verticalCenter="-3" source="Char_QuXiao_png"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="oneGroup" width="531" height="369" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0.5" verticalCenter="10.5" visible="false">
+			<e:Group id="okOneBtn" width="120" height="70" horizontalCenter="0" verticalCenter="95.5">
+				<e:Image width="120" height="70" source="common_s_y_btn_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="56" height="28" source="Char_QunDing_png" horizontalCenter="0" verticalCenter="-3"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

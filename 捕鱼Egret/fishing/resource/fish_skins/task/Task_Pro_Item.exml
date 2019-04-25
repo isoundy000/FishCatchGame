@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Task_Pro_Item" width="85" height="85" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="85" height="85" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="normal" width="85" height="85" horizontalCenter="0" verticalCenter="0">
+			<e:Image width="78" height="73" source="BaoXiang_Guan_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="num_normal" text="120" size="24" bold="true" textAlign="right" right="3" bottom="2" textColor="0xbaefe5"/>
+		</e:Group>
+		<e:Group id="activity" width="85" height="85" horizontalCenter="0" verticalCenter="0" x="10" y="10" visible="false">
+			<e:Image width="78" height="73" source="BaoXiang_Guan_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="num_activity" text="120" size="24" bold="true" textAlign="right" right="3" bottom="2" textColor="0xBAEFE5"/>
+		</e:Group>
+		<e:Group id="gained" width="85" height="85" horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:Image width="83" height="79" horizontalCenter="0" verticalCenter="0" x="4" y="6" scaleX="1" scaleY="1" source="BaoXiang_kai_png"/>
+			<e:Label id="num_gained" text="已领取" size="18" bold="true" textAlign="right" right="7" bottom="3"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>
